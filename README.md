@@ -32,7 +32,6 @@ Screenshots from a live Paper server (see `examples/` for the full set):
 ![More constructions](examples/2026-11-08_21.18.34.jpg)
 ![World overview](examples/2026-11-08_21.18.53.jpg)
 ![Village build](examples/2026-11-08_21.19.06.jpg)
-![Corcovado project](examples/2026-11-08_22.10.12.jpg)
 
 ### Requirements
 
