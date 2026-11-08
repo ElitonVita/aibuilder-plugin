@@ -149,19 +149,55 @@ All commands may start with `/builder`, `/aibuilder`, or the legacy `/construtor
 
 Edit `plugins/AIBuilder/config.yml`, then run `/builder reload`. Key defaults:
 
-| Option | Default | Meaning |
-|---|---|---|
-| `builders.max` | `3` | Maximum builders on the server (1–5) |
-| `max-project-blocks` | `2500` | Maximum blocks in one project |
-| `max-blocks-per-minute` | `600` | Block actions per minute |
-| `construction.max-width/depth/height` | `200` each | Maximum box dimensions |
-| `prebuilt.max-user-models` | `256` | Maximum imported JSON models (hard limit) |
-| `prebuilt.free-materials` | `true` | Free catalog assembly (set `false` to use the owner's inventory) |
-| `use-owner-inventory` | `true` | Use the owner's inventory for placed materials |
-| `creative-mode` | `false` | Unlimited materials for the builder |
-| `allow-break-without-coreprotect-in-selection` | `true` | Without CoreProtect, allow natural terrain/vegetation removal only inside a confirmed selection |
-| `terrain.deep-clean.enabled` | `false` | Enables destructive deep clean/level for operators |
-| `follow-owner` | `true` | Default follow behavior for new builders |
+| Option | Default | Maximum (allowed) | Meaning |
+|---|---|---|---|
+| `builders.max` | `3` | `5` | Maximum builders on the server (range 1–5) |
+| `max-project-blocks` | `2500` | `100000` | Maximum blocks in one project (range 100–100000) |
+| `max-blocks-per-minute` | `600` | `10000` | Block actions per minute (range 1–10000) |
+| `construction.max-width` | `200` | `1000` | Maximum box width (range 1–1000) |
+| `construction.max-depth` | `200` | `1000` | Maximum box depth (range 1–1000) |
+| `construction.max-height` | `200` | `1000` | Maximum box height (range 1–1000) |
+| `construction.max-volume` | `8000000` | `1000000000` | Maximum box volume (range 1000–1,000,000,000) |
+| `construction.max-parts` | `4096` | `100000` | Maximum parts in one plan (range 1–100000) |
+| `construction.max-ai-actions` | `250` | `2500` | Maximum AI-placed actions per plan (range 1–2500) |
+| `construction.max-openings` | `1024` | `100000` | Maximum openings in one plan (range 1–100000) |
+| `construction.max-processing-visits` | `128000000` | `1000000000` | Processing budget cap (range 1000–1,000,000,000) |
+| `construction.max-file-bytes` | `67108864` (64 MiB) | `1073741824` (1 GiB) | Maximum model file size (range 1 KiB–1 GiB) |
+| `construction.preview-max-blocks` | `20000` | `1000000` | Preview block cap (range 1–1,000,000) |
+| `construction.quick-build-actions-per-tick` | `4096` | min 128 (no top cap) | SPEED actions per tick |
+| `construction.quick-build-budget-ms-per-tick` | `20` | `40` | SPEED time budget per tick (range 1–40) |
+| `prebuilt.max-user-models` | `256` | `256` | Maximum imported JSON models (hard limit) |
+| `max-clear-volume` | `262144` | `16000000` | Terrain surveyed positions (range 1000–16,000,000) |
+| `terrain.level-depth` | `16` | `64` | Deep-leveling search depth (range 1–64) |
+| `terrain.scan-per-tick` | `2048` | `8192` | Terrain positions surveyed per tick (range 64–8192) |
+| `terrain.changes-per-step` | `128` | `512` | Terrain batch per step (range 1–512) |
+| `terrain.deep-changes-per-step` | `512` | `4096` | Deep per-builder batch (range 129–4096) |
+| `terrain.deep-actions-per-tick` | `2048` | `8192` | Deep actions per tick (range 645–8192) |
+| `terrain.max-changes` | `262144` | `262144` | Max terrain changes per operation (range 1–262144) |
+| `planning.confirmation-timeout-seconds` | `120` | `600` | Confirmation window (range 10–600) |
+| `planning.selection-timeout-seconds` | `600` | `3600` | Selection window (range 30–3600) |
+| `ai.connect-timeout-seconds` | `15` | `60` | API connect timeout (range 1–60) |
+| `ai.request-timeout-seconds` | `90` | `600` | API request timeout (range 1–600) |
+| `ai.max-response-tokens` | `8000` | `100000` | Max response tokens (range 500–100000) |
+| `conversation.history-messages` | `6` | `50` | Conversation history messages (range 0–50) |
+| `logging.actions.max-file-bytes` | `8388608` | `67108864` (64 MiB) | Action log size cap (range 64 KiB–64 MiB) |
+| `logging.actions.retained-files` | `4` | `10` | Rotated files kept (range 1–10) |
+| `spawn-exclusion-radius` | `30` | `256` | Spawn exclusion zone radius (range 0–256) |
+| `movement.action-reach` | `12` | `32` | Builder block interaction reach (range 1–32) |
+| `movement.max-target-distance` | `40` | `256` | Movement target distance (range 4–256) |
+| `walk-speed` | `0.20` | `1` | Builder walk speed (range 0.05–1) |
+| `follow-distance` | `3` | `16` | Follow distance (range 1–16) |
+| `travel-radius` | `32` | `64` | Owner travel radius (range 4–64) |
+| `parental.daily-limit` | `0` (unlimited) | `10000` | Max AI requests per day (range 0–10000) |
+| `combat.target-range` | `8` | `64` | Combat target range (range 1–64) |
+| `combat.strike-reach` | `3.2` | `8` | Combat strike reach (range 0.5–8) |
+| `combat.cooldown-ticks` | `20` | `200` | Combat cooldown (range 1–200) |
+| `prebuilt.free-materials` | `true` | `true`/`false` | Free catalog assembly (set `false` to use the owner's inventory) |
+| `use-owner-inventory` | `true` | `true`/`false` | Use the owner's inventory for placed materials |
+| `creative-mode` | `false` | `true`/`false` | Unlimited materials for the builder |
+| `allow-break-without-coreprotect-in-selection` | `true` | `true`/`false` | Without CoreProtect, allow natural terrain/vegetation removal only inside a confirmed selection |
+| `terrain.deep-clean.enabled` | `false` | `true`/`false` | Enables destructive deep clean/level for operators |
+| `follow-owner` | `true` | `true`/`false` | Default follow behavior for new builders |
 
 Start with conservative block and volume limits, then increase one limit at a time while watching server performance. The clickable Settings menu groups global options, build limits, movement/terrain, and AI/timeouts — every option is also editable in `config.yml`.
 
@@ -312,19 +348,55 @@ Todos os comandos aceitam `/builder`, `/aibuilder` ou o legado `/construtor`. Um
 
 Edite `plugins/AIBuilder/config.yml` e rode `/builder reload`. Padrões principais:
 
-| Opção | Padrão | Significado |
-|---|---|---|
-| `builders.max` | `3` | Máximo de construtores no servidor (1–5) |
-| `max-project-blocks` | `2500` | Máximo de blocos por projeto |
-| `max-blocks-per-minute` | `600` | Ações de bloco por minuto |
-| `construction.max-width/depth/height` | `200` cada | Dimensões máximas da caixa |
-| `prebuilt.max-user-models` | `256` | Máximo de modelos JSON importados (limite rígido) |
-| `prebuilt.free-materials` | `true` | Montagem gratuita do catálogo (defina `false` para usar o inventário do dono) |
-| `use-owner-inventory` | `true` | Usa o inventário do dono para os materiais colocados |
-| `creative-mode` | `false` | Materiais ilimitados para o construtor |
-| `allow-break-without-coreprotect-in-selection` | `true` | Sem CoreProtect, permite remoção de terreno/vegetação natural somente dentro de uma seleção confirmada |
-| `terrain.deep-clean.enabled` | `false` | Habilita limpeza/nivelamento profundo destrutivo para operadores |
-| `follow-owner` | `true` | Comportamento padrão de seguir para construtores novos |
+| Opção | Padrão | Máximo (permitido) | Significado |
+|---|---|---|---|
+| `builders.max` | `3` | `5` | Máximo de construtores no servidor (1–5) |
+| `max-project-blocks` | `2500` | `100000` | Máximo de blocos por projeto (100–100000) |
+| `max-blocks-per-minute` | `600` | `10000` | Ações de bloco por minuto (1–10000) |
+| `construction.max-width` | `200` | `1000` | Largura máxima da caixa (1–1000) |
+| `construction.max-depth` | `200` | `1000` | Profundidade máxima da caixa (1–1000) |
+| `construction.max-height` | `200` | `1000` | Altura máxima da caixa (1–1000) |
+| `construction.max-volume` | `8000000` | `1000000000` | Volume máximo da caixa (1000–1.000.000.000) |
+| `construction.max-parts` | `4096` | `100000` | Partes máximas por plano (1–100000) |
+| `construction.max-ai-actions` | `250` | `2500` | Ações de IA por plano (1–2500) |
+| `construction.max-openings` | `1024` | `100000` | Aberturas máximas por plano (1–100000) |
+| `construction.max-processing-visits` | `128000000` | `1000000000` | Orçamento de processamento (1000–1.000.000.000) |
+| `construction.max-file-bytes` | `67108864` (64 MiB) | `1073741824` (1 GiB) | Tamanho máximo de arquivo de modelo (1 KiB–1 GiB) |
+| `construction.preview-max-blocks` | `20000` | `1000000` | Limite de blocos no preview (1–1.000.000) |
+| `construction.quick-build-actions-per-tick` | `4096` | mínimo 128 (sem teto) | Ações SPEED por tick |
+| `construction.quick-build-budget-ms-per-tick` | `20` | `40` | Orçamento de tempo SPEED por tick (1–40) |
+| `prebuilt.max-user-models` | `256` | `256` | Máximo de modelos JSON importados (limite rígido) |
+| `max-clear-volume` | `262144` | `16000000` | Posições de terreno analisadas (1000–16.000.000) |
+| `terrain.level-depth` | `16` | `64` | Profundidade de nivelamento (1–64) |
+| `terrain.scan-per-tick` | `2048` | `8192` | Posições analisadas por tick (64–8192) |
+| `terrain.changes-per-step` | `128` | `512` | Lote de terreno por passo (1–512) |
+| `terrain.deep-changes-per-step` | `512` | `4096` | Lote deep por construtor (129–4096) |
+| `terrain.deep-actions-per-tick` | `2048` | `8192` | Ações deep por tick (645–8192) |
+| `terrain.max-changes` | `262144` | `262144` | Alterações máximas de terreno (1–262144) |
+| `planning.confirmation-timeout-seconds` | `120` | `600` | Janela de confirmação (10–600) |
+| `planning.selection-timeout-seconds` | `600` | `3600` | Janela de seleção (30–3600) |
+| `ai.connect-timeout-seconds` | `15` | `60` | Timeout de conexão da API (1–60) |
+| `ai.request-timeout-seconds` | `90` | `600` | Timeout de requisição da API (1–600) |
+| `ai.max-response-tokens` | `8000` | `100000` | Tokens máximos de resposta (500–100000) |
+| `conversation.history-messages` | `6` | `50` | Mensagens do histórico de conversa (0–50) |
+| `logging.actions.max-file-bytes` | `8388608` | `67108864` (64 MiB) | Tamanho do log de ações (64 KiB–64 MiB) |
+| `logging.actions.retained-files` | `4` | `10` | Arquivos rotacionados mantidos (1–10) |
+| `spawn-exclusion-radius` | `30` | `256` | Raio da zona de exclusão de spawn (0–256) |
+| `movement.action-reach` | `12` | `32` | Alcance de interação do construtor (1–32) |
+| `movement.max-target-distance` | `40` | `256` | Distância do alvo de movimento (4–256) |
+| `walk-speed` | `0.20` | `1` | Velocidade de caminhada (0.05–1) |
+| `follow-distance` | `3` | `16` | Distância de seguir (1–16) |
+| `travel-radius` | `32` | `64` | Raio de deslocamento do dono (4–64) |
+| `parental.daily-limit` | `0` (ilimitado) | `10000` | Pedidos de IA por dia (0–10000) |
+| `combat.target-range` | `8` | `64` | Alcance de combate (1–64) |
+| `combat.strike-reach` | `3.2` | `8` | Alcance do ataque (0.5–8) |
+| `combat.cooldown-ticks` | `20` | `200` | Intervalo de ataque (1–200) |
+| `prebuilt.free-materials` | `true` | `true`/`false` | Montagem gratuita do catálogo (defina `false` para usar o inventário do dono) |
+| `use-owner-inventory` | `true` | `true`/`false` | Usa o inventário do dono para os materiais colocados |
+| `creative-mode` | `false` | `true`/`false` | Materiais ilimitados para o construtor |
+| `allow-break-without-coreprotect-in-selection` | `true` | `true`/`false` | Sem CoreProtect, permite remoção de terreno/vegetação natural somente dentro de uma seleção confirmada |
+| `terrain.deep-clean.enabled` | `false` | `true`/`false` | Habilita limpeza/nivelamento profundo destrutivo para operadores |
+| `follow-owner` | `true` | `true`/`false` | Comportamento padrão de seguir para construtores novos |
 
 Comece com limites conservadores de blocos e volume, e aumente um limite por vez observando o desempenho do servidor. O menu clicável de Configurações agrupa opções globais, limites de construção, movimento/terreno e IA/timeouts — cada opção também é editável no `config.yml`.
 
