@@ -1,7 +1,11 @@
 # Release binaries are attached to GitHub Releases, never committed
-*.jar
+**.jar
 *.zip
 *.sha256
+# ...except the public release binaries stored under releases/
+!releases/*.jar
+!releases/*.zip
+!releases/*.sha256
 
 # Live server data and real secrets (never publish a real API key)
 plugins/
