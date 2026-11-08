@@ -1,0 +1,107 @@
+{
+  "aiBuilder_prebuilt_packs": "1.0.0",
+  "packs": [
+    {
+      "zip": "Monumentos-do-Mundo-Volume-1-1.0.0.zip",
+      "label": "World Monuments Vol. 1 / Monumentos do Mundo Vol. 1",
+      "count": 16,
+      "sha256": "7d78d02f7c8e71a367bc4bd658330b8d3c3d55c044eece2edbe03011899b7538",
+      "bytes": 255215,
+      "ids": [
+        "mm1_arco_triunfo",
+        "mm1_big_ben",
+        "mm1_chichen_itza",
+        "mm1_coliseu",
+        "mm1_cristo_redentor",
+        "mm1_estatua_liberdade",
+        "mm1_himeji",
+        "mm1_lincoln_memorial",
+        "mm1_neuschwanstein",
+        "mm1_partenon",
+        "mm1_piramide_queops",
+        "mm1_taj_mahal",
+        "mm1_templo_ceu",
+        "mm1_torre_eiffel",
+        "mm1_torre_pisa",
+        "mm1_tower_bridge"
+      ]
+    },
+    {
+      "zip": "Reinos-Medievais-Volume-1-1.0.0.zip",
+      "label": "Medieval Kingdoms Vol. 1 / Reinos Medievais Vol. 1",
+      "count": 16,
+      "sha256": "f228c7d29a29b65d838ed5fbbb5a2deba39d4a9b12730b4280a070abcb6bc41e",
+      "bytes": 54540,
+      "ids": [
+        "rm1_abadia_roseiras",
+        "rm1_aqueduto_arcadas",
+        "rm1_biblioteca_sete_sabios",
+        "rm1_castelo_coroa_norte",
+        "rm1_catedral_aurora",
+        "rm1_celeiro_real",
+        "rm1_doca_caravela",
+        "rm1_estalagem_dragao",
+        "rm1_forja_mestres",
+        "rm1_fortaleza_quatro_ventos",
+        "rm1_mercado_guildas",
+        "rm1_palacio_conselho",
+        "rm1_ponte_dois_reinos",
+        "rm1_portao_reis",
+        "rm1_praca_torneios",
+        "rm1_torre_grifo"
+      ]
+    },
+    {
+      "zip": "Vila-Viva-Volume-1-1.0.0.zip",
+      "label": "Living Village Vol. 1 / Vila Viva Vol. 1",
+      "count": 16,
+      "sha256": "832eb97a76f70e2120694142d7d094dcd21b0bd24d078ab41cbe4423f87e5138",
+      "bytes": 28384,
+      "ids": [
+        "vv1_armazem_colheita",
+        "vv1_casa_brotinho",
+        "vv1_casa_familia",
+        "vv1_chale_lareira",
+        "vv1_estabulo_ferradura",
+        "vv1_ferraria_faisca",
+        "vv1_jardim_lanternas",
+        "vv1_mercado_cores",
+        "vv1_moinho_quatro_ventos",
+        "vv1_padaria_pao_sol",
+        "vv1_ponte_luar",
+        "vv1_portao_boas_vindas",
+        "vv1_praca_fonte_luz",
+        "vv1_sobrado_cartografo",
+        "vv1_taverna_javali",
+        "vv1_torre_andorinhas"
+      ]
+    },
+    {
+      "zip": "Casas-Village-Volume-1-1.0.0.zip",
+      "label": "Village Houses Vol. 1 / Casas de Vila Vol. 1",
+      "count": 7,
+      "sha256": "75ece6a4db3b0fcff8d51ecf0b5dadd1674fb252aa66cfe10ef98b2d1fd4eb6b",
+      "bytes": 6996,
+      "ids": [
+        "village_desert_house",
+        "village_jungle_house",
+        "village_plains_house",
+        "village_savanna_house",
+        "village_snow_house",
+        "village_swamp_house",
+        "village_taiga_house"
+      ]
+    },
+    {
+      "zip": "Castelos-e-Casas-Volume-1-1.0.0.zip",
+      "label": "Castles & Homes Vol. 1 / Castelos e Casas Vol. 1",
+      "count": 2,
+      "sha256": "5ebd1829518a59ad2b23b935b4e4219650e98c63df03cb9c768bdc0c0eac2316",
+      "bytes": 6803,
+      "ids": [
+        "castelo_cinderela_real",
+        "cubo_moderno_habitavel"
+      ]
+    }
+  ]
+}

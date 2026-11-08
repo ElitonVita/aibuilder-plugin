@@ -1,0 +1,149 @@
+{
+  "id": "village_taiga_house",
+  "title": "Taiga Village House",
+  "description": "12 x 10 x 10. Two-storey dark-oak main block with spruce upper story, steep roofs, stone foundation.",
+  "category": "village_houses",
+  "entrance": "south",
+  "parts": [
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        11,
+        0,
+        9
+      ],
+      "material": "COBBLESTONE"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        10,
+        0,
+        8
+      ],
+      "material": "SPRUCE_PLANKS"
+    },
+    {
+      "type": "walls",
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        11,
+        1,
+        9
+      ],
+      "height": 4,
+      "material": "DARK_OAK_PLANKS",
+      "openings": [
+        {
+          "at": 3,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 3,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "south",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "west",
+          "kind": "window"
+        },
+        {
+          "at": 6,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "east",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "walls",
+      "from": [
+        2,
+        5,
+        2
+      ],
+      "to": [
+        9,
+        5,
+        7
+      ],
+      "height": 2,
+      "material": "SPRUCE_PLANKS",
+      "openings": [
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "south",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "roof_steps",
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        11,
+        5,
+        9
+      ],
+      "layers": 3,
+      "material": "DARK_OAK_STAIRS"
+    },
+    {
+      "type": "roof_steps",
+      "from": [
+        2,
+        7,
+        2
+      ],
+      "to": [
+        9,
+        7,
+        7
+      ],
+      "layers": 2,
+      "material": "SPRUCE_STAIRS"
+    }
+  ]
+}

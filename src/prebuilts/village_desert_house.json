@@ -1,0 +1,142 @@
+{
+  "id": "village_desert_house",
+  "title": "Desert Village House",
+  "description": "8 x 7 x 4. Sandstone walls, flat smooth-sandstone roof, and small overhangs for shade.",
+  "category": "village_houses",
+  "entrance": "south",
+  "parts": [
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        7,
+        0,
+        6
+      ],
+      "material": "SANDSTONE"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        6,
+        0,
+        5
+      ],
+      "material": "SAND"
+    },
+    {
+      "type": "walls",
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        7,
+        1,
+        6
+      ],
+      "height": 3,
+      "material": "CUT_SANDSTONE",
+      "openings": [
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "south",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "west",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "east",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        7,
+        4,
+        6
+      ],
+      "material": "SMOOTH_SANDSTONE"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        4,
+        1
+      ],
+      "to": [
+        6,
+        4,
+        5
+      ],
+      "material": "SANDSTONE_SLAB"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        7,
+        5,
+        0
+      ],
+      "material": "CUT_SANDSTONE_SLAB"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        5,
+        6
+      ],
+      "to": [
+        7,
+        5,
+        6
+      ],
+      "material": "CUT_SANDSTONE_SLAB"
+    }
+  ]
+}

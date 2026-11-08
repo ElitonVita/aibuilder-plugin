@@ -1,0 +1,22 @@
+{
+  "id": "abrigo_madeira",
+  "title": "Abrigo de Madeira",
+  "description": "5 x 5 x 6. Piso de pedra, paredes de tabua, porta de carvalho e telhado de abeto.",
+  "category": "casas",
+  "parts": [
+    { "type": "box", "material": "STONE_BRICKS", "from": [0, 0, 0], "to": [4, 0, 4] },
+    {
+      "type": "walls",
+      "material": "OAK_PLANKS",
+      "from": [0, 1, 0],
+      "to": [4, 1, 4],
+      "height": 4,
+      "openings": [ { "side": "south", "at": 2, "width": 1, "height": 2 } ]
+    },
+    { "type": "box", "material": "OAK_DOOR", "data": "minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]", "from": [2, 1, 4], "to": [2, 1, 4] },
+    { "type": "box", "material": "OAK_DOOR", "data": "minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]", "from": [2, 2, 4], "to": [2, 2, 4] },
+    { "type": "box", "material": "SPRUCE_PLANKS", "from": [0, 5, 0], "to": [4, 5, 4] },
+    { "type": "box", "material": "CRAFTING_TABLE", "from": [1, 1, 1], "to": [1, 1, 1] },
+    { "type": "box", "material": "GLOWSTONE", "from": [3, 4, 2], "to": [3, 4, 2] }
+  ]
+}

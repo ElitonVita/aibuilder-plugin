@@ -1,0 +1,19 @@
+# Release binaries are attached to GitHub Releases, never committed
+*.jar
+*.zip
+*.sha256
+
+# Live server data and real secrets (never publish a real API key)
+plugins/
+AIBuilder-*-backup*/
+actions.log
+
+# Local scratch
+test/classes/
+
+# macOS / IDE
+.DS_Store
+*.iml
+.idea/
+.vscode/
+*.tmp

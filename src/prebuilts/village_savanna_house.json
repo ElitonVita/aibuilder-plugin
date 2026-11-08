@@ -1,0 +1,240 @@
+{
+  "id": "village_savanna_house",
+  "title": "Savanna Village House",
+  "description": "10 x 8 x 10. Acacia wood walls, flat roof with overhangs, front veranda with posts and rail.",
+  "category": "village_houses",
+  "entrance": "south",
+  "parts": [
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        9,
+        0,
+        7
+      ],
+      "material": "COARSE_DIRT"
+    },
+    {
+      "type": "box",
+      "from": [
+        2,
+        0,
+        1
+      ],
+      "to": [
+        7,
+        0,
+        6
+      ],
+      "material": "OAK_PLANKS"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        0,
+        7
+      ],
+      "to": [
+        8,
+        0,
+        9
+      ],
+      "material": "OAK_PLANKS"
+    },
+    {
+      "type": "walls",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        8,
+        1,
+        6
+      ],
+      "height": 3,
+      "material": "ACACIA_PLANKS",
+      "openings": [
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "south",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "west",
+          "kind": "window"
+        },
+        {
+          "at": 4,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "east",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        1,
+        7
+      ],
+      "to": [
+        1,
+        3,
+        7
+      ],
+      "material": "ACACIA_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        8,
+        1,
+        7
+      ],
+      "to": [
+        8,
+        3,
+        7
+      ],
+      "material": "ACACIA_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        1,
+        9
+      ],
+      "to": [
+        1,
+        3,
+        9
+      ],
+      "material": "ACACIA_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        8,
+        1,
+        9
+      ],
+      "to": [
+        8,
+        3,
+        9
+      ],
+      "material": "ACACIA_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        3,
+        7
+      ],
+      "to": [
+        8,
+        3,
+        7
+      ],
+      "material": "ACACIA_FENCE"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        3,
+        9
+      ],
+      "to": [
+        8,
+        3,
+        9
+      ],
+      "material": "ACACIA_FENCE"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        9,
+        4,
+        7
+      ],
+      "material": "ACACIA_PLANKS"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        4,
+        7
+      ],
+      "to": [
+        9,
+        4,
+        9
+      ],
+      "material": "ACACIA_STAIRS"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        9,
+        5,
+        0
+      ],
+      "material": "ACACIA_STAIRS"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        5,
+        7
+      ],
+      "to": [
+        9,
+        5,
+        7
+      ],
+      "material": "ACACIA_STAIRS"
+    }
+  ]
+}

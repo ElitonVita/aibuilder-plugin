@@ -1,0 +1,136 @@
+# AIBuilder server settings
+# Change these values in plugins/AIBuilder/config.yml, then run /builder reload.
+# EN and PT localize messages and menus. Command words always use English.
+# Customize languages/en.yml or languages/pt.yml, then run /builder reload.
+
+# Language shown in menus, help, and chat messages: EN or PT.
+language: EN
+
+# Set automatically on the first server start. Version and build are updated by each plugin build.
+installation:
+  date: ''
+plugin-version: 0.1.0.48
+build-number: 48
+
+# Builder identity. Names are assigned from Alfred, Bruce, Clark, Diana, and Tony.
+bot-name: Builder
+builders:
+  max: 3 # Server limit: 1..5. Lowering this does not remove existing builders.
+skin:
+  texture: 36feb0132b0cc6d44c695e2c7d4388d4820ef1b309ba0eb1327ee3b68043afd2
+
+# AI service (OpenRouter). Keep the API key private. Built-in models work without a key.
+api-url: https://openrouter.ai/api/v1/chat/completions
+api-key: ''
+# Provider model ID; do not translate or rename this value.
+model: deepseek/deepseek-v4-flash-0731
+ai:
+  connect-timeout-seconds: 15 # 1..60
+  request-timeout-seconds: 90 # 10..300
+  max-response-tokens: 8000 # 256..16000
+timezone: Europe/Luxembourg
+
+# Safety and build limits
+spawn-exclusion-radius: 30
+max-blocks-per-minute: 600
+max-project-blocks: 2500
+construction:
+  max-width: 200
+  max-depth: 200
+  max-height: 200
+  max-volume: 8000000
+  max-parts: 4096
+  max-ai-actions: 250
+  max-openings: 1024
+  max-processing-visits: 128000000
+  max-file-bytes: 67108864
+  preview-max-blocks: 20000
+  quick-build-actions-per-tick: 4096 # Operator SPEED cap; minimum 128 and shared with the configured time budget.
+  quick-build-budget-ms-per-tick: 20 # SPEED works at least 128 ready actions, then yields at this budget (1..40).
+prebuilt:
+  max-user-models: 256 # Hard plugin limit: 256.
+  free-materials: true # false uses the normal inventory policy; creative-mode still grants free materials.
+planning:
+  confirmation-timeout-seconds: 120 # 15..900
+  selection-timeout-seconds: 600 # 30..3600
+conversation:
+  history-messages: 6
+logging:
+  actions:
+    max-file-bytes: 8388608 # 64 KiB..64 MiB; rotates actions.log at this size.
+    retained-files: 4 # 1..10 rotated files are retained.
+# Total positions surveyed per terrain operation, including air. Default remains 262144; technical ceiling is 16000000.
+# Monument selections fitted to the model: 8000000. A full 200x200x200 plus 16 blocks below needs 8640000; use 10000000.
+max-clear-volume: 262144
+terrain:
+  defaults-version: 1
+  deep-clean:
+    enabled: false # OP-only: any block type, including structures/liquids/inventories. External event denials still apply.
+  level-depth: 16 # Additional search below the selection for deep leveling only (1..64).
+  scan-per-tick: 2048
+  changes-per-step: 128 # Shared target batch for terrain operations and OP Build Speed (1..512).
+  deep-changes-per-step: 512 # Deep Clean/Level target per builder per tick; minimum 129, maximum 4096.
+  deep-actions-per-tick: 2048 # Server-wide Deep Clean/Level action cap, shared fairly among builders (645..8192).
+  max-changes: 262144
+# Without CoreProtect, confirmed selections may remove natural terrain/vegetation only.
+# Existing explicit false values remain conservative; claims and spawn checks remain active.
+allow-break-without-coreprotect-in-selection: true
+use-owner-inventory: true
+creative-mode: false
+features:
+  undo:
+    enabled: true
+
+# Builder movement. Stay pauses following but a confirmed build continues.
+follow-owner: true
+follow-distance: 3
+travel-radius: 32
+movement:
+  action-reach: 12
+  max-target-distance: 40
+walk-speed: 0.20
+announce-actions: true
+
+# Legacy area, imported only when migrating the old builder.json.
+zone:
+  build-height: 100
+  enabled: false
+  world: world
+  x1: 0
+  y1: 0
+  z1: 0
+  x2: 0
+  y2: 0
+  z2: 0
+
+# Parental controls. Example allowed-hours: 8-21. A daily-limit of 0 means unlimited.
+parental:
+  allowed-hours: 0-24
+  daily-limit: 0
+
+# Optional missions and item rewards.
+missions:
+  - description: Build 20 blocks with your builder
+    goal: 20
+    reward-material: EMERALD
+    reward-amount: 3
+  - description: Build 50 blocks with your builder
+    goal: 50
+    reward-material: DIAMOND
+    reward-amount: 2
+  - description: Build 100 blocks with your builder
+    goal: 100
+    reward-material: GOLD_INGOT
+    reward-amount: 5
+
+# Paper native dialogs can be turned off; clickable chat buttons remain available.
+ui:
+  native-dialogs: true
+
+# Combat protection: builders attack hostile monsters only and never attack players.
+combat:
+  enabled: true
+  target-range: 8
+  strike-reach: 3.2
+  cooldown-ticks: 20
+  damage: 1000000

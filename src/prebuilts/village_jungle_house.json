@@ -1,0 +1,129 @@
+{
+  "id": "village_jungle_house",
+  "title": "Jungle Village House",
+  "description": "9 x 8 x 10. Jungle-wood walls, steep jungle-stair roof, small front porch.",
+  "category": "village_houses",
+  "entrance": "south",
+  "parts": [
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        8,
+        0,
+        7
+      ],
+      "material": "JUNGLE_PLANKS"
+    },
+    {
+      "type": "walls",
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        8,
+        1,
+        7
+      ],
+      "height": 3,
+      "material": "JUNGLE_PLANKS",
+      "openings": [
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "south",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "west",
+          "kind": "window"
+        },
+        {
+          "at": 4,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "east",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "roof_steps",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        8,
+        4,
+        7
+      ],
+      "layers": 3,
+      "material": "JUNGLE_STAIRS"
+    },
+    {
+      "type": "box",
+      "from": [
+        3,
+        0,
+        7
+      ],
+      "to": [
+        5,
+        0,
+        9
+      ],
+      "material": "OAK_PLANKS"
+    },
+    {
+      "type": "box",
+      "from": [
+        3,
+        1,
+        9
+      ],
+      "to": [
+        3,
+        1,
+        9
+      ],
+      "material": "JUNGLE_FENCE"
+    },
+    {
+      "type": "box",
+      "from": [
+        5,
+        1,
+        9
+      ],
+      "to": [
+        5,
+        1,
+        9
+      ],
+      "material": "JUNGLE_FENCE"
+    }
+  ]
+}

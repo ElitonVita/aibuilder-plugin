@@ -1,0 +1,157 @@
+{
+  "id": "village_swamp_house",
+  "title": "Swamp Village House",
+  "description": "8 x 8 x 8. Elevated oak house on wooden stilts, steep roof, fits swamp water level.",
+  "category": "village_houses",
+  "entrance": "south",
+  "parts": [
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        2,
+        7
+      ],
+      "material": "OAK_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        7,
+        0,
+        0
+      ],
+      "to": [
+        7,
+        2,
+        7
+      ],
+      "material": "OAK_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        7,
+        2,
+        0
+      ],
+      "material": "OAK_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        7
+      ],
+      "to": [
+        7,
+        2,
+        7
+      ],
+      "material": "OAK_LOG"
+    },
+    {
+      "type": "box",
+      "from": [
+        0,
+        3,
+        0
+      ],
+      "to": [
+        7,
+        3,
+        7
+      ],
+      "material": "OAK_PLANKS"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        3,
+        1
+      ],
+      "to": [
+        6,
+        3,
+        6
+      ],
+      "material": "DIRT"
+    },
+    {
+      "type": "walls",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        7,
+        4,
+        7
+      ],
+      "height": 3,
+      "material": "OAK_PLANKS",
+      "openings": [
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "south",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "west",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "east",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "roof_steps",
+      "from": [
+        0,
+        7,
+        0
+      ],
+      "to": [
+        7,
+        7,
+        7
+      ],
+      "layers": 3,
+      "material": "OAK_STAIRS"
+    }
+  ]
+}

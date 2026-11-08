@@ -1,0 +1,107 @@
+{
+  "id": "village_snow_house",
+  "title": "Snow Village House",
+  "description": "9 x 8 x 8. Spruce walls, steep spruce-stair A-frame roof, snow foundation and cap.",
+  "category": "village_houses",
+  "entrance": "south",
+  "parts": [
+    {
+      "type": "box",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        8,
+        0,
+        7
+      ],
+      "material": "SNOW_BLOCK"
+    },
+    {
+      "type": "box",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        7,
+        0,
+        6
+      ],
+      "material": "SPRUCE_PLANKS"
+    },
+    {
+      "type": "walls",
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        8,
+        1,
+        7
+      ],
+      "height": 3,
+      "material": "SPRUCE_PLANKS",
+      "openings": [
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "north",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "west",
+          "kind": "window"
+        },
+        {
+          "at": 2,
+          "width": 2,
+          "height": 2,
+          "y": 1,
+          "side": "east",
+          "kind": "window"
+        }
+      ]
+    },
+    {
+      "type": "roof_steps",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        8,
+        4,
+        7
+      ],
+      "layers": 3,
+      "material": "SPRUCE_STAIRS"
+    },
+    {
+      "type": "box",
+      "from": [
+        4,
+        6,
+        3
+      ],
+      "to": [
+        4,
+        6,
+        4
+      ],
+      "material": "SNOW_BLOCK"
+    }
+  ]
+}

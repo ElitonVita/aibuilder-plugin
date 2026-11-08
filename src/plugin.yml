@@ -1,0 +1,16 @@
+name: AIBuilder
+version: 1.0.0
+main: com.elitonvita.aibuilder.AIBuilderPlugin
+api-version: '1.21'
+author: elitonvita
+description: AI Builder NPC for Paper 26.3 and newer, with protected construction and built-in models.
+softdepend: [GriefPrevention, CoreProtect]
+commands:
+  construtor:
+    aliases: [builder, aibuilder]
+    description: Create and control builders, terrain tools, models, and settings.
+    usage: /builder spawn|list|select <name>|<name> <command>|settings|reload
+permissions:
+  aibuilder.use:
+    description: Use AIBuilder commands.
+    default: op

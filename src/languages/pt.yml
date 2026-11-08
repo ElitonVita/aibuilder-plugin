@@ -1,0 +1,2069 @@
+# AIBuilder PT messages. UTF-8. Keep {0}, {1}, etc. in each message.
+# Edit values, then run /builder reload. Missing keys are added without replacing your edits.
+# BuilderSession.java:71
+message_40469b04d217: "Construtor"
+# BuilderSession.java:71
+message_cba5fccfd58c: "/builder"
+# BuilderSession.java:71
+message_2080d8189e93: "/builder {0}"
+# BuilderSession.java:79
+message_18f3a4b5e36f: "Preparando terreno: {0}; total ainda nao conhecido."
+# BuilderSession.java:79
+message_92d591b13c3a: "Preparando terreno: {0}; {1} acoes restantes."
+# BuilderSession.java:80
+message_d2c5a2dbfedf: "{0} acoes restantes"
+# BuilderSession.java:82
+message_b118dfe6d42a: "Livre; 0 acoes restantes."
+# BuilderSession.java:82
+message_c553f21823db: "Obra aberta {0}; fila vazia. Use obra para conferir."
+# BuilderSession.java:83
+message_f1e646408c1c: "planejando o pedido"
+# BuilderSession.java:83
+message_199d15481899: "aguardando confirmacao"
+# BuilderSession.java:84
+message_e45ae2ca0a25: "conferindo a obra"
+# BuilderSession.java:85
+message_ccd19c381fc0: " da obra {0}"
+# BuilderSession.java:87
+message_cac887772493: "Ocupado: {1}; {2} acoes restantes (total ainda nao conhecido)."
+# BuilderSession.java:87
+message_21bd7d423e2f: "Ocupado: {1}; {2} acoes restantes (total ainda nao conhecido); {3}."
+# BuilderSession.java:87
+message_e0653d953060: "Ocupado: {1}; {2} acoes restantes."
+# BuilderSession.java:87
+message_c4ea2f21921c: "Ocupado: {1}; {2} acoes restantes; {3}."
+# BuilderSession.java:108
+message_87e4107bb791: "use orientation north|south|east|west|original."
+# BuilderSession.java:109
+message_b6355c2dc6bd: "termine ou cancele o plano/trabalho antes de mudar a orientacao."
+# BuilderSession.java:112
+message_ccd22564dba3: "nao consegui salvar a orientacao; valor anterior preservado."
+# BuilderSession.java:113
+message_a1f7a5a5e2ff: "entrada das proximas plantas: {0}. O sol nasce a leste e se poe a oeste."
+# BuilderSession.java:138
+message_8b08db3e61c4: "Dono: ?"
+# BuilderSession.java:138
+message_5c27be047684: "Dono: {0}"
+# BuilderSession.java:139
+message_7670d3dd0d84: "Estado: {0}"
+# BuilderSession.java:140
+message_a6ca56914ec9: "Seguir o criador: sim"
+# BuilderSession.java:140
+message_4e2d971b8a81: "Seguir o criador: nao"
+# BuilderSession.java:141
+message_0c94b68b8fa3: "Distancia maxima do dono: {0} blocos"
+# BuilderSession.java:142
+message_0d46df35f82d: "Entrada das proximas plantas: {0}"
+# BuilderSession.java:143
+message_b6fd93613f8a: "Pausado pela chamada; use follow para liberar."
+# BuilderSession.java:144
+message_1576a4d25b2b: "Plano pendente: sim"
+# BuilderSession.java:144
+message_80c80f6f6cce: "Plano pendente: nao"
+# BuilderSession.java:145
+message_5cb78407241e: "Obra aberta: nenhuma"
+# BuilderSession.java:145
+message_d6b389fb6ce0: "Obra aberta: {0}"
+# BuilderSession.java:146
+message_a546d50c8ca8: "Zona marcada: sim"
+# BuilderSession.java:146
+message_3cb9fb65b886: "Zona marcada: nao"
+# BuilderSession.java:325
+message_49427cfbcc48: "CoreProtect indisponivel: fallback permitido somente na selecao explicita; claims e spawn continuam protegidos."
+# BuilderSession.java:327
+message_0501879a0d31: "CoreProtect indisponivel: o construtor nao quebra blocos ate ele estar pronto (protecao)."
+# BuilderSession.java:330
+message_c70b3445703f: "CoreProtect conectado ao AIBuilder."
+# BuilderSession.java:342
+message_fc424bd753b8: "Falha ao acessar CoreProtect: {0}"
+# BuilderSession.java:348
+message_045585be1155: "plugin desligado"
+# BuilderSession.java:361
+message_a9ac80086aa9: "Voce nao tem permissao."
+# BuilderSession.java:365
+message_ee14e5ea05fa: "so o criador ou um operador pode controlar esta obra."
+# BuilderSession.java:368
+message_80e3b3361240: "somente operadores podem administrar o construtor."
+# BuilderSession.java:376
+message_3af606693729: "pedido cancelado."
+# BuilderSession.java:380
+message_e2c80c8fb962: "plano cancelado."
+# BuilderSession.java:390
+message_3a3499ad3112: "seguir"
+# BuilderSession.java:391
+message_5aa2eeb42378: "chamar"
+# BuilderSession.java:392
+message_426bdaf2d813: "distancia"
+# BuilderSession.java:393
+message_5deabcef44ce: "orientação"
+# BuilderSession.java:395
+message_07c6d68d4778: "Use em jogo."
+# BuilderSession.java:408
+message_424d77c790a4: "norte"
+# BuilderSession.java:408
+message_3d1acc092c68: "sul"
+# BuilderSession.java:408
+message_8cdfd57dc160: "leste"
+# BuilderSession.java:408
+message_343f6dc1ec2a: "oeste"
+# BuilderSession.java:440
+message_49fea6a8a844: "cancelada por desconexao"
+# BuilderSession.java:465
+message_6e7dd5bb20b2: "nao consegui salvar a obra {0}; mantida na fila"
+# BuilderSession.java:468
+message_bd354cd134fd: "obra {0} pausada: faltam materiais e o criador esta offline"
+# BuilderSession.java:486
+message_bce7114ce3d6: "cancelado por {0}"
+# BuilderSession.java:497
+message_44ad26824c04: " Obra {0} pausada e salva."
+# BuilderSession.java:497
+message_5a24cd2b88ef: " Obra {0} pausada, mas NAO foi salva. Confira o disco antes de sair."
+# BuilderSession.java:500
+message_1ee37850f49c: "parado por {0}: {1} acoes canceladas"
+# BuilderSession.java:501
+message_118d37fe4e8c: "parei. {0} acoes da fila canceladas, plano pendente descartado.{1}"
+# BuilderSession.java:501
+message_28a7d2ea29c5: "parei. {0} acoes da fila canceladas.{1}"
+# BuilderSession.java:504
+message_528df5f9c593: "vou voltar a seguir voce a pe."
+# BuilderSession.java:504
+message_a5ad454eb0ad: "continuo no modo Stay."
+# BuilderSession.java:510
+message_e8daebb1a0b5: "Comandos AIBuilder - use /builder ou /builder"
+# BuilderSession.java:511
+message_63864a2e4510: "/builder spawn - cria um construtor e entrega a ferramenta de seleção"
+# BuilderSession.java:512
+message_742037e49fcd: "/builder list | select <name> | <name> status - gerencia os construtores"
+# BuilderSession.java:513
+message_8db1f672347e: "/builder tool - recebe a ferramenta; clique esquerdo no canto 1 e direito no canto 2"
+# BuilderSession.java:514
+message_ac8c2e152a10: "/builder zone set1|set2|clear|show - gerencia a área de construção"
+# BuilderSession.java:515
+message_98e22e011a0a: "/builder terrain inspect|clean|level|cancel - prévia das alterações no terreno antes de confirmar"
+# BuilderSession.java:516
+message_cc38a4c3a49c: "/builder terrain deep clean|level - somente OP; ative nas configurações primeiro"
+# BuilderSession.java:517
+message_55c226882ff1: "/builder prebuilt list|<id> - escolhe um modelo pronto sem IA"
+# BuilderSession.java:518
+message_b78bef9ac58f: "/builder build | yes | cancel | build continue|undo|finish|save|speed - gerencia a obra atual"
+# BuilderSession.java:519
+message_0925897885a6: "/builder stay|follow|call|distance <4..64>|stop - controla o movimento"
+# BuilderSession.java:520
+message_0c1afc1668dd: "/builder project corner1|corner2|save|list|place - salva e monta projetos"
+# BuilderSession.java:521
+message_4fb2c111899d: "/builder mission - mostra o progresso; /builder settings - dicas de configuração"
+# BuilderSession.java:522
+message_6cb7bb459d06: "/builder settings language EN|PT - escolhe o idioma da interface"
+# BuilderSession.java:523
+message_ae353da808d0: "Chat: @alfred <pedido> chama um construtor pelo nome. Modelos prontos funcionam sem chave de IA."
+# BuilderSession.java:528
+message_6c82a1d12e07: "Comandos do Construtor (todos comecam com /builder)"
+# BuilderSession.java:529
+message_814d48c7c84e: "spawn - cria o construtor no seu local e te entrega a Ferramenta"
+# BuilderSession.java:530
+message_3cb9defcb1a1: "delete - remove o construtor"
+# BuilderSession.java:531
+message_61888943e481: "status - posicao, fila e se ha plano pendente"
+# BuilderSession.java:532
+message_2c62e0572b96: "stay - fica no local; a obra confirmada continua"
+# BuilderSession.java:533
+message_82ce5b5cfd7f: "follow - segue voce a pe quando estiver livre"
+# BuilderSession.java:534
+message_c28f6306437d: "chamar - teletransporta para perto e pausa; seguir libera sem apagar a fila"
+# BuilderSession.java:535
+message_4e1e7a851568: "distancia <4..64> - distancia maxima do dono, em blocos"
+# BuilderSession.java:536
+message_ac5ff6692127: "stop - para tudo: cancela fila, plano e obra; ele volta para voce"
+# BuilderSession.java:537
+message_a46cd6f07de6: "pre-moldado - listar | <id> [norte|sul|leste|oeste]"
+# BuilderSession.java:538
+message_1d8fa0ec76b5: "orientacao - entrada: north|south|east|west|original (sol: leste -> oeste)"
+# BuilderSession.java:539
+message_4e1edbf1a3e5: "ferramenta - recebe a pa de diamante (esquerdo = canto 1, direito = canto 2)"
+# BuilderSession.java:540
+message_1baa61d72bbd: "sim / nao - confirma ou cancela o plano pendente"
+# BuilderSession.java:541
+message_e1728406e733: "zona pos1|pos2|limpar|mostrar - area em que o construtor pode agir"
+# BuilderSession.java:542
+message_744d9e0e6eb5: "terreno - analisa o chao da zona (altura, variacao, vegetacao)"
+# BuilderSession.java:543
+message_6cbc321f49ae: "terreno limpar - prepara limpeza da selecao; depois terrain clean sim"
+# BuilderSession.java:544
+message_e21633e617d0: "terreno nivelar - previa do nivel predominante; depois terrain level sim"
+# BuilderSession.java:545
+message_6e6ad105359b: "terreno cancelar - cancela preparacao (alteracoes ja feitas permanecem)"
+# BuilderSession.java:546
+message_e086049ef353: "projeto canto1|canto2|salvar <nome>|listar|colocar <nome> - biblioteca de construcoes"
+# BuilderSession.java:547
+message_21188a9549a7: "obra - progresso da planta ativa; build save - salva e pausa; build continue - completa o que falta"
+# BuilderSession.java:548
+message_afce30496237: "obra end - encerra a obra aberta (ate la, voce pode pedir incrementos: janelas, portas, luzes, decoracao)"
+# BuilderSession.java:549
+message_f18a01ce5b39: "missao - progresso da missao atual"
+# BuilderSession.java:550
+message_50d8eb2c5fb8: "pais horario|limite|historico - controle parental (operadores)"
+# BuilderSession.java:551
+message_7c0967d00d26: "reload - recarrega o config"
+# BuilderSession.java:552
+message_23ba8e77b009: "No chat: @construtor <pedido> - pede uma construcao ou uma pergunta"
+# BuilderSession.java:553
+message_79d42badec7b: "@construtor ensina <tema> - modo tutor, so explica"
+# BuilderSession.java:555
+message_d854d5233541: "@construtor"
+# BuilderSession.java:556
+message_96bcc92ed5de: "/builder call all - chama todos os seus construtores"
+# BuilderSession.java:561
+message_2649c9d74acf: "Construtor nao esta no mundo. Use /builder spawn."
+# BuilderSession.java:565
+message_47120c67f8a4: "{0} em {1} {2} {3} {4} | fila: {5} | plano pendente: {6} | zona: {7}"
+# BuilderSession.java:568
+message_4a75d52f17a9: "modo: Follow"
+# BuilderSession.java:568
+message_cf76b8d7755f: "modo: Follow | {0}"
+# BuilderSession.java:568
+message_8b36c17d2ed0: "modo: Stay"
+# BuilderSession.java:568
+message_35d150903e90: "modo: Stay | {0}"
+# BuilderSession.java:570
+message_3eace16b2554: "distancia maxima do dono: {0} blocos; pausado pela chamada, use follow para liberar"
+# BuilderSession.java:570
+message_99b7e26da3b6: "distancia maxima do dono: {0} blocos"
+# BuilderSession.java:572
+message_29e289bc3fd2: "entrada das proximas plantas: {0}"
+# BuilderSession.java:575
+message_a16b6d42758f: "aguardando o segundo canto para: {0}"
+# BuilderSession.java:576
+message_24acbf5d5a6f: "planejando seu pedido..."
+# BuilderSession.java:578
+message_21009abe4d6b: "obra: {0} | /builder obra para conferir"
+# BuilderSession.java:592
+message_78e12244681b: "guardei seu pedido: {0}. Marque a area com a Ferramenta de {1}: esquerdo no canto 1, direito no canto 2. Vou continuar automaticamente; nao precisa repetir o pedido. Use {2} tool se precisar da pa. Para cancelar: {3} cancel. Valido por {4} segundos."
+# BuilderSession.java:601
+message_4be0d7762b03: "o pedido guardado expirou. A area esta salva; envie um novo pedido."
+# BuilderSession.java:605
+message_082977e9f81d: "area pronta! Vou continuar seu pedido: {0}"
+# BuilderSession.java:615
+message_9ad6e71ef38f: "nao ha plano pendente."
+# BuilderSession.java:617
+message_2cf56ecdb2bc: "esse botao pertence a um plano antigo. Veja o plano atual."
+# BuilderSession.java:617
+message_71a3af891942: "botao de plano antigo"
+# BuilderSession.java:624
+message_8e59bc2f362d: "plano recusado: {0}"
+# BuilderSession.java:629
+message_b3a8b88d537a: "{0} | Area {1}"
+# BuilderSession.java:644
+message_e1679cc17f44: "mundo da area indisponivel"
+# BuilderSession.java:653
+message_ba53b92b6473: "area invalida ou maior que {0} blocos de volume"
+# BuilderSession.java:702
+message_2d6fd5df8ae5: "area ou plano vazio"
+# BuilderSession.java:706
+message_35ca5a2f7766: "limite de acoes excedido"
+# BuilderSession.java:711
+message_599a7f4cc810: "acao desconhecida"
+# BuilderSession.java:714
+message_4395e44113bd: "coordenada invalida"
+# BuilderSession.java:721
+message_2a58c1b420c8: "acoes repetidas na mesma posicao"
+# BuilderSession.java:726
+message_9ca1a4f63e76: "bloco fora da area ou dos limites do mundo"
+# BuilderSession.java:729
+message_3c8c888e95b9: "material nao permitido"
+# BuilderSession.java:732
+message_9d913a3d2718: "orientacao nao corresponde ao material"
+# BuilderSession.java:734
+message_cbc2ea682900: "blocos com agua nao permitidos"
+# BuilderSession.java:767
+message_cdf80b67eb87: "ja existe um pedido ou obra. Confirme, cancele ou use /builder stop primeiro."
+# BuilderSession.java:775
+message_523d5d857477: "{0} Novo pedido recusado."
+# BuilderSession.java:784
+message_c3d7a9a523c0: "o plano expirou. Peca de novo."
+# BuilderSession.java:788
+message_ae6a46542a0e: "plano sem area ou construtor. Peca novamente."
+# BuilderSession.java:799
+message_47d738983cd6: "replace exige bloco da obra aberta"
+# BuilderSession.java:805
+message_efc5a492a34d: "confirmacao recusada: {0}"
+# BuilderSession.java:808
+message_9dd6315fa12e: "a obra aberta nao esta mais ativa. Peca de novo."
+# BuilderSession.java:810
+message_17bd143699ca: "em andamento"
+# BuilderSession.java:811
+message_24f67ad26e47: "nao consegui salvar o incremento; o plano continua aguardando confirmacao."
+# BuilderSession.java:815
+message_89a718123f70: "incremento confirmado por {0}: {1} acoes"
+# BuilderSession.java:819
+message_e6f74f81abaa: "executando {0} acoes do incremento. Vou avisando cada uma."
+# BuilderSession.java:825
+message_4827519c9423: "nao consegui salvar a obra; o plano continua aguardando confirmacao."
+# BuilderSession.java:830
+message_50b795b74868: "confirmado por {0}: {1} acoes"
+# BuilderSession.java:835
+message_6a95f1ffb0c4: "executando {0} acoes. Vou avisando cada uma."
+# BuilderSession.java:842
+message_11ec561a8bf6: "cancele a preparacao antes de remarcar a zona."
+# BuilderSession.java:847
+message_abdff3856963: "primeiro canto marcado em {0}. Agora use /builder zone set2."
+# BuilderSession.java:850
+message_d41c26c8933a: "marque primeiro com /builder zone set1."
+# BuilderSession.java:852
+message_41c4914ebb8f: "os dois cantos precisam estar no mesmo mundo."
+# BuilderSession.java:859
+message_c6a8c110fc2e: "zona removida. Marque dois cantos para construir; pedidos aguardarao a selecao."
+# BuilderSession.java:862
+message_16a70de8f0b3: "zona: {0} | comandos: set1, set2, clear"
+# BuilderSession.java:869
+# BuilderSession.java:870
+message_cb06f25154f2: "{0} x {1}..{2} y {3}..{4} z {5}..{6}"
+# BuilderSession.java:930
+message_534ebf7125d5: "canto 1 do projeto marcado em {0}."
+# BuilderSession.java:933
+message_b9d0eef4336b: "marque primeiro com /builder projeto canto1."
+# BuilderSession.java:935
+message_15d52a01d992: "canto 2 marcado. Agora salve com /builder project save <nome>."
+# BuilderSession.java:940
+message_ae596c680cfe: "projeto: canto1, canto2, salvar <nome>, listar, colocar <nome>"
+# BuilderSession.java:955
+message_a85069e44c85: "use um nome com letras minusculas, numeros, _ ou -."
+# BuilderSession.java:956
+message_2c97019700ad: "marque canto1 e canto2 primeiro."
+# BuilderSession.java:957
+message_644b3a561cc8: "os cantos precisam estar no mesmo mundo."
+# BuilderSession.java:965
+message_8110937b53c8: "area grande demais ({0} blocos). Use uma caixa menor."
+# BuilderSession.java:975
+message_499c21826ae2: "projeto tem mais de {0} blocos (limite max-project-blocks)."
+# BuilderSession.java:991
+message_4877624f17f4: "erro ao salvar o projeto: {0}"
+# BuilderSession.java:1002
+message_b2e175828d50: "nenhum projeto salvo ainda."
+# BuilderSession.java:1002
+message_8676f9eb61c2: "projetos: {0}"
+# BuilderSession.java:1004
+message_67328272e599: "erro ao listar projetos: {0}"
+# BuilderSession.java:1012
+message_3e1ecd2dd3dd: "marque uma area nova antes de colocar o projeto."
+# BuilderSession.java:1014
+message_97b589bceb32: "use /builder project place <nome>."
+# BuilderSession.java:1015
+message_7b50ecc8a3b9: "use /builder spawn antes."
+# BuilderSession.java:1018
+message_40c17c6b39b3: "projeto '{0}' nao existe. Veja /builder project list."
+# BuilderSession.java:1019
+message_a654b28b2b90: "arquivo de projeto grande demais"
+# BuilderSession.java:1024
+message_e51a3ca00c32: "mundo indisponivel"
+# BuilderSession.java:1028
+message_cf38765c43fa: "projeto excede o limite de blocos"
+# BuilderSession.java:1041
+message_95244a41508e: "projeto nao cabe na area"
+# BuilderSession.java:1044
+message_42c2a1a46eff: "projeto vazio."
+# BuilderSession.java:1052
+message_67e4b0cbf08a: "projeto {0} ({1} blocos)"
+# BuilderSession.java:1055
+message_b01d066b3690: "erro ao ler o projeto: {0}"
+# BuilderSession.java:1063
+message_c66148f1c0ad: "so operadores podem recarregar os pre-moldados."
+# BuilderSession.java:1065
+message_04f82f92140e: "Pre-moldados do usuario: {0} carregados de {1} arquivo(s)."
+# BuilderSession.java:1070
+message_96c43bc77e3c: "Pre-moldados (categorias: {0})"
+# BuilderSession.java:1073
+message_4ba62637141f: "Em breve: {0}. Para construir: {1} pre-moldado <id>, com uma area marcada."
+# BuilderSession.java:1078
+message_c17c861a3563: "pre-moldado desconhecido: {0}. Veja {1} prebuilt list."
+# BuilderSession.java:1079
+message_70c99eff9073: "use em jogo."
+# BuilderSession.java:1083
+message_d080af38b7b9: "marque uma area nova antes (pa de diamante ou {0} zone set1/pos2)."
+# BuilderSession.java:1088
+message_e30c6826841b: "use pre-moldado <id> [norte|sul|leste|oeste]."
+# BuilderSession.java:1101
+message_d634969d257c: "Nao consegui calcular o tamanho deste pre-moldado."
+# BuilderSession.java:1110
+message_7edda3acbb43: "Area necessaria: {0} x {1} x {2} blocos (x {3}, y {4}, z {5}) = {6} de volume, {7} blocos construidos."
+# BuilderSession.java:1117
+message_20d0ee4771e0: " A area marcada e {0} x {1} x {2}: nao cabe; marque uma area maior."
+# BuilderSession.java:1119
+message_3ac022fdb0a8: " Area marcada: {0} x {1} x {2}."
+# BuilderSession.java:1139
+message_ded3d2363e5d: "orientacao da planta invalida: {0}"
+# BuilderSession.java:1139
+message_e18f93c529d0: "orientacao invalida"
+# BuilderSession.java:1150
+message_108b5eecf68e: "mundo da obra indisponivel."
+# BuilderSession.java:1177
+message_6352bb664a92: "planta recusada: {0}"
+# BuilderSession.java:1184
+message_9a408e24b95c: "planta fora da area"
+# BuilderSession.java:1191
+message_6dd1d1a648d8: "material invalido ignorado: {0}"
+# BuilderSession.java:1197
+message_0a361d387d1d: "a planta nao gerou blocos validos: {0}"
+# BuilderSession.java:1198
+message_51dbec93824a: "planta grande demais ({0} blocos; limite {1})."
+# BuilderSession.java:1212
+message_ae9d1ecfede7: "planta sobre blocos existentes: {0}"
+# BuilderSession.java:1213
+message_f75d9643d046: "base elevada {0} bloco(s) para ficar sobre o chao livre"
+# BuilderSession.java:1214
+message_e5c1ee16c6c4: "planta centralizada dentro da area marcada"
+# BuilderSession.java:1215
+message_98e2a93e7200: "a fundacao precisa de nivelamento leve: {0} bloco(s) naturais serao removidos se voce confirmar esta obra. Para preparar a selecao inteira com previa, use {1} terrain level; para limpeza sem nivelar, use {2} terrain clean."
+# BuilderSession.java:1233
+# BuilderSession.java:1233
+# BuilderSession.java:1235
+message_1a77bd2eae40: "aviso: {0}"
+# BuilderSession.java:1237
+message_981fcb4ee190: "planejada {0} com {1} blocos (pre-moldado)"
+# BuilderSession.java:1237
+message_3e169ce5c492: "planejada {0} com {1} blocos"
+# BuilderSession.java:1332
+message_7c61926750a2: "confirme ou cancele o pedido atual primeiro."
+# BuilderSession.java:1336
+message_3e69d0e853cc: "nenhuma obra ativa. Peca uma planta ao construtor."
+# BuilderSession.java:1344
+message_5bd73633dda9: "nenhuma obra aberta."
+# BuilderSession.java:1346
+message_0d739fb39984: "espere a fila terminar ou cancele o plano antes de encerrar a obra."
+# BuilderSession.java:1350
+message_8bb67f26b173: "nao consegui salvar a obra; ela continua aberta. Confira o disco."
+# BuilderSession.java:1353
+message_45a86bcd3d4a: "encerrada {0} | blocos {1} | faltam {2}"
+# BuilderSession.java:1354
+message_0e6bd9facde5: "obra {0} encerrada: {1} blocos, faltam {2} (/builder build continue para completar antes). Para uma nova construcao, envie outro pedido; vou usar a area selecionada. Remarque com a pa para mudar de local."
+# BuilderSession.java:1354
+message_9a9a8fee5c89: "obra {0} encerrada: {1} blocos. Para uma nova construcao, envie outro pedido; vou usar a area selecionada. Remarque com a pa para mudar de local."
+# BuilderSession.java:1355
+message_fa84210efee8: ", faltam {0} (/builder build continue para completar antes)"
+# BuilderSession.java:1362
+message_4eca9bb9606a: "a funcao desfazer esta desligada nas configuracoes."
+# BuilderSession.java:1365
+message_84659a6f8789: "nao ha obra aberta para desfazer; obras encerradas nao podem ser desfeitas."
+# BuilderSession.java:1366
+message_003f42c8b9b0: "o desfazer ja esta em andamento."
+# BuilderSession.java:1368
+message_20b185a3db5b: "o desfazer precisa de um jogador online como ator das protecoes."
+# BuilderSession.java:1371
+message_bb4b84888741: "o construtor precisa estar no mundo da obra para desfazer."
+# BuilderSession.java:1382
+message_c0fa90df6647: "nao encontrei blocos da obra no estado esperado para remover."
+# BuilderSession.java:1383
+message_22b26668fb9e: "nao consegui salvar a obra antes do desfazer; nada foi alterado."
+# BuilderSession.java:1396
+message_8ecb1854d81d: "desfazer iniciado: {0} bloco(s). Protecoes e mudancas posteriores serao respeitadas."
+# BuilderSession.java:1397
+message_e7628c3c259f: "iniciado por {0}: {1} blocos de {2}"
+# BuilderSession.java:1412
+message_021e400f6f4e: "obra desfeita, mas nao consegui apagar o registro salvo; confira o disco."
+# BuilderSession.java:1413
+message_c099e4b9fbe0: "obra {0} desfeita; os blocos que correspondiam ao plano foram removidos."
+# BuilderSession.java:1417
+message_898456824b49: "desfazer terminou com {0} bloco(s) preservado(s) por protecao ou porque mudaram. O restante foi salvo como inacabado."
+# BuilderSession.java:1421
+message_fbf87a128caa: "finalizado: obra removida"
+# BuilderSession.java:1421
+message_0be35bbdddf3: "finalizado: {0} blocos preservados"
+# BuilderSession.java:1437
+message_f66a6351eb7a: "nao consegui apagar registro da obra {0}: {1}"
+# BuilderSession.java:1445
+message_b48e0c60efd6: "obra {0}: {1}/{2} blocos conferidos, faltam {3}."
+# BuilderSession.java:1449
+message_74d091432865: "obra {0} aberta: tudo conferido. Peca incrementos (portas, janelas, iluminacao, decoracao) ou encerre com /builder build finish."
+# BuilderSession.java:1451
+message_176503545896: "nao consegui salvar a obra. Confira o disco."
+# BuilderSession.java:1455
+message_38a45aba37f6: "use /builder build continue para completar o que falta."
+# BuilderSession.java:1466
+message_1961df5d39ca: "completar obra {0} ({1} blocos)"
+# BuilderSession.java:1468
+message_85612282d175: "{0}. /builder yes para confirmar."
+# BuilderSession.java:1509
+message_2e507b426fb1: "nao consegui salvar a obra: {0}"
+# BuilderSession.java:1524
+message_cf165cc9a7a3: "nome de obra invalido."
+# BuilderSession.java:1532
+message_bf53ffcd54bc: "arquivo de obra grande demais"
+# BuilderSession.java:1534
+message_58f85be24daf: "essa obra ja foi concluida."
+# BuilderSession.java:1535
+message_d9c6c9fba6a0: "obra antiga sem area; selecione e planeje novamente"
+# BuilderSession.java:1537
+message_34001d4a166f: "obra pertence a outro criador"
+# BuilderSession.java:1539
+message_a32293c00fff: "limite de blocos excedido"
+# BuilderSession.java:1549
+message_95c01c3bcba3: "crie o construtor no mundo da obra antes de retomar"
+# BuilderSession.java:1550
+message_15a871e6ce8e: "mundo da obra inconsistente"
+# BuilderSession.java:1561
+message_393a5bd955a7: "nome de obra invalido"
+# BuilderSession.java:1582
+message_0f04d2234fe3: "nao consegui retomar: {0}"
+# BuilderSession.java:1652
+message_c09ae8433ddd: "use em jogo para ver suas obras."
+# BuilderSession.java:1659
+message_4f1ee1b84b98: "nao consegui listar as obras: {0}"
+# BuilderSession.java:1660
+message_4f1f3529b76b: "nenhuma obra inacabada."
+# BuilderSession.java:1661
+message_8e524b2585bb: "Obras inacabadas:"
+# BuilderSession.java:1677
+message_29c8acd3cb05: "use terrain deep clean ou terrain deep level."
+# BuilderSession.java:1678
+message_4d46bedfd4bc: "marque a zona primeiro."
+# BuilderSession.java:1681
+message_05ce7060c43f: "deep clean esta desligado nas configuracoes."
+# BuilderSession.java:1682
+message_65e7e00fcd30: "deep clean so pode ser usado por operadores."
+# BuilderSession.java:1688
+message_0cc0767fc983: "primeiro use /builder terreno deep {0} para preparar uma previa."
+# BuilderSession.java:1688
+message_b7f50b8d6629: "primeiro use /builder terreno {0} para preparar uma previa."
+# BuilderSession.java:1689
+message_6bfa36d3dd83: "a previa ainda nao esta pronta ou expirou; aguarde a mensagem de confirmacao."
+# BuilderSession.java:1690
+message_6c6154f6f2eb: "confirmado. Vou conferir novamente antes de alterar os blocos."
+# BuilderSession.java:1693
+message_e529c124f1c8: "ja ha preparacao: use terrain cancel antes de trocar a operacao."
+# BuilderSession.java:1694
+message_8aa057d7909d: "deep clean precisa de um operador online para validar protecoes de outros plugins."
+# BuilderSession.java:1701
+message_80dfd1d9c7ad: "marque a regiao de deep clean {0} com a pa: esquerdo no canto 1, direito no canto 2. Depois mostrarei a previa."
+# BuilderSession.java:1701
+message_3cf9bcd3af72: "marque a regiao de {0} com a pa: esquerdo no canto 1, direito no canto 2. Depois mostrarei a previa."
+# BuilderSession.java:1707
+message_7b3a995eea5a: "esse botao nao pertence a uma previa atual. Aguarde ou prepare uma nova previa."
+# BuilderSession.java:1714
+message_829df9ab8dc4: "{0} terrain deep level sim {1}"
+# BuilderSession.java:1714
+message_6213f1f80394: "{0} terrain deep clean sim {1}"
+# BuilderSession.java:1714
+message_e8afc9829e29: "{0} terrain level sim {1}"
+# BuilderSession.java:1714
+message_27e52f85e177: "{0} terrain clean sim {1}"
+# BuilderSession.java:1716
+message_1982f5355c77: "{0} terrain cancel {1}"
+# BuilderSession.java:1720
+message_1ea361470ffc: "pare/cancele a obra antes de preparar o terreno."
+# BuilderSession.java:1730
+message_bd6e1ca26acc: "aguarde a leitura/preparacao atual antes de analisar."
+# BuilderSession.java:1736
+message_34a89a38f797: "\nGrade"
+# BuilderSession.java:1738
+message_878879703ebc: "use terrain clean ou terrain level para preparar uma previa."
+# BuilderSession.java:1782
+message_24a33bd30493: "regiao fora da altura do mundo"
+# BuilderSession.java:1788
+message_5f2dca90a3b3: "dimensoes pesquisadas {0} x {1} x {2}; volume necessario excede Long.MAX_VALUE; limite efetivo {3} (max-clear-volume)"
+# BuilderSession.java:1790
+message_2c2e4a045142: "dimensoes pesquisadas invalidas: {0} x {1} x {2}"
+# BuilderSession.java:1791
+message_72f8cf5c0e1e: "regiao excessiva: dimensoes pesquisadas {0} x {1} x {2}; volume necessario {3} posicoes; limite efetivo {4} (max-clear-volume)"
+# BuilderSession.java:1812
+message_d8b5d5aead70: "ha chunks descarregados na area; aproxime-se e tente novamente"
+# BuilderSession.java:1814
+message_5002d568ccaa: "regiao fora da borda do mundo"
+# BuilderSession.java:1832
+message_14ccfd1465cc: "deep clean desligado ou operador necessario"
+# BuilderSession.java:1838
+message_2321c1f0c302: "regiao fora dos limites do mundo"
+# BuilderSession.java:1845
+message_27428a4fa270: "[{0}] analisando {1} x {2} colunas, y={3}..{4}. Nenhum bloco sera alterado antes da previa e confirmacao."
+# BuilderSession.java:1855
+message_7c7832c3f5ab: "deep clean foi desligado nas configuracoes"
+# BuilderSession.java:1859
+message_56b5fae43489: "ha jogador dentro da selecao; todos devem sair antes do deep clean continuar"
+# BuilderSession.java:1861
+message_e5467bf8f91d: "o operador que iniciou o deep clean precisa permanecer online"
+# BuilderSession.java:1867
+message_89e27785c6bd: "terreno protegido (claim/spawn/historico) ou historico indisponivel"
+# BuilderSession.java:1874
+message_0e12b3b437d5: "ha jogador ou criatura nao ignorada no preenchimento; afaste-se e tente novamente"
+# BuilderSession.java:1877
+message_03f4eb0479e3: "bloco artificial ou liquido nao pode ser alterado"
+# BuilderSession.java:1896
+message_43efbdfe75bf: "material de deep clean invalido"
+# BuilderSession.java:1913
+message_cfd1b55a60b9: "lendo selecao"
+# BuilderSession.java:1914
+message_2ff966d903bf: "gerando plano"
+# BuilderSession.java:1915
+message_6e823221e238: "checando protecoes"
+# BuilderSession.java:1917
+message_68075255c576: "conferindo terreno"
+# BuilderSession.java:1918
+message_cfbc1121d7bc: "alterando terreno"
+# BuilderSession.java:1927
+message_32d63d917e19: "preparacao {0}; {1} alteracoes ja feitas permanecem no mundo."
+# BuilderSession.java:1934
+message_a66412ae3c35: "interrompida por desconexao/permissao"
+# BuilderSession.java:1936
+message_bf43fe72da66: "interrompida: mundo indisponivel"
+# BuilderSession.java:1943
+message_859f37847a95: "deep clean nivelar"
+# BuilderSession.java:1943
+message_f6a76850e4b8: "deep clean limpar"
+# BuilderSession.java:1946
+message_e63a79269f90: " DEEP: remove qualquer tipo de bloco, incluindo construcoes, liquidos e inventarios, sem devolver itens. Conteudo observado: {0}. Protecoes de outros plugins podem preservar blocos; todos os jogadores devem sair da selecao. Animais e monstros sao ignorados."
+# BuilderSession.java:1947
+message_79efb7a3a2a4: "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos. Piso alvo y={10} (base marcada; sem piso natural utilizavel).{11} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos."
+# BuilderSession.java:1947
+message_351a4a871096: "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos. Piso alvo y={10} ({11}/{12} colunas na altura escolhida).{13} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos."
+# BuilderSession.java:1947
+message_c912fd84613b: "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos.{10} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos."
+# BuilderSession.java:1948
+message_574665a10f38: " Piso alvo y={0} (base marcada; sem piso natural utilizavel)."
+# BuilderSession.java:1948
+message_9e5a0c47f0d2: " Piso alvo y={0} ({1}/{2} colunas na altura escolhida)."
+# BuilderSession.java:1948
+message_88ac0173721a: " ({0}/{1} colunas na altura escolhida)."
+# BuilderSession.java:1953
+message_5a0dbffbd136: "{0} • Preparar terreno"
+# BuilderSession.java:1953
+message_f3b5d933bccf: "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {9}; piso alvo Y={10}. Preparo administrativo, sem itens.{11}"
+# BuilderSession.java:1953
+message_6563321e318f: "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {9}. Preparo administrativo, sem itens.{10}"
+# BuilderSession.java:1956
+message_17559f20c9dd: "; piso alvo Y={0}"
+# BuilderSession.java:1957
+message_0b68e1d425d7: "Sim, preparar"
+# BuilderSession.java:1959
+message_c9bb4a7a538b: "Confirmar: {0} | Cancelar: {1}"
+# BuilderSession.java:1962
+message_93ca1a008672: "{0} • Terreno: {1}"
+# BuilderSession.java:1966
+message_7157ba07da27: "terreno preparado: {0} alteracoes.; {1} nao aplicadas (eventos de protecao cancelados: {2}; blocos alterados por listeners: {3}; outras recusas: {4})."
+# BuilderSession.java:1966
+message_46f1e8b12fd3: "terreno preparado: {0} alteracoes."
+# BuilderSession.java:1967
+message_90a11e0b1b66: "; {0} nao aplicadas (eventos de protecao cancelados: {1}; blocos alterados por listeners: {2}; outras recusas: {3})."
+# BuilderSession.java:1978
+message_62565011d1eb: "nao consegui salvar a zona; marque novamente antes de continuar"
+# BuilderSession.java:1981
+message_1b45669578b2: "zona para construir: {0}"
+# BuilderSession.java:1982
+message_8ba34b7f65af: "preparo concluido; selecione uma zona menor para construir: {0}"
+# BuilderSession.java:1983
+message_0e2097600621: "{0} concluido: {1} alteracoes; {2} preservadas por protecao"
+# BuilderSession.java:1984
+message_301981281612: "[{0}] preparacao interrompida: {1}. {2} alteracoes ja feitas permanecem; refaca a previa para continuar."
+# BuilderSession.java:1999
+message_25454685059f: "Ferramenta de {0}"
+# BuilderSession.java:2000
+message_bb0c53e56fdb: "Botao esquerdo: canto 1 da zona"
+# BuilderSession.java:2000
+message_841a69ddc1d7: "Botao direito: canto 2 da zona"
+# BuilderSession.java:2017
+message_c4942d3a544b: "voce recebeu a Ferramenta do Construtor (pa de diamante). Botao esquerdo = canto 1 da zona, botao direito = canto 2."
+# BuilderSession.java:2026
+message_642484479532: "so o criador pode usar esta ferramenta."
+# BuilderSession.java:2031
+message_ce78735c8d99: "ha preparacao de terreno; use terrain cancel antes de remarcar."
+# BuilderSession.java:2036
+message_32d4f446c436: "canto 1 da limpeza marcado em {0}. Agora o botao direito no canto 2."
+# BuilderSession.java:2038
+message_5cb2f0b97f14: "primeiro o botao esquerdo no canto 1."
+# BuilderSession.java:2047
+message_c2b8fdbad205: "selecao invalida: {0}"
+# BuilderSession.java:2054
+message_47e7f283384f: "canto 1 da zona marcado em {0}. Agora clique com o botao direito no canto 2."
+# BuilderSession.java:2057
+message_ef7eb8cdfa61: "primeiro clique com o botao esquerdo no canto 1."
+# BuilderSession.java:2077
+message_87ed852760a1: "area grande demais ou acima da altura do mundo. Escolha uma area menor."
+# BuilderSession.java:2088
+message_08236a8937fc: "nao consegui salvar a zona. Tente o segundo canto novamente; seu pedido continua guardado."
+# BuilderSession.java:2089
+message_2f192455c212: "zona salva: {0}"
+# BuilderSession.java:2108
+message_191b0818abfb: "registro nao foi salvo"
+# BuilderSession.java:2273
+message_ae41eeddd855: "nao consegui salvar {0}: {1}"
+# BuilderSession.java:2280
+message_7b84f3690508: "nao consegui apagar registro de {0}: {1}"
+# BuilderSession.java:2297
+message_5a221d8b27d4: "{0}: mundo indisponivel; registro preservado."
+# BuilderSession.java:2310
+message_83d7ffa8919c: "{0} restaurado (NPC existente)."
+# BuilderSession.java:2310
+message_fd47997de7e1: "{0} restaurado (NPC recriado)."
+# BuilderSession.java:2311
+message_5e8b64155018: "nao consegui restaurar {0}: {1}"
+# BuilderSession.java:2318
+message_647376a8cacd: "Skin configurada invalida; usando a skin padrao de construtor."
+# BuilderSession.java:2320
+message_ec1e5a0599f1: "skin configurada invalida; apliquei o construtor padrao."
+# BuilderSession.java:2331
+message_97c06b53f710: "nao consegui salvar o modo; estado anterior preservado."
+# BuilderSession.java:2336
+message_bcd7da39fac0: "Follow: vou seguir voce a pe quando estiver livre."
+# BuilderSession.java:2337
+message_b4f5983345bf: "Stay: nao vou seguir voce. A obra confirmada continua."
+# BuilderSession.java:2343
+message_732af37b7522: "distancia maxima: {0} blocos. Use distance <4..64>."
+# BuilderSession.java:2351
+message_3369745b3b93: "use distance com um numero inteiro de 4 a 64 blocos."
+# BuilderSession.java:2357
+message_f3808456f45b: "nao consegui salvar a distancia; valor anterior preservado."
+# BuilderSession.java:2360
+message_946cf906898a: "distancia maxima do dono: {0} blocos. Fora dela, aguardo voce ou chamar."
+# BuilderSession.java:2366
+message_b29236594648: "so o criador ou um operador pode chamar este construtor."
+# BuilderSession.java:2370
+message_b4ec75397579: "a chamada deve ser feita pelo dono do construtor."
+# BuilderSession.java:2373
+message_9edaa40352a8: "NPC indisponivel. Carregue a regiao onde ele ficou para poder chama-lo."
+# BuilderSession.java:2383
+message_81f00f97d100: "nao encontrei chao seguro e permitido perto de voce. Va para um local aberto e tente novamente."
+# BuilderSession.java:2390
+message_b4de09ba649d: "teletransporte recusado; tente outro local."
+# BuilderSession.java:2397
+message_8d2996c7c149: "chamado para perto; pausado ate Follow ou Build > Continuar"
+# BuilderSession.java:2399
+message_93dcafb93abc: "estou perto de voce. Combate, movimento e trabalho pausados; fila e obra preservadas. Use {0} follow ou Build > Continuar para retomar."
+# BuilderSession.java:2399
+message_f0e2954340ce: "estou perto de voce. Combate, movimento e trabalho pausados; fila e obra preservadas. Use {0} follow ou Build > Continuar para retomar. Nao consegui salvar a nova posicao; confira o disco."
+# BuilderSession.java:2541
+message_fb802873e1c4: "pausado pela chamada; use Follow ou Build > Continuar"
+builder.continue-after-call: "Pausa da chamada liberada; a obra confirmada vai continuar."
+# BuilderSession.java:2541
+message_c8733b56b76c: "limite de distancia; aproxime-se ou use chamar"
+# BuilderSession.java:2544
+message_f9c4e2793b5a: "limite de distancia"
+# BuilderSession.java:2559
+message_e8b6b79f8d98: "voce esta em outro mundo; estou aguardando aqui"
+# BuilderSession.java:2563
+message_9ce075200d10: "voce esta longe; aproxime-se para eu continuar a pe"
+# BuilderSession.java:2568
+message_aa218ad42c81: "sem caminho seguro; aguardando"
+# BuilderSession.java:2583
+message_f1709ec9a1de: "oi, {0}! Estou aqui. Quer construir alguma coisa?"
+# BuilderSession.java:2627
+message_1df17b10ef8d: "estou descansando agora (horario permitido: {0}h as {1}h)."
+# BuilderSession.java:2634
+message_f4447b8bf807: "voce ja usou os {0} pedidos de hoje. Amanha tem mais!"
+# BuilderSession.java:2637
+message_338c817305d6: "Pedidos à IA temporariamente indisponíveis: não foi possível salvar a contagem diária."
+# BuilderSession.java:2643
+message_49860541acdb: "Somente operadores (pais) podem usar isso."
+# BuilderSession.java:2647
+message_971a601c60cd: "uso: /builder parent limit <n> (0 = sem limite)"
+# BuilderSession.java:2652
+message_45486274241f: "limite diario por jogador: sem limite"
+# BuilderSession.java:2652
+message_7f8c4e9462e5: "limite diario por jogador: {0} pedidos"
+# BuilderSession.java:2654
+message_6a6a4d895496: "o limite precisa ser um numero."
+# BuilderSession.java:2658
+message_f52564f4a011: "uso: /builder parent hours <inicio> <fim> (ex.: 8 21)"
+# BuilderSession.java:2664
+message_51253b5982ac: "horario permitido: das {0}h as {1}h"
+# BuilderSession.java:2666
+message_e7b314b3fd6a: "horas invalidas (use inteiros entre 0 e 24)."
+# BuilderSession.java:2672
+message_d0e392c462e5: "ultimas {0} entradas do log:"
+# BuilderSession.java:2675
+message_0f13cef8d81d: "pais: horario {0} | limite diario {1} | comandos: limite <n>, horario <ini> <fim>, historico [n]"
+# BuilderSession.java:2684
+message_5c128229c126: "(sem registros ainda)"
+# BuilderSession.java:2691
+message_1cc187fbced3: "erro ao ler o log: {0}"
+# BuilderSession.java:2703
+message_61a4e22b138e: "nao ha missoes configuradas."
+# BuilderSession.java:2704
+message_4c05b70a3fe2: "todas as missoes foram concluidas. Parabens!"
+# BuilderSession.java:2706
+message_86b304ee7f18: "missao {0}: {1} ({2}/{3} blocos)"
+# BuilderSession.java:2724
+message_8f5c167cbeb1: "missao concluida: {0}!"
+# BuilderSession.java:2728
+message_cd759af5db36: "recompensa: {0}x {1}"
+# BuilderSession.java:2732
+message_09509bfbcdc4: "concluida {0} | recompensa {1} x{2}"
+# BuilderSession.java:2746
+message_9ed1758e8ab1: "progress.json invalido, comecando do zero: {0}"
+# BuilderSession.java:2758
+message_4e4e03dc0e02: "nao consegui salvar o progresso: {0}"
+# BuilderSession.java:2766
+message_427548c8b158: "so o criador autorizado pode pedir ao construtor."
+# BuilderSession.java:2769
+message_dc0ea5e6a81d: "nao estou no mundo agora."
+# BuilderSession.java:2781
+message_70b66dfcd4e4: "a obra {0} ainda tem blocos faltando. Use /builder build continue antes de pedir incrementos."
+# BuilderSession.java:2787
+message_ab3dc3554d17: "vou usar a area selecionada: {0}"
+# BuilderSession.java:2792
+message_b0e9e3e7aeeb: "o construtor precisa estar no mundo da area"
+# BuilderSession.java:2806
+message_6919a667c743: "A IA ainda não está conectada porque nenhuma chave de API foi configurada. Modelos prontos funcionam sem IA. Peça a um operador para adicionar a chave privada em config.yml e executar /builder reload."
+# BuilderSession.java:2807
+message_a7767a325db3: "A IA ainda não está conectada porque nenhuma chave de API foi configurada. Os modelos prontos funcionam sem IA. Peça a um operador para adicionar a chave privada em config.yml e executar /builder reload."
+# BuilderSession.java:2817
+message_892210dbf237: "{0} • Preparando sua explicacao..."
+# BuilderSession.java:2817
+message_fec57a9c069a: "{0} • Planejando o incremento..."
+# BuilderSession.java:2817
+message_9129c7c047e9: "{0} • Planejando sua construcao..."
+# BuilderSession.java:2891
+message_d548ecad3c8b: "{0} • Lendo terreno da area"
+# BuilderSession.java:2893
+message_630914fbf584: "nao consegui ler a area: {0}"
+# BuilderSession.java:3029
+message_d12a43545ec7: "Nao consegui pensar agora (erro da IA). Tente de novo."
+# BuilderSession.java:3034
+message_1ccdbec8b0e8: "resposta sem choices"
+# BuilderSession.java:3035
+message_a19da4ebec3f: "A IA esta sobrecarregada. Tente de novo."
+# BuilderSession.java:3042
+message_53221af63549: "JSON da IA invalido"
+# BuilderSession.java:3043
+message_7f89926983e5: "Nao entendi o plano. Tente reformular."
+# BuilderSession.java:3051
+message_5488ed3ae8dc: "plano invalido. Tente um pedido mais simples."
+# BuilderSession.java:3051
+message_7367c1990648: "plano invalido: {0}"
+# BuilderSession.java:3055
+message_d89440606d71: "Erro ao falar com a IA."
+# BuilderSession.java:3068
+message_4f12d308aa63: "nao consegui explicar isso agora."
+# BuilderSession.java:3070
+message_1d3fecb4d0a1: "(explicacao) {0}"
+# BuilderSession.java:3076
+message_35dda9c7a336: "para incrementos, a IA deve responder com acoes (place/replace), nao com planta. Tente de novo."
+# BuilderSession.java:3077
+message_57cfb61e4df7: "(planta recusada em incremento)"
+# BuilderSession.java:3082
+message_45fad3f802bb: "(planta proposta, aguardando confirmacao)"
+# BuilderSession.java:3090
+message_5ca17d3bc7a4: "plano de acoes invalido ou acima do limite. Peca uma planta menor."
+# BuilderSession.java:3101
+message_4144a195466c: "este plano precisa de limpeza ou nivelamento do terreno. Para eu nao remover blocos sem uma previa dedicada, use {0} terrain level (ou {1} terrain clean), confira e confirme a previa; depois envie o pedido de construcao novamente."
+# BuilderSession.java:3103
+message_910a5fa2d24b: "plano encaminhado para previa de terreno"
+# BuilderSession.java:3104
+message_554041edf6c4: "(preparo de terreno solicitado) {0}"
+# BuilderSession.java:3111
+message_e6c56f1f751c: "nao tenho nada a fazer com isso."
+# BuilderSession.java:3114
+message_ce064074da29: "(resposta sem acoes) {0}"
+# BuilderSession.java:3122
+message_886b0f7b122c: "o plano so tem movimentos; nada seria construido. Peca de novo descrevendo o que construir."
+# BuilderSession.java:3122
+message_55f94183bb4d: "plano so de movimento"
+# BuilderSession.java:3127
+message_07d23b7c5f78: "plano sobre blocos existentes: {0}"
+# BuilderSession.java:3137
+message_9c121f442e74: "(replace recusado)"
+# BuilderSession.java:3141
+message_33b2d1c67f22: "plano recusado: em obra aberta a IA so pode usar place, replace ou move."
+# BuilderSession.java:3142
+message_1702acec4e5c: "(acao recusada em incremento)"
+# BuilderSession.java:3155
+message_d114c1e23969: "incremento na obra {0}: "
+# BuilderSession.java:3160
+message_dd8e021e961f: "(plano proposto, aguardando confirmacao) {0}"
+# BuilderSession.java:3161
+message_0894f114d7ea: "{0} | pedido de {1}"
+# BuilderSession.java:3187
+message_f83461971ef6: "plano recusado: {0} bloco(s) cairiam em blocos ja existentes (ex.: {1}). Provavelmente e o chao: use /builder terrain level (ou limpar) na area, ou marque a area mais acima e peca de novo."
+# BuilderSession.java:3194
+message_76fbc3c42ace: "materiais livres; montagem criativa dentro da selecao confirmada"
+# BuilderSession.java:3203
+message_4621173061b6: "materiais: nenhum (so movimentos ou quebras)"
+# BuilderSession.java:3204
+message_24f62c8a27fe: "materiais: ilimitados (modo criativo do construtor)"
+# presentation
+message_41f60fee0ec2: "Materiais necessários: "
+# BuilderSession.java:3212
+message_33628ebdbe07: " (retorna BUCKET vazio)"
+# BuilderSession.java:3216
+message_162ebd9e489f: " (ok)"
+# BuilderSession.java:3216
+message_ca69cc95b8d6: " (voce tem {0})"
+# presentation
+message_9c2cdcae7302: " e mais "
+# BuilderSession.java:3221
+message_c3cdf43f19e2: " (criador offline: nao consigo conferir)"
+# BuilderSession.java:3241
+message_1b46f0e682b5: "{0} acoes ({1} colocar, {2} quebrar, {3} mover)"
+# BuilderSession.java:3287
+message_c5bea4b13692: "o pedido aguardando area expirou. Envie novamente quando estiver pronto."
+# BuilderSession.java:3291
+message_52097e16d694: "o plano expirou. Peca novamente quando estiver pronto."
+# BuilderSession.java:3301
+message_a9c718111bf1: "terminei. {0} acoes feitas, {1} recusadas por seguranca."
+# BuilderSession.java:3302
+message_0879699b53e4: "recusas: {0}"
+# BuilderSession.java:3312
+message_5b61ca6d8057: "aguardando: volte ao mundo da obra para continuar"
+# BuilderSession.java:3326
+message_a436daf7989e: "erro: {0}"
+# BuilderSession.java:3328
+message_8bde467e10c9: "aguardando: faltam materiais"
+# BuilderSession.java:3329
+message_d8f3787eb949: "aguardando:"
+# BuilderSession.java:3330
+message_3dc0b9549b65: "{0}. Vou continuar automaticamente; /builder stop para pausar."
+# BuilderSession.java:3337
+message_8bc3bf63c510: "{0} • Construindo"
+# BuilderSession.java:3342
+message_e8e91dc6b587: "ok: ja construido"
+# BuilderSession.java:3349
+message_a652be0e5b5f: "desfazendo a obra... {0} blocos removidos."
+# BuilderSession.java:3350
+message_b7473289eb53: "alguns blocos foram preservados: {0}."
+# BuilderSession.java:3352
+message_1e7b6a592529: "construindo... {0} blocos ate agora."
+# BuilderSession.java:3353
+message_4603ab13bef4: "alguns blocos foram recusados: {0}. Vou resumir ao terminar."
+# BuilderSession.java:3355
+message_3e2e4ee09742: " (nao: {0})"
+# BuilderSession.java:3364
+message_db4f977d1f4a: "andando ate {0}"
+# BuilderSession.java:3366
+message_4aecc0cb3c7a: "quebrando terreno em {0}"
+# BuilderSession.java:3367
+message_fd3342263488: "desfazendo obra em {0}"
+# BuilderSession.java:3377
+message_9159dd3c89fd: "rejeitado: coordenadas invalidas"
+# BuilderSession.java:3378
+message_019b8854177f: "rejeitado: longe demais"
+# BuilderSession.java:3379
+message_3ef56d4e1345: "rejeitado: fora da zona permitida"
+# BuilderSession.java:3380
+message_4e9501e34899: "rejeitado: fora da borda do mundo"
+# BuilderSession.java:3381
+message_8ca33d2d9b07: "rejeitado: zona do spawn"
+# BuilderSession.java:3382
+message_bf667b7b5814: "rejeitado: area protegida (claim)"
+# BuilderSession.java:3384
+message_eae848de03b1: "rejeitado: destino ocupado"
+# BuilderSession.java:3387
+message_e92b6fc3ffbf: "ok: movido"
+# BuilderSession.java:3391
+message_c4b132c8e758: "rejeitado: sem caminho seguro"
+# BuilderSession.java:3392
+message_e11566c0e085: "aguardando: caminhando ate o destino"
+# BuilderSession.java:3402
+message_407346a63e5d: "rejeitado: jardim exige catalogo confirmado"
+# BuilderSession.java:3407
+message_cc174adefbf8: "rejeitado: bloco ocupado ou orientation alterada; confira manualmente"
+# BuilderSession.java:3411
+message_e7a517a0e474: "rejeitado: material nao permitido"
+# BuilderSession.java:3413
+message_af7317d52d18: "rejeitado: orientation invalida"
+# BuilderSession.java:3414
+message_96fa4c1f0e70: "aguardando: limite de velocidade"
+# BuilderSession.java:3416
+message_2d5a55cc5fd6: "aguardando: saindo do caminho da obra"
+# BuilderSession.java:3416
+message_fb7d082df85c: "rejeitado: sem espaco livre fora da obra para o construtor"
+# BuilderSession.java:3421
+message_76dd36bcda03: "rejeitado: sem caminho seguro ate o bloco"
+# BuilderSession.java:3422
+message_46cf07fc9608: "aguardando: caminhando ate a obra"
+# BuilderSession.java:3427
+message_77a7921cb018: "aguardando: faltam materiais ({0})"
+# BuilderSession.java:3434
+message_142226f06376: "ok: colocado {0}"
+# BuilderSession.java:3443
+message_36d090b49780: "rejeitado: so substitui blocos da propria obra"
+# BuilderSession.java:3445
+message_7f4911317d4d: "rejeitado: bloco da obra alterado; confira manualmente"
+# BuilderSession.java:3446
+message_fee9731725a5: "rejeitado: bloco com dados ou inventario"
+# BuilderSession.java:3471
+message_a12804d85636: "ok: substituido por {0}"
+# BuilderSession.java:3480
+message_2c0fd467d67d: "rejeitado: so terra, grama ou pedra natural"
+# BuilderSession.java:3483
+message_c7ee9520a8fe: "rejeitado: bloco de construcao de jogador (CoreProtect)"
+# BuilderSession.java:3485
+message_ea7debd20c69: "rejeitado: nao consegui alcancar o bloco com seguranca. Se o plano exige limpar ou nivelar, use {0} terrain level ou terrain clean, confirme a previa e envie o pedido novamente"
+# BuilderSession.java:3486
+message_a08627d66e40: "aguardando: aproximando-se do terreno a remover"
+# BuilderSession.java:3494
+message_639edbb8d5c2: "ok: quebrado"
+# BuilderSession.java:3499
+message_cb0a7d402c9b: "rejeitado: area protegida (claim/spawn)"
+# BuilderSession.java:3502
+message_1f938c3a2cf9: "rejeitado: bloco alterado depois da construcao"
+# BuilderSession.java:3503
+message_26d90ce32019: "rejeitado: jogador que iniciou o desfazer saiu"
+# BuilderSession.java:3509
+message_474d195d8139: "rejeitado: protegido por outro plugin"
+# BuilderSession.java:3511
+message_7fde0a440715: "rejeitado: bloco alterado por protecao durante o desfazer"
+# BuilderSession.java:3517
+message_fa0d002cd2a3: "ok: removido"
+# BuilderSession.java:3520
+message_92d5401bb423: "rejeitado: acao desconhecida '{0}'"
+# BuilderSession.java:3691
+message_6b0ff960216a: "rejeitado: blocos com agua nao permitidos"
+# BuilderSession.java:3693
+message_f731dafcaffb: "rejeitado: flor sem apoio ou condicoes de sobrevivencia"
+# BuilderSession.java:3695
+message_6bbaa9501a92: "rejeitado: bloco sem apoio ou condicoes de colocacao"
+# BuilderSession.java:3697
+message_fb78b86f6fcb: "rejeitado: bloco com gravidade sem apoio"
+# BuilderSession.java:3702
+message_b009f8938d54: "aguardando: afaste jogadores e criaturas do bloco"
+# BuilderSession.java:3754
+message_6dace7cb6c3a: "rejeitado: jardim em outro mundo"
+# BuilderSession.java:3761
+message_630a4394c7cc: "rejeitado: bacia sem preflight completo"
+# BuilderSession.java:3763
+message_b892683ff44c: "rejeitado: bacia planejada insegura"
+# BuilderSession.java:3768
+message_84fc3a2a3696: "rejeitado: jardim sem apoio planejado"
+# BuilderSession.java:3770
+message_04ecf4399d7a: "aguardando: bacia em chunk descarregado"
+# BuilderSession.java:3773
+message_1b2735e13c0f: "rejeitado: apoio do jardim fora da area ou protegido"
+# BuilderSession.java:3776
+message_3640f6b507da: "rejeitado: bacia ou solo ainda incompleto ou alterado"
+# BuilderSession.java:3778
+message_428c5811567d: "rejeitado: apoio do jardim alterado"
+# BuilderSession.java:3793
+message_d1937c0f0171: "material desconhecido: {0}"
+# BuilderSession.java:3794
+message_2c27a5e34c25: "material nao permitido: {0} (use um bloco disponivel no servidor Paper 26.3+ e respeite os materiais protegidos)"
+# BuilderSession.java:3797
+message_c49105844d23: "BlockData nao corresponde ao material: {0}"
+# BuilderSession.java:3798
+message_acf725426e83: "BlockData invalido: {0}"
+# BuilderSession.java:3826
+message_23e98da8a695: "[AIBuilder] nao consegui gravar a previa dos pre-moldados: {0}"
+# BuilderSession.java:3948
+message_88ec346c8782: "CoreProtect lookup falhou: {0}"
+# UserPrebuilts.java:62
+message_2c40fca7554c: "nao consegui ler a pasta {0}: {1}"
+# UserPrebuilts.java:67
+message_6a9c3dae743b: "limite de {0} pre-moldados do usuario atingido; arquivos excedentes foram ignorados"
+# UserPrebuilts.java:72
+message_c8db50873629: "arquivo maior que construction.max-file-bytes"
+# UserPrebuilts.java:96
+message_e743f2175dec: "JSON invalido ({0})"
+# UserPrebuilts.java:97
+message_fae0e66f191d: "a raiz precisa ser um objeto JSON"
+# UserPrebuilts.java:101
+message_3f0a1f3a36e3: "campo '{0}' nao e aceito: a posicao no mundo e escolhida pelo jogador com a area marcada"
+# UserPrebuilts.java:102
+message_8c7167f52a65: "campo desconhecido '{0}'"
+# UserPrebuilts.java:105
+message_26049300bd9c: "id '{0}' invalido: use 3 a 40 letras minusculas, numeros ou _ (comecando por letra)"
+# UserPrebuilts.java:106
+message_83e29ff6679c: "id '{0}' ja existe (builtin ou outro arquivo)"
+# UserPrebuilts.java:111
+message_097cccbfb856: "category '{0}' invalida: use letras minusculas e _"
+# UserPrebuilts.java:112
+message_598ff29cc6e6: "'parts' precisa ser uma lista de partes"
+# UserPrebuilts.java:118
+message_ab45143aa289: "entrance precisa ser north, south, east ou west"
+# UserPrebuilts.java:133
+message_779d3bc5a1c8: "footprint maior que {0} x {1}"
+# UserPrebuilts.java:134
+message_7c1d32ce3b2a: "altura maior que {0} blocos"
+# UserPrebuilts.java:135
+message_90f0acc7fb97: "volume maior que construction.max-volume"
+# UserPrebuilts.java:136
+message_2dec4934a162: "a parte mais baixa pode ir ate 1 bloco abaixo do chao (beirais); nada mais baixo"
+# UserPrebuilts.java:153
+message_fc333ab16c6a: "campo obrigatorio '{0}' ausente"
+# UserPrebuilts.java:157
+message_db549fd94df3: "'{0}' precisa ser texto"
+# UserPrebuilts.java:159
+message_95afd853cbfe: "'{0}' precisa ter de 1 a {1} caracteres"
+# BlueprintOrientation.java:26
+message_05c36ea5dee0: "orientacao cardinal invalida"
+# BlueprintOrientation.java:34
+message_0959744d0467: "entrada original invalida"
+# BlueprintOrientation.java:64
+message_d4807037ead4: "rotacao deve ser 0..3"
+# BuilderUi.java:29
+message_adb8b860e8f0: "{0} - Plano pronto"
+# BuilderUi.java:31
+message_bdd254b65baa: "Construir"
+# BuilderUi.java:37
+message_e7aeb07c638e: "Confirmar este plano"
+# BuilderUi.java:39
+message_19766ed6ccb2: "Cancelar"
+# BuilderUi.java:41
+message_84d925b6d967: "Descartar o plano"
+# BuilderUi.java:43
+message_725ff5c9d888: "Confira a área antes de confirmar. O plano expira em 2 minutos."
+# BuilderUi.java:52
+message_5b2931ba00a4: "Confira a área. Expira em 2 minutos. Esc fecha; os botões continuam disponíveis no chat."
+# BuilderUi.java:66
+message_85a39ab345d6: "Sim"
+# BuilderUi.java:68
+message_251efea6eba0: "Confirmar este preparo do terreno"
+# BuilderUi.java:70
+message_1ea442a134b2: "Não"
+# BuilderUi.java:72
+message_bee795c59127: "Cancelar sem alterar o terreno"
+# BuilderUi.java:77
+message_53a31de04850: "[Sim]"
+# BuilderUi.java:79
+message_6163bae69811: "[Não]"
+# BuilderUi.java:83
+message_3ba917fcfbf8: "Movimento: "
+# BuilderUi.java:84
+message_742f9c092511: "[Ficar]"
+# BuilderUi.java:86
+message_c072909b1243: "Parar de seguir; continuar a obra confirmada"
+# BuilderUi.java:88
+message_c3334737ee9e: "[Seguir]"
+# BuilderUi.java:90
+message_314f98e36dff: "Seguir o criador a pé quando estiver livre"
+# AIBuilderPlugin.java:73
+message_2d722a47b7e0: "nao consegui preparar a pasta de pre-moldados: {0}"
+# AIBuilderPlugin.java:101
+message_1e983de9c6ae: "Pre-moldados atualizados: {0} validos de {1} arquivo(s)."
+# AIBuilderPlugin.java:102
+message_7deb53e9e45d: "pre-moldado ignorado: {0}"
+# AIBuilderPlugin.java:119
+message_a9a0a83ac910: "Pre-moldados do usuario: {0} de {1} arquivo(s)."
+# AIBuilderPlugin.java:128
+message_5cd726c85515: "AIBuilder ativo: {0} construtores registrados; limite {1}."
+# AIBuilderPlugin.java:167
+message_af035b7be792: "Configuracao atualizada com opcoes ausentes; valores existentes foram preservados."
+# AIBuilderPlugin.java:170
+message_4a0a2e57e67a: "Nao consegui mesclar os padroes ausentes de config.yml: {0}"
+# AIBuilderPlugin.java:208
+message_95e0c773fd22: "Registro incompleto: confira os erros no console antes de criar NPCs."
+# AIBuilderPlugin.java:209
+message_0f3126a43744: "Limite do servidor: {0} construtores. Use /builder list."
+# AIBuilderPlugin.java:211
+message_97c8464da806: "Limite absoluto de 5 construtores atingido."
+# AIBuilderPlugin.java:218
+message_c4e4e035ffd2: "{0} criado e selecionado. Converse com @{1}."
+# AIBuilderPlugin.java:223
+message_e0b6c53f4555: "Nao foi possivel criar {0}. Confira o console."
+# AIBuilderPlugin.java:224
+message_5f08d7556e6d: "Falha no spawn: {0}"
+# AIBuilderPlugin.java:229
+message_727242359ed6: "Construtores no servidor: {0}/{1}"
+# AIBuilderPlugin.java:231
+message_b422560d73bd: "{0} — {1} /builder {2} status"
+# AIBuilderPlugin.java:235
+message_f6a69cf1f672: "Somente operadores podem recarregar os pre-moldados."
+# AIBuilderPlugin.java:237
+message_0d4af59cbc0b: "Pre-moldados do usuario: {0}/{1} carregados de {2} arquivo(s)."
+# AIBuilderPlugin.java:243
+message_2a48766876b8: "Somente operadores."
+# AIBuilderPlugin.java:257
+message_6c2d5d6287b2: "Configuracao recarregada. Limite: {0}; NPCs existentes preservados."
+# AIBuilderPlugin.java:267
+message_662efa954da1: "Exemplo: /builder alfred zone set1; /builder bruce stop; chat @alfred <pedido>."
+# AIBuilderPlugin.java:274
+message_7bdbbb370711: "Voce ainda nao tem construtores."
+# AIBuilderPlugin.java:281
+message_b673fcf9caec: "Escolha um construtor autorizado em /builder list."
+# AIBuilderPlugin.java:283
+message_46994a2b1221: "{0} selecionado. A pa vinculada continua marcando seu construtor original."
+# AIBuilderPlugin.java:291
+message_65277fb3b137: "Comando ou nome desconhecido. Use /builder list ou help."
+# AIBuilderPlugin.java:295
+message_ab8363ca14fd: "Nenhum construtor selecionado. Use /builder spawn or select <name>."
+# AIBuilderPlugin.java:296
+message_d6b7b5056cdf: "So o criador ou um operador pode controlar {0}."
+# AIBuilderPlugin.java:300
+message_80418c12d897: "{0} esta ocupado ({1}). Espere terminar ou use /builder {2} stop antes de apagar."
+# AIBuilderPlugin.java:304
+message_68d4a030744c: "Falha ao apagar registro; NPC preservado."
+# AIBuilderPlugin.java:309
+message_140662b65ccb: "{0} removido; {1} ferramenta(s) apagada(s). Os demais construtores continuam trabalhando."
+# AIBuilderPlugin.java:340
+message_abe6f800858f: "Edite plugins/AIBuilder/config.yml e execute /builder reload."
+# AIBuilderPlugin.java:341
+message_bdb74b3ae30e: "language: EN ou PT | model: ID do modelo OpenRouter | api-key: chave privada"
+# AIBuilderPlugin.java:343
+message_71487135c2fb: "As opções de movimento, construção, terreno, planejamento, IA, combate, controle parental e interface estão em config.yml."
+# AIBuilderPlugin.java:344
+message_17de2dec352e: "Dica: comece pelo idioma e modelo. Mantenha limites baixos em um servidor movimentado e aumente um valor de cada vez."
+# AIBuilderPlugin.java:345
+message_17d03d6cff0a: "Use /builder menu para abrir as configurações ou /builder settings language EN|PT."
+# AIBuilderPlugin.java:348
+message_0add5700ff33: "Somente operadores podem alterar configurações."
+# AIBuilderPlugin.java:351
+message_97ecf79588e3: "Escolha EN ou PT."
+# AIBuilderPlugin.java:353
+message_5a5586aa9af4: "Idioma salvo: {0}."
+# AIBuilderPlugin.java:356
+message_125621989c4b: "Uso: /builder settings [show] ou /builder settings language EN|PT"
+# AIBuilderPlugin.java:399
+message_f9ae150442a8: "Construtor indisponivel. Use /builder list."
+# AIBuilderPlugin.java:428
+message_e7a96efd8aba: "registro de {0} nao foi apagado; construtor mantido."
+# AIBuilderPlugin.java:433
+message_3dfc79f40dd4: "{0} apagado: o dono saiu e nao havia trabalho pendente."
+# AIBuilderPlugin.java:446
+message_d0e00aa6a376: "identidade inconsistente: {0}"
+# AIBuilderPlugin.java:454
+message_951dc10df018: "Registro de construtores incompleto; spawn bloqueado para preservar dados: {0}"
+# AIBuilderPlugin.java:462
+message_966b9262fbae: "nome/identidade duplicado ou limite absoluto excedido"
+# AIBuilderPlugin.java:465
+message_9aa06f054e2a: "entidade registrada para mais de um construtor"
+# AIBuilderPlugin.java:467
+message_000ea5c89b43: "posicao invalida"
+# AIBuilderPlugin.java:476
+message_e920d6ac7bef: "zona invalida"
+# AIBuilderPlugin.java:513
+message_02f689372856: "falha ao salvar migracao"
+# BlueprintCompiler.java:49
+message_31cf0ce10720: "planta invalida: limite de blocos invalido"
+# BlueprintCompiler.java:65
+message_77dd5ce9f3ee: "limite de blocos invalido"
+# BlueprintCompiler.java:66
+message_267b29833afc: "parts precisa ser uma lista"
+# BlueprintCompiler.java:68
+message_5b981c1dd612: "parts deve conter entre 1 e {0} partes"
+# BlueprintCompiler.java:73
+message_c02c67e505c5: "parte precisa ser objeto"
+# BlueprintCompiler.java:75
+message_ab633f70ab09: "orcamento de processamento excedido"
+# BlueprintCompiler.java:85
+message_a09658736d94: "tipo desconhecido"
+# BlueprintCompiler.java:103
+message_d81eea988264: "a planta nao gerou nenhum bloco"
+# BlueprintCompiler.java:106
+message_28540779fb6c: "planta invalida: {0}"
+# BlueprintCompiler.java:141
+message_20503f8a3f36: "from deve ser menor ou igual a to"
+# BlueprintCompiler.java:144
+message_dce2f469c090: "material invalido"
+# BlueprintCompiler.java:147
+message_ed202637808e: "BlockData invalido"
+# BlueprintCompiler.java:149
+message_ddda3586a523: "BlockData nao corresponde ao material"
+# BlueprintCompiler.java:159
+message_42e92834baf5: "height fora do limite"
+# BlueprintCompiler.java:160
+message_0d19f50a65d5: "paredes precisam de from/to na mesma altura"
+# BlueprintCompiler.java:161
+message_07613531b53a: "parede nao e reta"
+# BlueprintCompiler.java:166
+message_4730ae4c92f9: "layers fora do limite"
+# BlueprintCompiler.java:167
+message_fad14e50c139: "telhado precisa de from/to na mesma altura"
+# BlueprintCompiler.java:170
+message_2e0d81afd063: "tipo desconhecido: {0}"
+# BlueprintCompiler.java:175
+message_a2a4df8b90a8: "origem causa overflow"
+# BlueprintCompiler.java:179
+message_09d6f67d36c5: "openings precisa ser lista"
+# BlueprintCompiler.java:181
+message_707400733131: "muitas aberturas"
+# BlueprintCompiler.java:183
+message_890f2333a8a8: "abertura precisa ser objeto"
+# BlueprintCompiler.java:187
+message_09c94e4960ba: "dimensoes da abertura invalidas"
+# BlueprintCompiler.java:191
+message_e86ae787a1b9: "lado da abertura invalido"
+# BlueprintCompiler.java:194
+message_be575f026250: "abertura fora da parede"
+# BlueprintCompiler.java:195
+message_1398028bd272: "aberturas somente em paredes"
+# BlueprintCompiler.java:203
+message_cca5850597ac: "numero inteiro esperado"
+# BlueprintCompiler.java:207
+message_0cdd9e2c03ff: "numero inteiro fora do limite"
+# BlueprintCompiler.java:311
+message_a53f39d0fb79: "'{0}' precisa de 3 numeros"
+# TerrainGrid.java:21
+message_83eb20fa3f7f: "volume pesquisado excede o limite tecnico"
+# TerrainGrid.java:23
+message_38d9e321d79a: "regiao invalida ou acima do limite tecnico de {0} posicoes"
+# TerrainGrid.java:57
+message_d046cc770da0: "planejamento do terreno cancelado"
+# TerrainGrid.java:62
+message_8283def188e0: "levantamento incompleto"
+# TerrainGrid.java:76
+message_884471a1b796: "base selecionada fora do levantamento"
+# TerrainGrid.java:99
+message_7146069ab44c: "coluna sem chao na selecao; inclua o terreno na selecao antes de nivelar"
+# TerrainGrid.java:101
+message_9e680644d23b: "chao atinge o limite superior observado; marque uma regiao mais alta"
+# TerrainGrid.java:103
+message_6c0c2f8a4a84: "obstaculo acima do chao; remova-o antes de nivelar"
+# TerrainGrid.java:105
+message_b24a3ee8628c: "nivelamento normal recusado: liquido ou construcao na superficie; use Deep (OP) para remover construcoes"
+# TerrainGrid.java:109
+message_9a48c12576d8: "empate entre alturas; selecione uma area com altura predominante"
+# TerrainGrid.java:149
+message_46b171151f12: "nivelamento recusado: bloco artificial ou liquido na escavacao"
+# TerrainGrid.java:154
+message_b2fed875372d: "preenchimento ocupado"
+# TerrainGrid.java:160
+message_ba58d65aa606: "preparacao excede o limite de {0} alteracoes"
+# TerrainGrid.java:191
+message_62f907e7ba2c: " colunas; intervalo observado y="
+# TerrainGrid.java:193
+message_e44dcb1c6734: "Colunas sem superficie observada: "
+# TerrainGrid.java:194
+message_125ee1ac353e: "Superficies entre y="
+# TerrainGrid.java:194
+message_806078f5b4c5: " e y="
+# TerrainGrid.java:195
+message_4d689559248c: "Alturas observadas (y:colunas): "
+# TerrainGrid.java:198
+message_1c724d6fc1be: "Terreno abaixo/acima desse intervalo nao foi inspecionado. A area permitida continua sendo a AREA DE CONSTRUCAO.\n"
+# TerrainGrid.java:199
+message_e8c8a3588eb7: "Materiais observados (contagem de blocos): "
+# TerrainGrid.java:202
+message_001c1f6b5f3a: "\nGrade resumida de superficies (amostras distribuidas por toda a area, incluindo bordas; nao representa cada bloco). X:"
+# ConstructionLimits.java:8
+message_a0939dab832d: "limites de construcao precisam ser positivos"
+# CatalogGardenPolicy.java:52
+message_44250b4e0abd: "rejeitado: alteracao removeria vedacao da bacia"
+# CatalogGardenPolicy.java:57
+message_1527b62e6298: "rejeitado: alteracao removeria solo da flor"
+# CatalogGardenPolicy.java:64
+message_c5c29e1f129b: "jardim: waterlogged nao permitido"
+# CatalogGardenPolicy.java:65
+message_3b93823b2999: "jardim: LIGHT exige level=15,waterlogged=false"
+# CatalogGardenPolicy.java:67
+message_7c997d49e9ce: "jardim: apenas WATER[level=0]"
+# CatalogGardenPolicy.java:68
+message_1434b10a4560: "jardim: agua sem fundo inteiro vedado em {0}"
+# CatalogGardenPolicy.java:71
+message_96ade0ffed0e: "jardim: agua sem parede inteira vedada em {0}"
+# CatalogGardenPolicy.java:75
+message_abfc4405839c: "jardim: flor sem solo em {0}"
+# CatalogGardenPolicy.java:77
+message_5f9005d70e07: "jardim: estado de flor nao permitido"
+# CatalogGardenPolicy.java:83
+message_650a94142f1f: "jardim: bacia excede {0} apoios; subdivida fisicamente"
+# CatalogGardenPolicy.java:95
+message_9397e56c5740: "agua fora do plano"
+# CatalogGardenPolicy.java:96
+message_9f01ae81a400: "fundo inseguro"
+# CatalogGardenPolicy.java:102
+message_ddb7876a8d2a: "parede insegura"
+# CatalogGardenPolicy.java:111
+message_989fa9cec6d3: "bacia grande demais"
+# RequestGuard.java:10
+message_7f9cfc205368: "ja existe um pedido em andamento"
+# BuilderMenu.java:54
+message_090940e73258: "Construtor"
+# BuilderMenu.java:67
+message_99af6606ff9d: "Menu"
+# BuilderMenu.java:68
+message_01323a8de0f3: "Meus construtores"
+# BuilderMenu.java:70
+message_1e72120bb0e5: "Apagar {0}?"
+# BuilderMenu.java:71
+message_29ffffbf168e: "Pre-moldados · {0}"
+# BuilderMenu.java:72
+message_80b71d419da7: "Configuracoes"
+# BuilderMenu.java:73
+message_041c147b4415: "Obras inacabadas"
+# BuilderMenu.java:74
+message_1b9d1141d5f3: "Apagar obras inacabadas?"
+# BuilderMenu.java:75
+message_10fa61830d9b: "Preparar terreno"
+# presentation
+message_e89ad063cffd: "Limpeza profunda"
+# BuilderMenu.java:103
+message_1d9a862b2666: "Construtores: {0}/{1}"
+# BuilderMenu.java:104
+message_51d4ae646089: "Clique nos botoes; as respostas aparecem no chat."
+# BuilderMenu.java:105
+message_e8e2b5db3034: "Criar construtor"
+# BuilderMenu.java:106
+message_501ba7027540: "Cria um construtor no seu local"
+# BuilderMenu.java:106
+message_2f040aacc21e: "e entrega a Ferramenta (pa de diamante)."
+# BuilderMenu.java:109
+message_dcd7e75bcf64: "Lista seus construtores e o status de cada um."
+# BuilderMenu.java:111
+message_e12adfde0d2d: "Pre-moldados"
+# BuilderMenu.java:112
+message_2de06f249866: "Casas, arvores e predios, sem IA."
+# BuilderMenu.java:112
+message_a82ebb2f4199: "Crie ou selecione um construtor primeiro."
+# BuilderMenu.java:113
+message_208f75e79a8e: "Construtor: {0}"
+# BuilderMenu.java:115
+message_8fd2a39f0d80: "Opcoes globais do plugin."
+# BuilderMenu.java:116
+message_c188272ba40c: "Ferramenta"
+# BuilderMenu.java:117
+message_df075f62f3e8: "Recebe a pa do construtor selecionado."
+# BuilderMenu.java:118
+message_fe0addd70781: "Ajuda"
+# BuilderMenu.java:118
+message_4e196fa0a578: "Lista todos os comandos no chat."
+# BuilderMenu.java:119
+message_b59935538173: "Listar no chat"
+# BuilderMenu.java:119
+message_aee7de92e96b: "Mostra os construtores no chat."
+# BuilderMenu.java:120
+message_10207c6ffd7f: "Chamar todos para perto"
+# BuilderMenu.java:121
+message_ac33033b5e92: "Teletransporta seus construtores para chao seguro."
+# BuilderMenu.java:121
+message_03a72cb854a5: "Ficam em pausa ate voce usar Seguir-me."
+# BuilderMenu.java:121
+message_1f3fd4dc381d: "chamar todos"
+# BuilderMenu.java:123
+message_4d80b4cb2708: "Retome ou apague obras pausadas."
+# BuilderMenu.java:124
+message_0f2bd88ef0ac: "Fechar"
+# BuilderMenu.java:133
+message_d8234e0b1889: "Nao consegui ler as obras"
+# BuilderMenu.java:133
+message_e6404974d0c8: "Confira o console."
+# BuilderMenu.java:134
+message_59dc926760d0: "Voltar"
+# BuilderMenu.java:137
+message_fcc959e504cb: "Nenhuma obra inacabada"
+# BuilderMenu.java:145
+message_7a9771653094: "Clique para continuar com o construtor selecionado."
+# BuilderMenu.java:146
+message_215298812b99: "obra continuar {0}"
+# BuilderMenu.java:148
+message_bd18cdfadf11: "Apagar obras inacabadas"
+# BuilderMenu.java:149
+message_70c0fd02bab8: "Remove apenas registros salvos deste jogador."
+# BuilderMenu.java:149
+message_dfa1e13b6635: "Nao altera uma obra que ainda esta aberta."
+# BuilderMenu.java:154
+message_029a9cc80ded: "Apagar todas as obras salvas"
+# BuilderMenu.java:155
+message_4d282f6c385c: "Remove os registros incompletos do seu jogador."
+# BuilderMenu.java:155
+message_850acd591f64: "Obras concluidas e de outros jogadores ficam intactas."
+# BuilderMenu.java:158
+message_c704be6af1c7: "[AIBuilder] Foram apagados {0} registro(s) de obras inacabadas."
+# BuilderMenu.java:160
+message_6a0b0f6099a3: "[AIBuilder] Nao consegui apagar as obras: {0}"
+# BuilderMenu.java:164
+message_bb9dbb406dcb: "Cancelar"
+# BuilderMenu.java:174
+message_f542ab53856f: "Clique para controlar."
+# BuilderMenu.java:178
+message_0746c55c734f: "Nenhum construtor seu"
+# BuilderMenu.java:179
+message_868e589ab4f1: "Use Criar construtor no menu principal."
+# BuilderMenu.java:186
+message_95abd629b531: "Construtor indisponivel"
+# BuilderMenu.java:186
+message_aad3f626dcd7: "Ele pode ter sido apagado."
+# BuilderMenu.java:192
+message_a287257d42a9: "Status detalhado"
+# BuilderMenu.java:192
+message_52bdef9b8053: "Mostra fila, plano e obra no chat."
+# BuilderMenu.java:193
+message_2f97da2ed540: "Seguir-me"
+# BuilderMenu.java:194
+message_f4dbc2134aaa: "Atual: seguindo"
+# BuilderMenu.java:194
+message_e7c51791f8c1: "Clique para voltar a seguir."
+# BuilderMenu.java:195
+message_0abdc157492a: "Ficar aqui"
+# BuilderMenu.java:196
+message_cb176d726a73: "Clique para ficar parado."
+# BuilderMenu.java:196
+message_48cef1ee8785: "Atual: parado"
+# BuilderMenu.java:197
+message_7b048ede6e65: "Parar tudo"
+# BuilderMenu.java:197
+message_9e78bce72a42: "Cancela fila, plano e obra; ele volta para voce."
+# BuilderMenu.java:199
+message_bea688a1e75d: "Confirmar plano"
+# BuilderMenu.java:199
+message_47ddc1d59cad: "Executa o plano que esta aguardando."
+# BuilderMenu.java:200
+message_65f4c93832f7: "Cancelar plano"
+# BuilderMenu.java:200
+message_2c333e5fa7b3: "Descarta o plano pendente."
+# BuilderMenu.java:202
+message_0a58ffc0483e: "Sem plano pendente"
+# BuilderMenu.java:202
+message_e82b7855c1fb: "Peca algo ao construtor no chat."
+# BuilderMenu.java:204
+message_8e199c286616: "Pa para marcar a area de construcao."
+# BuilderMenu.java:205
+message_84e7ea6e8658: "Mostrar zona"
+# BuilderMenu.java:205
+message_4d2c99500c41: "Destaca a area marcada."
+# BuilderMenu.java:205
+message_c7e57d52bc3a: "{0} zone show"
+# BuilderMenu.java:206
+message_afdd2d100f61: "Limpar zona"
+# BuilderMenu.java:206
+message_b9d1a33b81e6: "Remove a area marcada."
+# BuilderMenu.java:206
+message_52ec2e810507: "{0} zone clear"
+# BuilderMenu.java:207
+message_ac5e84e2ce40: "Limpar ou nivelar com previa e confirmacao."
+# BuilderMenu.java:208
+message_a8e0e72e3a60: "Desfazer obra"
+# BuilderMenu.java:208
+message_43c02d6b9218: "Apaga os blocos registrados nesta obra."
+# BuilderMenu.java:208
+message_ce92181948df: "Continua sujeito as protecoes e ao limite de construcao."
+# BuilderMenu.java:208
+message_1fc34e6c898f: "{0} build undo"
+# BuilderMenu.java:209
+message_e3a7704a3a0e: "Ver obra"
+# BuilderMenu.java:209
+message_47258786cd05: "Conta blocos conferidos e faltantes."
+# BuilderMenu.java:210
+message_a2f488b50681: "Continuar obra"
+# BuilderMenu.java:210
+message_5bd6d4929f9e: "Refaz o que falta da obra."
+# BuilderMenu.java:210
+message_44077ccd13ce: "{0} build continue"
+# BuilderMenu.java:211
+message_bff80357081f: "Encerrar obra"
+# BuilderMenu.java:211
+message_de71c45d7b75: "Fecha a obra aberta."
+# BuilderMenu.java:211
+message_2ebcd7982e4b: "{0} build finish"
+# BuilderMenu.java:213
+message_4b5681881417: "Missao"
+# BuilderMenu.java:213
+message_05acf178a930: "Progresso da missao."
+# BuilderMenu.java:214
+message_05009c102f26: "Projetos"
+# BuilderMenu.java:214
+message_b28a9f98563d: "Lista os projetos salvos."
+# BuilderMenu.java:214
+message_49ae10e33f53: "{0} project list"
+# BuilderMenu.java:215
+message_218795fdb594: "Chamar para perto"
+# BuilderMenu.java:215
+message_d34115be81cc: "Resgata de locais presos ou de perseguicoes."
+# BuilderMenu.java:216
+message_49ba7baea85b: "Pausa sem apagar a obra; Seguir-me libera."
+# BuilderMenu.java:216
+message_423ddacaa7a1: "{0} chamar"
+# BuilderMenu.java:217
+message_c436700df693: "Distancia maxima: {0} blocos"
+# BuilderMenu.java:218
+message_674f8c14eaa1: "Clique para alternar: 4, 8, 16, 32, 64."
+# BuilderMenu.java:218
+message_1d141f1faf14: "Limite em relacao ao dono, inclusive em combate."
+# BuilderMenu.java:219
+message_7abd7d6be328: "Personalizar: /builder {0} distance <blocos>"
+# BuilderMenu.java:221
+message_98e6e4961015: "construtor {0} distancia {1}"
+# BuilderMenu.java:224
+message_c0904c2003ab: "Apagar construtor"
+# BuilderMenu.java:224
+message_48726a9850f9: "Pede confirmacao. Bloqueado se estiver ocupado."
+# BuilderMenu.java:231
+message_4ce3eefc1a70: "Apagar {0}"
+# BuilderMenu.java:232
+message_1ed3e458e8c1: "Remove o construtor e a pa dele dos inventarios."
+# BuilderMenu.java:232
+message_62e6a4de4df7: "Obras salvas em disco nao sao apagadas."
+# BuilderMenu.java:255
+message_31d138e771e2: "Categoria: {0} · {1} blocos"
+# BuilderMenu.java:257
+message_c3a954b306c0: "Materiais: {0} e mais"
+# BuilderMenu.java:257
+message_617cc3b7c2b4: "Materiais: {0}"
+# BuilderMenu.java:259
+message_4cb31f37ab54: "Entrada escolhida: {0}"
+# BuilderMenu.java:260
+message_4baa636f4581: "Sem consumo de materiais (modo criativo)."
+# BuilderMenu.java:261
+message_f35ebb08baae: "Montagem na selecao, inclusive em altura."
+# BuilderMenu.java:262
+message_eb9ca31161ec: "Clique para planejar; depois confirme com /builder yes."
+# BuilderMenu.java:269
+message_bf2efad5aeee: "Entrada: {0}"
+# BuilderMenu.java:270
+message_7e69a772d01b: "Escolhe a entrada das proximas plantas."
+# BuilderMenu.java:270
+message_35b5321deeda: "Sol: nasce a leste, poe-se a oeste."
+# BuilderMenu.java:270
+message_5a01aa8157cb: "Depois clique no modelo desejado."
+# BuilderMenu.java:271
+message_39142354d8fb: "construtor {0} orientation {1}"
+# BuilderMenu.java:275
+message_f85a0e335366: "Entrada original do modelo"
+# BuilderMenu.java:275
+message_035a8897c081: "Desativa a preferencia cardinal."
+# BuilderMenu.java:276
+message_c097619480bf: "construtor {0} orientation original"
+# BuilderMenu.java:279
+message_6829eba10490: "Pagina anterior"
+# BuilderMenu.java:281
+message_e6e6311ccd09: "Pagina {0}/{1}"
+# BuilderMenu.java:282
+message_e4b0ee64ea33: "{0} pre-moldado(s) disponiveis."
+# BuilderMenu.java:283
+message_c4cb60637026: "Mostrando ate {0} por pagina."
+# BuilderMenu.java:284
+message_84c6e3cecde4: "Proxima pagina"
+# BuilderMenu.java:292
+message_f4761de29343: "Clique para alternar."
+# BuilderMenu.java:292
+message_c23b52f07e06: "Somente operadores podem alterar."
+# BuilderMenu.java:293
+message_056e573751cd: "Configuracoes (1/5)"
+# BuilderMenu.java:293
+message_9bd6caded26e: "Funcoes e preferencias globais."
+# BuilderMenu.java:294
+message_3a3dd3105ee8: "Modo criativo (materiais livres)"
+# BuilderMenu.java:294
+message_1c133ec09234: "Atual: {0}"
+# BuilderMenu.java:295
+message_4fa486485055: "Usar inventario do criador"
+# BuilderMenu.java:296
+message_69c5e3f1c552: "Anunciar acoes"
+# BuilderMenu.java:297
+message_35a5e15d1459: "Seguir o criador por padrao"
+# BuilderMenu.java:298
+message_9156bec09a3c: "Permite /builder build undo antes de encerrar."
+# BuilderMenu.java:299
+message_021395e5da4b: "So OP; blocos protegidos sao preservados."
+# BuilderMenu.java:300
+message_e7ed2d0a3143: "Protecao de acoes"
+# BuilderMenu.java:300
+message_2376a1e33306: "CoreProtect sem historico: {0}"
+# BuilderMenu.java:301
+message_a076cf8b30d5: "Combate"
+# BuilderMenu.java:302
+message_f47099f29801: "Dialogos nativos"
+# BuilderMenu.java:303
+message_4b579d520cd9: "Materiais livres nos pre-moldados"
+# BuilderMenu.java:303
+message_233e47b754df: "Desligado: usa a politica normal de inventario."
+# BuilderMenu.java:303
+message_6474b987f8a8: "Modo criativo continua com materiais livres."
+# BuilderMenu.java:304
+message_6aa5b2e149f7: "Limites de construcao"
+# BuilderMenu.java:304
+message_2bf78ef2e7cb: "Dimensoes, volume, acoes e pre-moldados."
+# BuilderMenu.java:305
+message_9612aadc89cf: "Movimento e terreno"
+# BuilderMenu.java:305
+message_ed1a4f6cad09: "Alcances, velocidade e preparacao."
+# BuilderMenu.java:306
+message_098ebebc5cad: "IA e tempos"
+# BuilderMenu.java:306
+message_902613c964d3: "Timeouts, historico e controles."
+# BuilderMenu.java:313
+message_6eced9a3f3d9: "Construtores"
+# BuilderMenu.java:313
+message_3b46a5f51330: "Blocos por planta"
+# BuilderMenu.java:314
+message_ab463adcdef1: "Largura maxima"
+# BuilderMenu.java:314
+message_5dcb8c3f7173: "Profundidade maxima"
+# BuilderMenu.java:315
+message_d36a6b56940e: "Altura maxima"
+# BuilderMenu.java:315
+message_178aee913012: "Volume maximo"
+# BuilderMenu.java:316
+message_ea9a31f42ef7: "Partes por planta"
+# BuilderMenu.java:316
+message_59f5911bc7f8: "Acoes de IA"
+# BuilderMenu.java:317
+message_36f8a65cd927: "Aberturas por planta"
+# BuilderMenu.java:317
+message_c363e9f264e1: "Visitas do compilador"
+# BuilderMenu.java:318
+message_c0294ef5e7f1: "Tamanho maximo do plano"
+# BuilderMenu.java:318
+message_29122c92fb00: "Blocos da previa"
+# BuilderMenu.java:320
+message_a259f87a5b95: "Blocos por minuto"
+# BuilderMenu.java:320
+message_797f16b61f45: "Altura da zona"
+# BuilderMenu.java:321
+message_486aba0bf6bf: "Alcance de acao"
+# BuilderMenu.java:321
+message_6f229f768344: "Distancia maxima do alvo"
+# BuilderMenu.java:322
+message_90c00955009d: "Velocidade a pe"
+# BuilderMenu.java:322
+message_d7ca5fc04ffe: "Distancia ao seguir"
+# BuilderMenu.java:323
+message_1ebb133e1527: "Raio de viagem"
+# BuilderMenu.java:323
+message_ef8abc4d8ac8: "Profundidade deep-level"
+# BuilderMenu.java:324
+message_0bedb1a0d566: "Volume maximo terreno"
+# BuilderMenu.java:324
+message_52b4da0d6d30: "Leitura por tick"
+# BuilderMenu.java:325
+message_61ba6bed3374: "Alteracoes por lote"
+# BuilderMenu.java:325
+message_ef639902a9f4: "Alteracoes maximas"
+# BuilderMenu.java:326
+message_02fedb04813c: "Timeout conexao IA"
+# BuilderMenu.java:326
+message_8a62f6f81694: "Timeout pedido IA"
+# BuilderMenu.java:327
+message_5e35367e8d8a: "Tokens de resposta"
+# BuilderMenu.java:327
+message_d8b947d2eb78: "Expiracao de confirmacao"
+# BuilderMenu.java:328
+message_c414cfc1d2cb: "Expiracao de selecao"
+# BuilderMenu.java:328
+message_e2ba98056977: "Mensagens de historico"
+# BuilderMenu.java:329
+message_c5fb9e90ca63: "Raio protegido do spawn"
+# BuilderMenu.java:329
+message_1dd4e96de47a: "Limite diario parental"
+# BuilderMenu.java:330
+message_44be57d3ffee: "Alcance de combate"
+# BuilderMenu.java:330
+message_d7c0e5ebf1a2: "Alcance do golpe"
+# BuilderMenu.java:331
+message_9eb980cd9715: "Intervalo de ataque"
+# BuilderMenu.java:331
+message_d9c8dc52f52e: "Dano de combate"
+# BuilderMenu.java:333
+message_e9e25acc38c0: "Configuracoes ({0}/5)"
+# BuilderMenu.java:333
+message_ec2c87c0d7e7: "Ajuste com vermelho (−) e verde (+). Somente OP."
+# BuilderMenu.java:333
+message_bbc73bccc83c: "Valores sao limitados a faixa segura do plugin."
+# BuilderMenu.java:338
+message_c4e82339e7e9: "Clique para diminuir em {0}."
+# BuilderMenu.java:339
+message_fc459b0bea6d: "Valor: {0}"
+# BuilderMenu.java:339
+message_43e7149c18ed: "Faixa: {0} a {1}"
+# BuilderMenu.java:340
+message_3bcd14f01389: "Clique para aumentar em {0}."
+# BuilderMenu.java:361
+message_5b6d26e30a1b: "Analisar terreno"
+# BuilderMenu.java:361
+message_c79caa39c6eb: "Le o relevo sem alterar blocos."
+# BuilderMenu.java:361
+message_d9f3cef4efb4: "{0} terrain inspect"
+# BuilderMenu.java:362
+message_33a44693872b: "Normal: limpar terreno"
+# BuilderMenu.java:362
+message_e291534e50bc: "Remove vegetacao; respeita protecoes e construcoes."
+# BuilderMenu.java:363
+message_fc561eaef584: "Normal: nivelar terreno"
+# BuilderMenu.java:363
+message_e21b724e0cbf: "Nivelamento seguro com previa e confirmacao."
+# BuilderMenu.java:364
+message_483f96fb6854: "Limpa ou nivela sem restricao de material."
+# BuilderMenu.java:364
+message_3417608e1dd3: "Requer funcao ativa e operador."
+# BuilderMenu.java:371
+message_95c4fa7a593b: "Configuracao: ativa"
+# BuilderMenu.java:371
+message_6629873450ab: "Configuracao: desligada"
+# BuilderMenu.java:371
+message_9ce029fe0232: "Somente OP. Nao consome/devolve itens."
+# BuilderMenu.java:371
+message_1603bd807658: "Remove construcoes, liquidos e inventarios."
+# BuilderMenu.java:371
+message_ef1e307a9b07: "Exibe materiais antes; protecoes externas podem barrar blocos."
+# BuilderMenu.java:371
+message_80ea20ec584b: "Todos os jogadores devem sair da selecao."
+# BuilderMenu.java:371
+message_2b5bf646d393: "Animais e monstros sao ignorados."
+# BuilderMenu.java:372
+message_1fd85953ee5b: "Deep clean: limpar"
+# BuilderMenu.java:372
+message_a9fe23bb6522: "{0} terrain deep clean"
+# BuilderMenu.java:373
+message_0494b72a25ed: "Deep clean: nivelar"
+# BuilderMenu.java:373
+message_31cd920815d1: "{0} terrain deep level"
+# BuilderMenu.java:374
+message_20747ecc4869: "Apenas operadores"
+# BuilderMenu.java:374
+message_7298408761cd: "Deep clean requer OP."
+# BuilderMenu.java:375
+message_647565e4dde4: "Ative nas Configuracoes"
+# BuilderMenu.java:375
+message_254b2d4c49de: "Configuracoes > Deep clean."
+# BuilderMenu.java:380
+message_7a3e2d927c61: "ligado"
+# BuilderMenu.java:380
+message_05a9873f6104: "desligado"
+# TerrainWork.java:44
+message_6e055a2238c0: "a previa expirou; prepare o terreno novamente"
+# TerrainWork.java:60
+message_53ebb5b9e80f: "falha ao gerar plano do terreno"
+# TerrainWork.java:81
+message_66e66f70a337: "bloco que seria alterado mudou depois da previa; prepare novamente"
+# TerrainWork.java:88
+message_c4992f7a7d8c: "bloco mudou durante a preparacao"
+# TerrainWork.java:97
+message_5fa1696dd171: "falha ao preparar terreno"
+# BuilderAppearance.java:15
+message_55c5d250314d: "skin.texture precisa de um hash Mojang de 64 caracteres"
+# PrebuiltCatalog.java:113
+message_c1175e3fe120: "Casa de campo"
+# PrebuiltCatalog.java:113
+message_57a6cbc02b46: "13 x 13 x 12. Porta de pinheiro, janelas de vidro, telhado de duas águas, chaminé e interior acessível."
+# PrebuiltCatalog.java:131
+message_f827a3ee109a: "Casa moderna"
+# PrebuiltCatalog.java:131
+message_082ad392c5ed: "12 x 11 x 13. Dois andares ligados por escada de quartzo com dois blocos de largura, corrimãos e janelas grandes."
+# PrebuiltCatalog.java:145
+message_b3c5f9b0b0f3: "Casa cúbica moderna"
+# PrebuiltCatalog.java:145
+message_33af6f5f81e0: "10 x 11 x 6. Interior 6 x 6, três blocos de altura livre, porta dupla, cama funcional, bancada e sala iluminada."
+# PrebuiltCatalog.java:153
+message_65e202f4cbae: "Casa de fazenda"
+# PrebuiltCatalog.java:153
+message_4d33901e4a1b: "11 x 9 x 6. Casa térrea de pinheiro com deque, porta utilizável e janelas com molduras."
+# PrebuiltCatalog.java:166
+message_65f02025eac1: "Carvalho gigante"
+# PrebuiltCatalog.java:166
+message_6a34a0935331: "Área reservada: 15 x 19 x 15. Tronco espesso, raízes, galhos e copa arredondada com folhas persistentes."
+# PrebuiltCatalog.java:170
+message_69fbbf8610d3: "Prédio moderno de 3 andares"
+# PrebuiltCatalog.java:170
+message_3d093cf06632: "13 x 12 x 16. Concreto, quartzo e vidro; térreo e dois pisos superiores, escadas largas, patamares, corrimãos e iluminação."
+# PrebuiltCatalog.java:180
+message_301b7dd8ba80: "Casa na árvore"
+# PrebuiltCatalog.java:180
+message_2619e3862160: "Área reservada: 17 x 19 x 17. Inclui árvore, cabana elevada, varanda com guarda-corpo e escada com dois lances desde o chão."
+# presentation
+message_4025eb7e4ff6: "Casas"
+# presentation
+message_29d807300a96: "Árvores"
+# presentation
+message_a861d05f9897: "Prédios"
+# presentation
+message_0614799fa780: "Casas na árvore"
+# presentation
+message_0a5a9bb73d93: "Móveis"
+# presentation
+message_65454b910c93: "Jardins"
+# presentation
+message_d4257bb175e7: "Pontes"
+# presentation
+message_183e1b1c9f91: "Torres"
+# presentation
+message_dc365e79d41c: "Norte"
+# presentation
+message_2daa8d4a05df: "Sul"
+# presentation
+message_6bdb262b0201: "Leste"
+# presentation
+message_76a796208b71: "Oeste"
+# presentation
+message_641d1ef657bd: "Seguindo"
+# presentation
+message_08fd1de4b04d: "Parado"
+# presentation
+message_fd59aecf8f54: "Construa 20 blocos com seu construtor"
+# presentation
+message_5e182584b806: "Construa 50 blocos com seu construtor"
+# presentation
+message_fb2f965d7d94: "Construa 100 blocos com seu construtor"
+# presentation
+message_d9b58a898135: "LEVANTAMENTO DA ÁREA INTEIRA: "
+# presentation
+message_2f3b7e929c5d: " tipos"
+# presentation
+message_4df301a02f24: "Configurações AIBuilder | idioma: {0}"
+message_c0927ca51c4b: "Comando desconhecido. Use /builder help."
+# Complete presentation template
+message_92d01ecc4c67: "entrada: {0}. Use orientation north|south|east|west|original. O sol nasce a leste e se poe a oeste."
+# Complete presentation template
+message_fea13205221f: "Posicao: {0} ({1})"
+# Complete presentation template
+message_dcd1aaec01e1: "projeto '{0}' salvo com {1} blocos."
+# Complete presentation template
+message_568ec96cc167: "salvo {0} ({1} blocos) por {2}"
+# Complete presentation template
+message_d349b7363578: "entrada: {0}. {1}"
+# Complete presentation template
+message_87091d3c9f9b: "a planta nao cabe na area. Planta: x {0}..{1}, y {2}..{3}, z {4}..{5}; area marcada: x {6}..{7}, y {8}..{9}, z {10}..{11}. Marque uma area maior ou peca uma construcao menor."
+# Complete presentation template
+message_f107ad6d7068: "; entrada {0}"
+# Complete presentation template
+message_a933d03251b0: "{0} ({1}, {2} blocos) - {3} build continue {4}"
+# Complete presentation template
+message_4750c5289ef9: "plano recusado: replace so vale para blocos da propria obra ({0})."
+# Complete presentation template
+message_9a66d49b1afe: "plano pronto: {0}\n{1}\nDigite /builder yes para executar ou /builder no para cancelar (expira em {2} s)."
+# Complete presentation template
+message_21d6e17738e4: "{0} (feito)"
+# Complete presentation template
+message_1b797620dc22: "colocando {0} em {1}"
+# Complete presentation template
+message_d85a331519bf: "colocando bloco em {0}"
+# Complete presentation template
+message_d501fcc130e7: "Blocos no plano: {0}"
+# Complete presentation template
+message_1b1382060c41: "Preparando terreno: {0}; {1}."
+# Complete presentation template
+message_834bbe9f7d79: "total ainda não conhecido"
+# Complete presentation template
+message_153e17ea67fb: " (total ainda não conhecido)"
+# Complete presentation template
+message_643960262002: "{0}; pausado pela chamada; use follow para retomar"
+# Complete presentation template
+message_26a6c2b1af59: "; pausado pela chamada; use follow para retomar"
+# Complete presentation template
+message_1157b1cde2e1: "{0} (modelo pronto)"
+# Complete presentation template
+message_a2ffa7cc345d: "Obra {0} encerrada: {1} blocos{2}. Envie outro pedido para construir na área selecionada. Marque outra área com a pá para mudar de local."
+# Complete presentation template
+message_dbcb6d41e076: "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {10}. Preparo administrativo, sem itens.{11}"
+# Complete presentation template
+message_c08d8d07b263: "{0} Não foi possível salvar a nova posição; confira o disco."
+# Complete presentation template
+message_2522ae66e2a9: "{0} e mais"
+# Complete presentation template
+message_94b3aa3f5dc3: "concluído"
+# Complete presentation template
+message_86ecef2cfcb1: "interrompido"
+# Complete presentation template
+message_987c63f6d5d9: "analisando"
+# Complete presentation template
+message_42a5560004fb: "limpar"
+# Complete presentation template
+message_b5f39a0ac261: "nivelar"
+# Complete presentation template
+message_b6a0005c7e90: "não"
+# Complete presentation template
+message_507a9a8be3d1: "sim"
+# Complete presentation template
+message_2df9c83c6700: "Modelo pronto {0} ({1} blocos)"
+# Complete presentation template
+message_1696aa6b5fa0: "Obra {0} ({1} blocos)"
+# Complete presentation template
+message_6d77be334fa0: "entrada: {0}"
+# Complete presentation template
+message_98ffafefbeea: "preparando"
+# Complete presentation template
+message_068fbcc9e661: "executando {0}"
+# Complete presentation template
+message_c893be7ad088: "ação {0}"
+# Complete presentation template
+message_03d6fd241e0b: "modo: {0}"
+# Complete presentation template
+message_e14a7a580100: "modo: {0} | {1}"
+# Complete presentation template
+message_86eba75487cd: "não selecionada"
+# Complete presentation template
+message_c0e976ba517d: "nenhuma"
+# Complete presentation template
+message_c8f071fcb45f: "livre"
+# builder.busy
+builder.busy: "Ocupado: {0}{1}; {2} ações restantes{3}{4}"
+# builder.position
+builder.position: "{0} em {1} {2} {3} {4} | fila: {5} | plano pendente: {6} | zona: {7}"
+# building.summary
+building.summary: "Obra {0} ({1} blocos)"
+# prebuilt.summary
+prebuilt.summary: "Modelo pronto {0} ({1} blocos)"
+# presentation.done
+presentation.done: " (feito)"
+# terrain.target.selected
+terrain.target.selected: " Piso alvo y={0} (base marcada; sem piso natural utilizável)."
+# terrain.target.natural
+terrain.target.natural: " Piso alvo y={0} ({1}/{2} colunas na altura escolhida)."
+# terrain.preview
+terrain.preview: "PRÉVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos.{10}{11} Preparo administrativo, sem consumir ou devolver itens. Escolha Sim ou Não abaixo em até 2 minutos."
+# terrain.dialog.body
+terrain.dialog.body: "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {9}.{10}\nPreparo administrativo, sem itens.{11}"
+# Deep guidance
+terrain.advice.ground: "Não foi encontrado chão no intervalo de altura selecionado. Inclua o terreno mais baixo e tente nivelar normalmente. Para nivelamento destrutivo com piso baseado na base marcada, use {0} terrain deep level."
+# Deep guidance
+terrain.advice.level: "O nivelamento normal preserva construções e líquidos. Para removê-los e nivelar esta área, use {0} terrain deep level."
+# Deep guidance
+terrain.advice.clean: "A limpeza normal remove vegetação e preserva construções e líquidos. Para remover todos os blocos da área selecionada, use {0} terrain deep clean."
+# Deep guidance
+terrain.advice.warning: "Deep exige OP, nova prévia e confirmação. Pode destruir construções, líquidos e conteúdo de recipientes; as proteções externas continuam valendo. O modo não foi alterado automaticamente."
+# Deep guidance
+terrain.advice.disabled: "Deep está desativado. Um operador precisa ativar terrain.deep-clean.enabled nas configurações primeiro."
+# Deep guidance
+terrain.result.blocked: "Operação de terreno bloqueada: 0 alterações; {0} alterações não foram aplicadas. A área de construção foi preservada."
+# Deep guidance
+terrain.result.partial: "Operação de terreno aplicada parcialmente: {0} alterações; {1} alterações não foram aplicadas. Confira a área e prepare uma nova prévia."
+# Simple terrain workflow
+terrain.easy.step-out: "Saia da área selecionada. Vou continuar automaticamente."
+# Simple terrain workflow
+terrain.easy.level-label: "Nivelar área de {0} × {1}"
+# Simple terrain workflow
+terrain.easy.clear: "Limpar área de {0} × {1}"
+# Simple terrain workflow
+terrain.easy.summary: "{0}: remover {1} blocos, preencher {2}."
+# Simple terrain workflow
+terrain.easy.clean-first: "A vegetação é limpa antes da aplicação do nivelamento."
+# Simple terrain workflow
+terrain.easy.floor: " Altura do chão: Y={0}."
+# Simple terrain workflow
+terrain.easy.destructive: "OP: remove construções, líquidos e conteúdo de baús. Blocos protegidos ficam."
+# Simple terrain workflow
+terrain.easy.safe: "Modo seguro: preserva construções."
+# Simple terrain workflow
+terrain.easy.prepare: "Preparar área"
+# Simple terrain workflow
+terrain.easy.cancel: "Cancelar"
+# Simple terrain workflow
+terrain.easy.level-op: "Nivelar área selecionada (OP)"
+# Simple terrain workflow
+terrain.easy.clear-op: "Limpar área selecionada (OP)"
+
+construction.waiting-route: "aguardando: sem rota segura para o bloco. A obra foi preservada; vou tentar novamente. Libere o caminho ou use {0} cancel."
+
+construction.progress: "Colocados: {0} • já existentes: {1} • removidos: {2} • recusados: {3}"
+
+construction.existing: "Conferindo blocos existentes: {0} já correspondem. Nenhum material usado nessas posições."
+
+# BuilderSession.java:1310
+message_29723fd8804d: "Obra {0} salva e pausada: {1} de {2} blocos colocados. Use build continue {0} para retomar."
+
+# BuilderSession.java:1310
+message_325ce485011d: "Nao ha uma obra aberta para salvar."
+
+# BuilderSession.java:1312
+message_e7e5b5e664f1: "Nao foi possivel salvar a obra {0}; ela continua ativa. Verifique o armazenamento do servidor e tente novamente."
+
+# BuilderSession.java:1320
+message_eb0bb6dc7d73: "A velocidade de construcao esta disponivel apenas para operadores."
+
+# BuilderSession.java:1321
+message_278388572bab: "Use build speed [on|off]."
+
+# BuilderSession.java:1325
+message_daa4ac6bbf88: "Velocidade de construcao: {0}."
+
+# BuilderSession.java:1325
+message_fb9cf75606b4: "ativada"
+
+# BuilderSession.java:1325
+message_17eb3c0168d0: "desativada"
+
+# BuilderMenu.java:216
+message_1509f561f241: "Salvar"
+
+# BuilderMenu.java:217
+message_dc9e0088d799: "Salva e pausa esta obra. Selecione Continuar para retomá-la."
+
+# BuilderMenu.java:224
+message_e45b8d1a844f: "Velocidade de construcao (somente OP): {0}"
+
+# BuilderMenu.java:225
+message_5b9c3d85239e: "ON: construtor paira e constroi sem andar; minimo 128 acoes prontas por tick, ate {0} no limite/tempo configurados."
+
+# BuilderSession.java:1366
+message_de33fb6ca4f1: "Checkpoint automatico salvo apos {0} blocos colocados; a construcao continua."
+
+# BuilderSession.java:1372
+message_4a4e4e923bf4: "Falha no checkpoint automatico apos {0} blocos colocados; a construcao continua. Verifique o armazenamento do servidor."
+
+# BuilderSession.java:1355
+message_258efbc8a3a4: "Velocidade de construcao agora {0}."
+
+# BuilderSession.java:self-clear
+builder.self-clear: "Aguardando: tentando uma saída voando para cima e depois rotas horizontais antes de repetir o bloco pendente."

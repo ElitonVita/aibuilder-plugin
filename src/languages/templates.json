@@ -1,0 +1,4102 @@
+{
+  "message_40469b04d217": {
+    "source": "Construtor",
+    "location": "BuilderSession.java:71"
+  },
+  "message_cba5fccfd58c": {
+    "source": "/construtor",
+    "location": "BuilderSession.java:71"
+  },
+  "message_2080d8189e93": {
+    "source": "/construtor {0}",
+    "location": "BuilderSession.java:71"
+  },
+  "message_18f3a4b5e36f": {
+    "source": "Preparando terreno: {0}; total ainda nao conhecido.",
+    "location": "BuilderSession.java:79"
+  },
+  "message_92d591b13c3a": {
+    "source": "Preparando terreno: {0}; {1} acoes restantes.",
+    "location": "BuilderSession.java:79"
+  },
+  "message_d2c5a2dbfedf": {
+    "source": "{0} acoes restantes",
+    "location": "BuilderSession.java:80"
+  },
+  "message_b118dfe6d42a": {
+    "source": "Livre; 0 acoes restantes.",
+    "location": "BuilderSession.java:82"
+  },
+  "message_c553f21823db": {
+    "source": "Obra aberta {0}; fila vazia. Use obra para conferir.",
+    "location": "BuilderSession.java:82"
+  },
+  "message_f1e646408c1c": {
+    "source": "planejando o pedido",
+    "location": "BuilderSession.java:83"
+  },
+  "message_199d15481899": {
+    "source": "aguardando confirmacao",
+    "location": "BuilderSession.java:83"
+  },
+  "message_e45ae2ca0a25": {
+    "source": "conferindo a obra",
+    "location": "BuilderSession.java:84"
+  },
+  "message_ccd19c381fc0": {
+    "source": " da obra {0}",
+    "location": "BuilderSession.java:85"
+  },
+  "message_cac887772493": {
+    "source": "Ocupado: {1}; {2} acoes restantes (total ainda nao conhecido).",
+    "location": "BuilderSession.java:87"
+  },
+  "message_21bd7d423e2f": {
+    "source": "Ocupado: {1}; {2} acoes restantes (total ainda nao conhecido); {3}.",
+    "location": "BuilderSession.java:87"
+  },
+  "message_e0653d953060": {
+    "source": "Ocupado: {1}; {2} acoes restantes.",
+    "location": "BuilderSession.java:87"
+  },
+  "message_c4ea2f21921c": {
+    "source": "Ocupado: {1}; {2} acoes restantes; {3}.",
+    "location": "BuilderSession.java:87"
+  },
+  "message_87e4107bb791": {
+    "source": "use orientacao norte|sul|leste|oeste|original.",
+    "location": "BuilderSession.java:108"
+  },
+  "message_b6355c2dc6bd": {
+    "source": "termine ou cancele o plano/trabalho antes de mudar a orientacao.",
+    "location": "BuilderSession.java:109"
+  },
+  "message_ccd22564dba3": {
+    "source": "nao consegui salvar a orientacao; valor anterior preservado.",
+    "location": "BuilderSession.java:112"
+  },
+  "message_a1f7a5a5e2ff": {
+    "source": "entrada das proximas plantas: {0}. O sol nasce a leste e se poe a oeste.",
+    "location": "BuilderSession.java:113"
+  },
+  "message_8b08db3e61c4": {
+    "source": "Dono: ?",
+    "location": "BuilderSession.java:138"
+  },
+  "message_5c27be047684": {
+    "source": "Dono: {0}",
+    "location": "BuilderSession.java:138"
+  },
+  "message_7670d3dd0d84": {
+    "source": "Estado: {0}",
+    "location": "BuilderSession.java:139"
+  },
+  "message_a6ca56914ec9": {
+    "source": "Seguir o criador: sim",
+    "location": "BuilderSession.java:140"
+  },
+  "message_4e2d971b8a81": {
+    "source": "Seguir o criador: nao",
+    "location": "BuilderSession.java:140"
+  },
+  "message_0c94b68b8fa3": {
+    "source": "Distancia maxima do dono: {0} blocos",
+    "location": "BuilderSession.java:141"
+  },
+  "message_0d46df35f82d": {
+    "source": "Entrada das proximas plantas: {0}",
+    "location": "BuilderSession.java:142"
+  },
+  "message_b6fd93613f8a": {
+    "source": "Pausado pela chamada; use seguir para liberar.",
+    "location": "BuilderSession.java:143"
+  },
+  "message_1576a4d25b2b": {
+    "source": "Plano pendente: sim",
+    "location": "BuilderSession.java:144"
+  },
+  "message_80c80f6f6cce": {
+    "source": "Plano pendente: nao",
+    "location": "BuilderSession.java:144"
+  },
+  "message_5cb78407241e": {
+    "source": "Obra aberta: nenhuma",
+    "location": "BuilderSession.java:145"
+  },
+  "message_d6b389fb6ce0": {
+    "source": "Obra aberta: {0}",
+    "location": "BuilderSession.java:145"
+  },
+  "message_a546d50c8ca8": {
+    "source": "Zona marcada: sim",
+    "location": "BuilderSession.java:146"
+  },
+  "message_3cb9fb65b886": {
+    "source": "Zona marcada: nao",
+    "location": "BuilderSession.java:146"
+  },
+  "message_49427cfbcc48": {
+    "source": "CoreProtect indisponivel: fallback permitido somente na selecao explicita; claims e spawn continuam protegidos.",
+    "location": "BuilderSession.java:325"
+  },
+  "message_0501879a0d31": {
+    "source": "CoreProtect indisponivel: o construtor nao quebra blocos ate ele estar pronto (protecao).",
+    "location": "BuilderSession.java:327"
+  },
+  "message_c70b3445703f": {
+    "source": "CoreProtect conectado ao AIBuilder.",
+    "location": "BuilderSession.java:330"
+  },
+  "message_fc424bd753b8": {
+    "source": "Falha ao acessar CoreProtect: {0}",
+    "location": "BuilderSession.java:342"
+  },
+  "message_045585be1155": {
+    "source": "plugin desligado",
+    "location": "BuilderSession.java:348"
+  },
+  "message_a9ac80086aa9": {
+    "source": "Voce nao tem permissao.",
+    "location": "BuilderSession.java:361"
+  },
+  "message_ee14e5ea05fa": {
+    "source": "so o criador ou um operador pode controlar esta obra.",
+    "location": "BuilderSession.java:365"
+  },
+  "message_80e3b3361240": {
+    "source": "somente operadores podem administrar o construtor.",
+    "location": "BuilderSession.java:368"
+  },
+  "message_3af606693729": {
+    "source": "pedido cancelado.",
+    "location": "BuilderSession.java:376"
+  },
+  "message_e2c80c8fb962": {
+    "source": "plano cancelado.",
+    "location": "BuilderSession.java:380"
+  },
+  "message_3a3499ad3112": {
+    "source": "seguir",
+    "location": "BuilderSession.java:390"
+  },
+  "message_5aa2eeb42378": {
+    "source": "chamar",
+    "location": "BuilderSession.java:391"
+  },
+  "message_426bdaf2d813": {
+    "source": "distancia",
+    "location": "BuilderSession.java:392"
+  },
+  "message_5deabcef44ce": {
+    "source": "orientação",
+    "location": "BuilderSession.java:393"
+  },
+  "message_07c6d68d4778": {
+    "source": "Use em jogo.",
+    "location": "BuilderSession.java:395"
+  },
+  "message_424d77c790a4": {
+    "source": "norte",
+    "location": "BuilderSession.java:408"
+  },
+  "message_3d1acc092c68": {
+    "source": "sul",
+    "location": "BuilderSession.java:408"
+  },
+  "message_8cdfd57dc160": {
+    "source": "leste",
+    "location": "BuilderSession.java:408"
+  },
+  "message_343f6dc1ec2a": {
+    "source": "oeste",
+    "location": "BuilderSession.java:408"
+  },
+  "message_49fea6a8a844": {
+    "source": "cancelada por desconexao",
+    "location": "BuilderSession.java:440"
+  },
+  "message_6e7dd5bb20b2": {
+    "source": "nao consegui salvar a obra {0}; mantida na fila",
+    "location": "BuilderSession.java:465"
+  },
+  "message_bd354cd134fd": {
+    "source": "obra {0} pausada: faltam materiais e o criador esta offline",
+    "location": "BuilderSession.java:468"
+  },
+  "message_bce7114ce3d6": {
+    "source": "cancelado por {0}",
+    "location": "BuilderSession.java:486"
+  },
+  "message_44ad26824c04": {
+    "source": " Obra {0} pausada e salva.",
+    "location": "BuilderSession.java:497"
+  },
+  "message_5a24cd2b88ef": {
+    "source": " Obra {0} pausada, mas NAO foi salva. Confira o disco antes de sair.",
+    "location": "BuilderSession.java:497"
+  },
+  "message_1ee37850f49c": {
+    "source": "parado por {0}: {1} acoes canceladas",
+    "location": "BuilderSession.java:500"
+  },
+  "message_118d37fe4e8c": {
+    "source": "parei. {0} acoes da fila canceladas, plano pendente descartado.{1}",
+    "location": "BuilderSession.java:501"
+  },
+  "message_28a7d2ea29c5": {
+    "source": "parei. {0} acoes da fila canceladas.{1}",
+    "location": "BuilderSession.java:501"
+  },
+  "message_528df5f9c593": {
+    "source": "vou voltar a seguir voce a pe.",
+    "location": "BuilderSession.java:504"
+  },
+  "message_a5ad454eb0ad": {
+    "source": "continuo no modo Stay.",
+    "location": "BuilderSession.java:504"
+  },
+  "message_e8daebb1a0b5": {
+    "source": "AIBuilder commands - aliases work with /builder or /construtor",
+    "location": "BuilderSession.java:510"
+  },
+  "message_63864a2e4510": {
+    "source": "/builder spawn - create a builder and get its selection tool",
+    "location": "BuilderSession.java:511"
+  },
+  "message_742037e49fcd": {
+    "source": "/builder list | select <name> | <name> status - manage builders",
+    "location": "BuilderSession.java:512"
+  },
+  "message_8db1f672347e": {
+    "source": "/builder tool - get the selection tool; left-click corner 1, right-click corner 2",
+    "location": "BuilderSession.java:513"
+  },
+  "message_ac8c2e152a10": {
+    "source": "/builder zone set1|set2|clear|show - manage the build area",
+    "location": "BuilderSession.java:514"
+  },
+  "message_98e22e011a0a": {
+    "source": "/builder terrain inspect|clean|level|cancel - preview terrain changes before confirming",
+    "location": "BuilderSession.java:515"
+  },
+  "message_cc38a4c3a49c": {
+    "source": "/builder terrain deep clean|level - operator-only; enable in settings first",
+    "location": "BuilderSession.java:516"
+  },
+  "message_55c226882ff1": {
+    "source": "/builder prebuilt list|<id> - choose a built-in model without AI",
+    "location": "BuilderSession.java:517"
+  },
+  "message_b78bef9ac58f": {
+    "source": "/builder build | yes | cancel | build continue|undo|finish|save|speed - manage the current build",
+    "location": "BuilderSession.java:518"
+  },
+  "message_0925897885a6": {
+    "source": "/builder stay|follow|call|distance <4..64>|stop - control builder movement",
+    "location": "BuilderSession.java:519"
+  },
+  "message_0c1afc1668dd": {
+    "source": "/builder project corner1|corner2|save|list|place - save and place projects",
+    "location": "BuilderSession.java:520"
+  },
+  "message_4fb2c111899d": {
+    "source": "/builder mission - view progress; /builder settings - read configuration tips",
+    "location": "BuilderSession.java:521"
+  },
+  "message_6cb7bb459d06": {
+    "source": "/builder settings language EN|PT - select the interface language",
+    "location": "BuilderSession.java:522"
+  },
+  "message_ae353da808d0": {
+    "source": "Chat: @alfred <request> asks a named builder. Built-in models work without an AI key.",
+    "location": "BuilderSession.java:523"
+  },
+  "message_6c82a1d12e07": {
+    "source": "Comandos do Construtor (todos comecam com /construtor)",
+    "location": "BuilderSession.java:528"
+  },
+  "message_814d48c7c84e": {
+    "source": "spawn - cria o construtor no seu local e te entrega a Ferramenta",
+    "location": "BuilderSession.java:529"
+  },
+  "message_3cb9defcb1a1": {
+    "source": "delete - remove o construtor",
+    "location": "BuilderSession.java:530"
+  },
+  "message_61888943e481": {
+    "source": "status - posicao, fila e se ha plano pendente",
+    "location": "BuilderSession.java:531"
+  },
+  "message_2c62e0572b96": {
+    "source": "stay - fica no local; a obra confirmada continua",
+    "location": "BuilderSession.java:532"
+  },
+  "message_82ce5b5cfd7f": {
+    "source": "follow - segue voce a pe quando estiver livre",
+    "location": "BuilderSession.java:533"
+  },
+  "message_c28f6306437d": {
+    "source": "chamar - teletransporta para perto e pausa; seguir libera sem apagar a fila",
+    "location": "BuilderSession.java:534"
+  },
+  "message_4e1e7a851568": {
+    "source": "distancia <4..64> - distancia maxima do dono, em blocos",
+    "location": "BuilderSession.java:535"
+  },
+  "message_ac5ff6692127": {
+    "source": "stop - para tudo: cancela fila, plano e obra; ele volta para voce",
+    "location": "BuilderSession.java:536"
+  },
+  "message_a46cd6f07de6": {
+    "source": "pre-moldado - listar | <id> [norte|sul|leste|oeste]",
+    "location": "BuilderSession.java:537"
+  },
+  "message_1d8fa0ec76b5": {
+    "source": "orientacao - entrada: norte|sul|leste|oeste|original (sol: leste -> oeste)",
+    "location": "BuilderSession.java:538"
+  },
+  "message_4e1edbf1a3e5": {
+    "source": "ferramenta - recebe a pa de diamante (esquerdo = canto 1, direito = canto 2)",
+    "location": "BuilderSession.java:539"
+  },
+  "message_1baa61d72bbd": {
+    "source": "sim / nao - confirma ou cancela o plano pendente",
+    "location": "BuilderSession.java:540"
+  },
+  "message_e1728406e733": {
+    "source": "zona pos1|pos2|limpar|mostrar - area em que o construtor pode agir",
+    "location": "BuilderSession.java:541"
+  },
+  "message_744d9e0e6eb5": {
+    "source": "terreno - analisa o chao da zona (altura, variacao, vegetacao)",
+    "location": "BuilderSession.java:542"
+  },
+  "message_6cbc321f49ae": {
+    "source": "terreno limpar - prepara limpeza da selecao; depois terreno limpar sim",
+    "location": "BuilderSession.java:543"
+  },
+  "message_e21633e617d0": {
+    "source": "terreno nivelar - previa do nivel predominante; depois terreno nivelar sim",
+    "location": "BuilderSession.java:544"
+  },
+  "message_6e6ad105359b": {
+    "source": "terreno cancelar - cancela preparacao (alteracoes ja feitas permanecem)",
+    "location": "BuilderSession.java:545"
+  },
+  "message_e086049ef353": {
+    "source": "projeto canto1|canto2|salvar <nome>|listar|colocar <nome> - biblioteca de construcoes",
+    "location": "BuilderSession.java:546"
+  },
+  "message_21188a9549a7": {
+    "source": "build - inspect progress; build save - save and pause; build continue - complete missing blocks",
+    "location": "BuilderSession.java:547"
+  },
+  "message_afce30496237": {
+    "source": "obra end - encerra a obra aberta (ate la, voce pode pedir incrementos: janelas, portas, luzes, decoracao)",
+    "location": "BuilderSession.java:548"
+  },
+  "message_f18a01ce5b39": {
+    "source": "missao - progresso da missao atual",
+    "location": "BuilderSession.java:549"
+  },
+  "message_50d8eb2c5fb8": {
+    "source": "pais horario|limite|historico - controle parental (operadores)",
+    "location": "BuilderSession.java:550"
+  },
+  "message_7c0967d00d26": {
+    "source": "reload - recarrega o config",
+    "location": "BuilderSession.java:551"
+  },
+  "message_23ba8e77b009": {
+    "source": "No chat: @construtor <pedido> - pede uma construcao ou uma pergunta",
+    "location": "BuilderSession.java:552"
+  },
+  "message_79d42badec7b": {
+    "source": "@construtor ensina <tema> - modo tutor, so explica",
+    "location": "BuilderSession.java:553"
+  },
+  "message_d854d5233541": {
+    "source": "@construtor",
+    "location": "BuilderSession.java:555"
+  },
+  "message_96bcc92ed5de": {
+    "source": "/builder call all - call all your builders",
+    "location": "BuilderSession.java:556"
+  },
+  "message_2649c9d74acf": {
+    "source": "Construtor nao esta no mundo. Use /construtor spawn.",
+    "location": "BuilderSession.java:561"
+  },
+  "message_47120c67f8a4": {
+    "source": "{0} em {1} {2} {3} {4} | fila: {5} | plano pendente: {6} | zona: {7}",
+    "location": "BuilderSession.java:565"
+  },
+  "message_4a75d52f17a9": {
+    "source": "modo: Follow",
+    "location": "BuilderSession.java:568"
+  },
+  "message_cf76b8d7755f": {
+    "source": "modo: Follow | {0}",
+    "location": "BuilderSession.java:568"
+  },
+  "message_8b36c17d2ed0": {
+    "source": "modo: Stay",
+    "location": "BuilderSession.java:568"
+  },
+  "message_35d150903e90": {
+    "source": "modo: Stay | {0}",
+    "location": "BuilderSession.java:568"
+  },
+  "message_3eace16b2554": {
+    "source": "distancia maxima do dono: {0} blocos; pausado pela chamada, use seguir para liberar",
+    "location": "BuilderSession.java:570"
+  },
+  "message_99b7e26da3b6": {
+    "source": "distancia maxima do dono: {0} blocos",
+    "location": "BuilderSession.java:570"
+  },
+  "message_29e289bc3fd2": {
+    "source": "entrada das proximas plantas: {0}",
+    "location": "BuilderSession.java:572"
+  },
+  "message_a16b6d42758f": {
+    "source": "aguardando o segundo canto para: {0}",
+    "location": "BuilderSession.java:575"
+  },
+  "message_24acbf5d5a6f": {
+    "source": "planejando seu pedido...",
+    "location": "BuilderSession.java:576"
+  },
+  "message_21009abe4d6b": {
+    "source": "obra: {0} | /construtor obra para conferir",
+    "location": "BuilderSession.java:578"
+  },
+  "message_78e12244681b": {
+    "source": "guardei seu pedido: {0}. Marque a area com a Ferramenta de {1}: esquerdo no canto 1, direito no canto 2. Vou continuar automaticamente; nao precisa repetir o pedido. Use {2} ferramenta se precisar da pa. Para cancelar: {3} cancelar. Valido por {4} segundos.",
+    "location": "BuilderSession.java:592"
+  },
+  "message_4be0d7762b03": {
+    "source": "o pedido guardado expirou. A area esta salva; envie um novo pedido.",
+    "location": "BuilderSession.java:601"
+  },
+  "message_082977e9f81d": {
+    "source": "area pronta! Vou continuar seu pedido: {0}",
+    "location": "BuilderSession.java:605"
+  },
+  "message_9ad6e71ef38f": {
+    "source": "nao ha plano pendente.",
+    "location": "BuilderSession.java:615"
+  },
+  "message_2cf56ecdb2bc": {
+    "source": "esse botao pertence a um plano antigo. Veja o plano atual.",
+    "location": "BuilderSession.java:617"
+  },
+  "message_71a3af891942": {
+    "source": "botao de plano antigo",
+    "location": "BuilderSession.java:617"
+  },
+  "message_8e59bc2f362d": {
+    "source": "plano recusado: {0}",
+    "location": "BuilderSession.java:624"
+  },
+  "message_b3a8b88d537a": {
+    "source": "{0} | Area {1}",
+    "location": "BuilderSession.java:629"
+  },
+  "message_e1679cc17f44": {
+    "source": "mundo da area indisponivel",
+    "location": "BuilderSession.java:644"
+  },
+  "message_ba53b92b6473": {
+    "source": "area invalida ou maior que {0} blocos de volume",
+    "location": "BuilderSession.java:653"
+  },
+  "message_2d6fd5df8ae5": {
+    "source": "area ou plano vazio",
+    "location": "BuilderSession.java:702"
+  },
+  "message_35ca5a2f7766": {
+    "source": "limite de acoes excedido",
+    "location": "BuilderSession.java:706"
+  },
+  "message_599a7f4cc810": {
+    "source": "acao desconhecida",
+    "location": "BuilderSession.java:711"
+  },
+  "message_4395e44113bd": {
+    "source": "coordenada invalida",
+    "location": "BuilderSession.java:714"
+  },
+  "message_2a58c1b420c8": {
+    "source": "acoes repetidas na mesma posicao",
+    "location": "BuilderSession.java:721"
+  },
+  "message_9ca1a4f63e76": {
+    "source": "bloco fora da area ou dos limites do mundo",
+    "location": "BuilderSession.java:726"
+  },
+  "message_3c8c888e95b9": {
+    "source": "material nao permitido",
+    "location": "BuilderSession.java:729"
+  },
+  "message_9d913a3d2718": {
+    "source": "orientacao nao corresponde ao material",
+    "location": "BuilderSession.java:732"
+  },
+  "message_cbc2ea682900": {
+    "source": "blocos com agua nao permitidos",
+    "location": "BuilderSession.java:734"
+  },
+  "message_cdf80b67eb87": {
+    "source": "ja existe um pedido ou obra. Confirme, cancele ou use /construtor stop primeiro.",
+    "location": "BuilderSession.java:767"
+  },
+  "message_523d5d857477": {
+    "source": "{0} Novo pedido recusado.",
+    "location": "BuilderSession.java:775"
+  },
+  "message_c3d7a9a523c0": {
+    "source": "o plano expirou. Peca de novo.",
+    "location": "BuilderSession.java:784"
+  },
+  "message_ae6a46542a0e": {
+    "source": "plano sem area ou construtor. Peca novamente.",
+    "location": "BuilderSession.java:788"
+  },
+  "message_47d738983cd6": {
+    "source": "replace exige bloco da obra aberta",
+    "location": "BuilderSession.java:799"
+  },
+  "message_efc5a492a34d": {
+    "source": "confirmacao recusada: {0}",
+    "location": "BuilderSession.java:805"
+  },
+  "message_9dd6315fa12e": {
+    "source": "a obra aberta nao esta mais ativa. Peca de novo.",
+    "location": "BuilderSession.java:808"
+  },
+  "message_17bd143699ca": {
+    "source": "em andamento",
+    "location": "BuilderSession.java:810"
+  },
+  "message_24f67ad26e47": {
+    "source": "nao consegui salvar o incremento; o plano continua aguardando confirmacao.",
+    "location": "BuilderSession.java:811"
+  },
+  "message_89a718123f70": {
+    "source": "incremento confirmado por {0}: {1} acoes",
+    "location": "BuilderSession.java:815"
+  },
+  "message_e6f74f81abaa": {
+    "source": "executando {0} acoes do incremento. Vou avisando cada uma.",
+    "location": "BuilderSession.java:819"
+  },
+  "message_4827519c9423": {
+    "source": "nao consegui salvar a obra; o plano continua aguardando confirmacao.",
+    "location": "BuilderSession.java:825"
+  },
+  "message_50b795b74868": {
+    "source": "confirmado por {0}: {1} acoes",
+    "location": "BuilderSession.java:830"
+  },
+  "message_6a95f1ffb0c4": {
+    "source": "executando {0} acoes. Vou avisando cada uma.",
+    "location": "BuilderSession.java:835"
+  },
+  "message_11ec561a8bf6": {
+    "source": "cancele a preparacao antes de remarcar a zona.",
+    "location": "BuilderSession.java:842"
+  },
+  "message_abdff3856963": {
+    "source": "primeiro canto marcado em {0}. Agora use /construtor zona pos2.",
+    "location": "BuilderSession.java:847"
+  },
+  "message_d41c26c8933a": {
+    "source": "marque primeiro com /construtor zona pos1.",
+    "location": "BuilderSession.java:850"
+  },
+  "message_41c4914ebb8f": {
+    "source": "os dois cantos precisam estar no mesmo mundo.",
+    "location": "BuilderSession.java:852"
+  },
+  "message_c6a8c110fc2e": {
+    "source": "zona removida. Marque dois cantos para construir; pedidos aguardarao a selecao.",
+    "location": "BuilderSession.java:859"
+  },
+  "message_16a70de8f0b3": {
+    "source": "zona: {0} | comandos: pos1, pos2, limpar",
+    "location": "BuilderSession.java:862"
+  },
+  "message_86eba75487cd": {
+    "source": "nao selecionada",
+    "location": "complete presentation template"
+  },
+  "message_cb06f25154f2": {
+    "source": "{0} x {1}..{2} y {3}..{4} z {5}..{6}",
+    "location": "BuilderSession.java:870"
+  },
+  "message_534ebf7125d5": {
+    "source": "canto 1 do projeto marcado em {0}.",
+    "location": "BuilderSession.java:930"
+  },
+  "message_b9d0eef4336b": {
+    "source": "marque primeiro com /construtor projeto canto1.",
+    "location": "BuilderSession.java:933"
+  },
+  "message_15d52a01d992": {
+    "source": "canto 2 marcado. Agora salve com /construtor projeto salvar <nome>.",
+    "location": "BuilderSession.java:935"
+  },
+  "message_ae596c680cfe": {
+    "source": "projeto: canto1, canto2, salvar <nome>, listar, colocar <nome>",
+    "location": "BuilderSession.java:940"
+  },
+  "message_a85069e44c85": {
+    "source": "use um nome com letras minusculas, numeros, _ ou -.",
+    "location": "BuilderSession.java:955"
+  },
+  "message_2c97019700ad": {
+    "source": "marque canto1 e canto2 primeiro.",
+    "location": "BuilderSession.java:956"
+  },
+  "message_644b3a561cc8": {
+    "source": "os cantos precisam estar no mesmo mundo.",
+    "location": "BuilderSession.java:957"
+  },
+  "message_8110937b53c8": {
+    "source": "area grande demais ({0} blocos). Use uma caixa menor.",
+    "location": "BuilderSession.java:965"
+  },
+  "message_499c21826ae2": {
+    "source": "projeto tem mais de {0} blocos (limite max-project-blocks).",
+    "location": "BuilderSession.java:975"
+  },
+  "message_4877624f17f4": {
+    "source": "erro ao salvar o projeto: {0}",
+    "location": "BuilderSession.java:991"
+  },
+  "message_b2e175828d50": {
+    "source": "nenhum projeto salvo ainda.",
+    "location": "BuilderSession.java:1002"
+  },
+  "message_8676f9eb61c2": {
+    "source": "projetos: {0}",
+    "location": "BuilderSession.java:1002"
+  },
+  "message_67328272e599": {
+    "source": "erro ao listar projetos: {0}",
+    "location": "BuilderSession.java:1004"
+  },
+  "message_3e1ecd2dd3dd": {
+    "source": "marque uma area nova antes de colocar o projeto.",
+    "location": "BuilderSession.java:1012"
+  },
+  "message_97b589bceb32": {
+    "source": "use /construtor projeto colocar <nome>.",
+    "location": "BuilderSession.java:1014"
+  },
+  "message_7b50ecc8a3b9": {
+    "source": "use /construtor spawn antes.",
+    "location": "BuilderSession.java:1015"
+  },
+  "message_40c17c6b39b3": {
+    "source": "projeto '{0}' nao existe. Veja /construtor projeto listar.",
+    "location": "BuilderSession.java:1018"
+  },
+  "message_a654b28b2b90": {
+    "source": "arquivo de projeto grande demais",
+    "location": "BuilderSession.java:1019"
+  },
+  "message_e51a3ca00c32": {
+    "source": "mundo indisponivel",
+    "location": "BuilderSession.java:1024"
+  },
+  "message_cf38765c43fa": {
+    "source": "projeto excede o limite de blocos",
+    "location": "BuilderSession.java:1028"
+  },
+  "message_95244a41508e": {
+    "source": "projeto nao cabe na area",
+    "location": "BuilderSession.java:1041"
+  },
+  "message_42c2a1a46eff": {
+    "source": "projeto vazio.",
+    "location": "BuilderSession.java:1044"
+  },
+  "message_67e4b0cbf08a": {
+    "source": "projeto {0} ({1} blocos)",
+    "location": "BuilderSession.java:1052"
+  },
+  "message_b01d066b3690": {
+    "source": "erro ao ler o projeto: {0}",
+    "location": "BuilderSession.java:1055"
+  },
+  "message_c66148f1c0ad": {
+    "source": "so operadores podem recarregar os pre-moldados.",
+    "location": "BuilderSession.java:1063"
+  },
+  "message_04f82f92140e": {
+    "source": "Pre-moldados do usuario: {0} carregados de {1} arquivo(s).",
+    "location": "BuilderSession.java:1065"
+  },
+  "message_96c43bc77e3c": {
+    "source": "Pre-moldados (categorias: {0})",
+    "location": "BuilderSession.java:1070"
+  },
+  "message_4ba62637141f": {
+    "source": "Em breve: {0}. Para construir: {1} pre-moldado <id>, com uma area marcada.",
+    "location": "BuilderSession.java:1073"
+  },
+  "message_c17c861a3563": {
+    "source": "pre-moldado desconhecido: {0}. Veja {1} pre-moldado listar.",
+    "location": "BuilderSession.java:1078"
+  },
+  "message_70c99eff9073": {
+    "source": "use em jogo.",
+    "location": "BuilderSession.java:1079"
+  },
+  "message_d080af38b7b9": {
+    "source": "marque uma area nova antes (pa de diamante ou {0} zona pos1/pos2).",
+    "location": "BuilderSession.java:1083"
+  },
+  "message_e30c6826841b": {
+    "source": "use pre-moldado <id> [norte|sul|leste|oeste].",
+    "location": "BuilderSession.java:1088"
+  },
+  "message_d634969d257c": {
+    "source": "Nao consegui calcular o tamanho deste pre-moldado.",
+    "location": "BuilderSession.java:1101"
+  },
+  "message_7edda3acbb43": {
+    "source": "Area necessaria: {0} x {1} x {2} blocos (x {3}, y {4}, z {5}) = {6} de volume, {7} blocos construidos.",
+    "location": "BuilderSession.java:1110"
+  },
+  "message_20d0ee4771e0": {
+    "source": " A area marcada e {0} x {1} x {2}: nao cabe; marque uma area maior.",
+    "location": "BuilderSession.java:1117"
+  },
+  "message_3ac022fdb0a8": {
+    "source": " Area marcada: {0} x {1} x {2}.",
+    "location": "BuilderSession.java:1119"
+  },
+  "message_ded3d2363e5d": {
+    "source": "orientacao da planta invalida: {0}",
+    "location": "BuilderSession.java:1139"
+  },
+  "message_e18f93c529d0": {
+    "source": "orientacao invalida",
+    "location": "BuilderSession.java:1139"
+  },
+  "message_108b5eecf68e": {
+    "source": "mundo da obra indisponivel.",
+    "location": "BuilderSession.java:1150"
+  },
+  "message_6352bb664a92": {
+    "source": "planta recusada: {0}",
+    "location": "BuilderSession.java:1177"
+  },
+  "message_9a408e24b95c": {
+    "source": "planta fora da area",
+    "location": "BuilderSession.java:1184"
+  },
+  "message_6dd1d1a648d8": {
+    "source": "material invalido ignorado: {0}",
+    "location": "BuilderSession.java:1191"
+  },
+  "message_0a361d387d1d": {
+    "source": "a planta nao gerou blocos validos: {0}",
+    "location": "BuilderSession.java:1197"
+  },
+  "message_51dbec93824a": {
+    "source": "planta grande demais ({0} blocos; limite {1}).",
+    "location": "BuilderSession.java:1198"
+  },
+  "message_ae9d1ecfede7": {
+    "source": "planta sobre blocos existentes: {0}",
+    "location": "BuilderSession.java:1212"
+  },
+  "message_f75d9643d046": {
+    "source": "base elevada {0} bloco(s) para ficar sobre o chao livre",
+    "location": "BuilderSession.java:1213"
+  },
+  "message_e5c1ee16c6c4": {
+    "source": "planta centralizada dentro da area marcada",
+    "location": "BuilderSession.java:1214"
+  },
+  "message_98e2a93e7200": {
+    "source": "a fundacao precisa de nivelamento leve: {0} bloco(s) naturais serao removidos se voce confirmar esta obra. Para preparar a selecao inteira com previa, use {1} terreno nivelar; para limpeza sem nivelar, use {2} terreno limpar.",
+    "location": "BuilderSession.java:1215"
+  },
+  "message_2df9c83c6700": {
+    "source": "pre-moldado {0} ({1} blocos)",
+    "location": "complete presentation template"
+  },
+  "message_1696aa6b5fa0": {
+    "source": "obra {0} ({1} blocos)",
+    "location": "complete presentation template"
+  },
+  "message_1a77bd2eae40": {
+    "source": "aviso: {0}",
+    "location": "BuilderSession.java:1235"
+  },
+  "message_981fcb4ee190": {
+    "source": "planejada {0} com {1} blocos (pre-moldado)",
+    "location": "BuilderSession.java:1237"
+  },
+  "message_3e169ce5c492": {
+    "source": "planejada {0} com {1} blocos",
+    "location": "BuilderSession.java:1237"
+  },
+  "message_7c61926750a2": {
+    "source": "confirme ou cancele o pedido atual primeiro.",
+    "location": "BuilderSession.java:1332"
+  },
+  "message_3e69d0e853cc": {
+    "source": "nenhuma obra ativa. Peca uma planta ao construtor.",
+    "location": "BuilderSession.java:1336"
+  },
+  "message_5bd73633dda9": {
+    "source": "nenhuma obra aberta.",
+    "location": "BuilderSession.java:1344"
+  },
+  "message_0d739fb39984": {
+    "source": "espere a fila terminar ou cancele o plano antes de encerrar a obra.",
+    "location": "BuilderSession.java:1346"
+  },
+  "message_8bb67f26b173": {
+    "source": "nao consegui salvar a obra; ela continua aberta. Confira o disco.",
+    "location": "BuilderSession.java:1350"
+  },
+  "message_45a86bcd3d4a": {
+    "source": "encerrada {0} | blocos {1} | faltam {2}",
+    "location": "BuilderSession.java:1353"
+  },
+  "message_0e6bd9facde5": {
+    "source": "obra {0} encerrada: {1} blocos, faltam {2} (/construtor obra continuar para completar antes). Para uma nova construcao, envie outro pedido; vou usar a area selecionada. Remarque com a pa para mudar de local.",
+    "location": "BuilderSession.java:1354"
+  },
+  "message_9a9a8fee5c89": {
+    "source": "obra {0} encerrada: {1} blocos. Para uma nova construcao, envie outro pedido; vou usar a area selecionada. Remarque com a pa para mudar de local.",
+    "location": "BuilderSession.java:1354"
+  },
+  "message_fa84210efee8": {
+    "source": ", faltam {0} (/construtor obra continuar para completar antes)",
+    "location": "BuilderSession.java:1355"
+  },
+  "message_4eca9bb9606a": {
+    "source": "a funcao desfazer esta desligada nas configuracoes.",
+    "location": "BuilderSession.java:1362"
+  },
+  "message_84659a6f8789": {
+    "source": "nao ha obra aberta para desfazer; obras encerradas nao podem ser desfeitas.",
+    "location": "BuilderSession.java:1365"
+  },
+  "message_003f42c8b9b0": {
+    "source": "o desfazer ja esta em andamento.",
+    "location": "BuilderSession.java:1366"
+  },
+  "message_20b185a3db5b": {
+    "source": "o desfazer precisa de um jogador online como ator das protecoes.",
+    "location": "BuilderSession.java:1368"
+  },
+  "message_bb4b84888741": {
+    "source": "o construtor precisa estar no mundo da obra para desfazer.",
+    "location": "BuilderSession.java:1371"
+  },
+  "message_c0fa90df6647": {
+    "source": "nao encontrei blocos da obra no estado esperado para remover.",
+    "location": "BuilderSession.java:1382"
+  },
+  "message_22b26668fb9e": {
+    "source": "nao consegui salvar a obra antes do desfazer; nada foi alterado.",
+    "location": "BuilderSession.java:1383"
+  },
+  "message_8ecb1854d81d": {
+    "source": "desfazer iniciado: {0} bloco(s). Protecoes e mudancas posteriores serao respeitadas.",
+    "location": "BuilderSession.java:1396"
+  },
+  "message_e7628c3c259f": {
+    "source": "iniciado por {0}: {1} blocos de {2}",
+    "location": "BuilderSession.java:1397"
+  },
+  "message_021e400f6f4e": {
+    "source": "obra desfeita, mas nao consegui apagar o registro salvo; confira o disco.",
+    "location": "BuilderSession.java:1412"
+  },
+  "message_c099e4b9fbe0": {
+    "source": "obra {0} desfeita; os blocos que correspondiam ao plano foram removidos.",
+    "location": "BuilderSession.java:1413"
+  },
+  "message_898456824b49": {
+    "source": "desfazer terminou com {0} bloco(s) preservado(s) por protecao ou porque mudaram. O restante foi salvo como inacabado.",
+    "location": "BuilderSession.java:1417"
+  },
+  "message_fbf87a128caa": {
+    "source": "finalizado: obra removida",
+    "location": "BuilderSession.java:1421"
+  },
+  "message_0be35bbdddf3": {
+    "source": "finalizado: {0} blocos preservados",
+    "location": "BuilderSession.java:1421"
+  },
+  "message_f66a6351eb7a": {
+    "source": "nao consegui apagar registro da obra {0}: {1}",
+    "location": "BuilderSession.java:1437"
+  },
+  "message_b48e0c60efd6": {
+    "source": "obra {0}: {1}/{2} blocos conferidos, faltam {3}.",
+    "location": "BuilderSession.java:1445"
+  },
+  "message_74d091432865": {
+    "source": "obra {0} aberta: tudo conferido. Peca incrementos (portas, janelas, iluminacao, decoracao) ou encerre com /construtor obra end.",
+    "location": "BuilderSession.java:1449"
+  },
+  "message_176503545896": {
+    "source": "nao consegui salvar a obra. Confira o disco.",
+    "location": "BuilderSession.java:1451"
+  },
+  "message_38a45aba37f6": {
+    "source": "use /construtor obra continuar para completar o que falta.",
+    "location": "BuilderSession.java:1455"
+  },
+  "message_1961df5d39ca": {
+    "source": "completar obra {0} ({1} blocos)",
+    "location": "BuilderSession.java:1466"
+  },
+  "message_85612282d175": {
+    "source": "{0}. /construtor sim para confirmar.",
+    "location": "BuilderSession.java:1468"
+  },
+  "message_2e507b426fb1": {
+    "source": "nao consegui salvar a obra: {0}",
+    "location": "BuilderSession.java:1509"
+  },
+  "message_cf165cc9a7a3": {
+    "source": "nome de obra invalido.",
+    "location": "BuilderSession.java:1524"
+  },
+  "message_bf53ffcd54bc": {
+    "source": "arquivo de obra grande demais",
+    "location": "BuilderSession.java:1532"
+  },
+  "message_58f85be24daf": {
+    "source": "essa obra ja foi concluida.",
+    "location": "BuilderSession.java:1534"
+  },
+  "message_d9c6c9fba6a0": {
+    "source": "obra antiga sem area; selecione e planeje novamente",
+    "location": "BuilderSession.java:1535"
+  },
+  "message_34001d4a166f": {
+    "source": "obra pertence a outro criador",
+    "location": "BuilderSession.java:1537"
+  },
+  "message_a32293c00fff": {
+    "source": "limite de blocos excedido",
+    "location": "BuilderSession.java:1539"
+  },
+  "message_95c01c3bcba3": {
+    "source": "crie o construtor no mundo da obra antes de retomar",
+    "location": "BuilderSession.java:1549"
+  },
+  "message_15a871e6ce8e": {
+    "source": "mundo da obra inconsistente",
+    "location": "BuilderSession.java:1550"
+  },
+  "message_393a5bd955a7": {
+    "source": "nome de obra invalido",
+    "location": "BuilderSession.java:1561"
+  },
+  "message_0f04d2234fe3": {
+    "source": "nao consegui retomar: {0}",
+    "location": "BuilderSession.java:1582"
+  },
+  "message_c09ae8433ddd": {
+    "source": "use em jogo para ver suas obras.",
+    "location": "BuilderSession.java:1652"
+  },
+  "message_4f1ee1b84b98": {
+    "source": "nao consegui listar as obras: {0}",
+    "location": "BuilderSession.java:1659"
+  },
+  "message_4f1f3529b76b": {
+    "source": "nenhuma obra inacabada.",
+    "location": "BuilderSession.java:1660"
+  },
+  "message_8e524b2585bb": {
+    "source": "Obras inacabadas:",
+    "location": "BuilderSession.java:1661"
+  },
+  "message_29c8acd3cb05": {
+    "source": "use terreno deep limpar ou terreno deep nivelar.",
+    "location": "BuilderSession.java:1677"
+  },
+  "message_4d46bedfd4bc": {
+    "source": "marque a zona primeiro.",
+    "location": "BuilderSession.java:1678"
+  },
+  "message_05ce7060c43f": {
+    "source": "deep clean esta desligado nas configuracoes.",
+    "location": "BuilderSession.java:1681"
+  },
+  "message_65e7e00fcd30": {
+    "source": "deep clean so pode ser usado por operadores.",
+    "location": "BuilderSession.java:1682"
+  },
+  "message_0cc0767fc983": {
+    "source": "primeiro use /construtor terreno deep {0} para preparar uma previa.",
+    "location": "BuilderSession.java:1688"
+  },
+  "message_b7f50b8d6629": {
+    "source": "primeiro use /construtor terreno {0} para preparar uma previa.",
+    "location": "BuilderSession.java:1688"
+  },
+  "message_6bfa36d3dd83": {
+    "source": "a previa ainda nao esta pronta ou expirou; aguarde a mensagem de confirmacao.",
+    "location": "BuilderSession.java:1689"
+  },
+  "message_6c6154f6f2eb": {
+    "source": "confirmado. Vou conferir novamente antes de alterar os blocos.",
+    "location": "BuilderSession.java:1690"
+  },
+  "message_e529c124f1c8": {
+    "source": "ja ha preparacao: use terreno cancelar antes de trocar a operacao.",
+    "location": "BuilderSession.java:1693"
+  },
+  "message_8aa057d7909d": {
+    "source": "deep clean precisa de um operador online para validar protecoes de outros plugins.",
+    "location": "BuilderSession.java:1694"
+  },
+  "message_80dfd1d9c7ad": {
+    "source": "marque a regiao de deep clean {0} com a pa: esquerdo no canto 1, direito no canto 2. Depois mostrarei a previa.",
+    "location": "BuilderSession.java:1701"
+  },
+  "message_3cf9bcd3af72": {
+    "source": "marque a regiao de {0} com a pa: esquerdo no canto 1, direito no canto 2. Depois mostrarei a previa.",
+    "location": "BuilderSession.java:1701"
+  },
+  "message_7b3a995eea5a": {
+    "source": "esse botao nao pertence a uma previa atual. Aguarde ou prepare uma nova previa.",
+    "location": "BuilderSession.java:1707"
+  },
+  "message_829df9ab8dc4": {
+    "source": "{0} terreno deep nivelar sim {1}",
+    "location": "BuilderSession.java:1714"
+  },
+  "message_6213f1f80394": {
+    "source": "{0} terreno deep limpar sim {1}",
+    "location": "BuilderSession.java:1714"
+  },
+  "message_e8afc9829e29": {
+    "source": "{0} terreno nivelar sim {1}",
+    "location": "BuilderSession.java:1714"
+  },
+  "message_27e52f85e177": {
+    "source": "{0} terreno limpar sim {1}",
+    "location": "BuilderSession.java:1714"
+  },
+  "message_1982f5355c77": {
+    "source": "{0} terreno cancelar {1}",
+    "location": "BuilderSession.java:1716"
+  },
+  "message_1ea361470ffc": {
+    "source": "pare/cancele a obra antes de preparar o terreno.",
+    "location": "BuilderSession.java:1720"
+  },
+  "message_bd6e1ca26acc": {
+    "source": "aguarde a leitura/preparacao atual antes de analisar.",
+    "location": "BuilderSession.java:1730"
+  },
+  "message_34a89a38f797": {
+    "source": "\nGrade",
+    "location": "BuilderSession.java:1736"
+  },
+  "message_878879703ebc": {
+    "source": "use terreno limpar ou terreno nivelar para preparar uma previa.",
+    "location": "BuilderSession.java:1738"
+  },
+  "message_24a33bd30493": {
+    "source": "regiao fora da altura do mundo",
+    "location": "BuilderSession.java:1782"
+  },
+  "message_5f2dca90a3b3": {
+    "source": "dimensoes pesquisadas {0} x {1} x {2}; volume necessario excede Long.MAX_VALUE; limite efetivo {3} (max-clear-volume)",
+    "location": "BuilderSession.java:1788"
+  },
+  "message_2c2e4a045142": {
+    "source": "dimensoes pesquisadas invalidas: {0} x {1} x {2}",
+    "location": "BuilderSession.java:1790"
+  },
+  "message_72f8cf5c0e1e": {
+    "source": "regiao excessiva: dimensoes pesquisadas {0} x {1} x {2}; volume necessario {3} posicoes; limite efetivo {4} (max-clear-volume)",
+    "location": "BuilderSession.java:1791"
+  },
+  "message_d8b5d5aead70": {
+    "source": "ha chunks descarregados na area; aproxime-se e tente novamente",
+    "location": "BuilderSession.java:1812"
+  },
+  "message_5002d568ccaa": {
+    "source": "regiao fora da borda do mundo",
+    "location": "BuilderSession.java:1814"
+  },
+  "message_14ccfd1465cc": {
+    "source": "deep clean desligado ou operador necessario",
+    "location": "BuilderSession.java:1832"
+  },
+  "message_2321c1f0c302": {
+    "source": "regiao fora dos limites do mundo",
+    "location": "BuilderSession.java:1838"
+  },
+  "message_27428a4fa270": {
+    "source": "[{0}] analisando {1} x {2} colunas, y={3}..{4}. Nenhum bloco sera alterado antes da previa e confirmacao.",
+    "location": "BuilderSession.java:1845"
+  },
+  "message_7c7832c3f5ab": {
+    "source": "deep clean foi desligado nas configuracoes",
+    "location": "BuilderSession.java:1855"
+  },
+  "message_56b5fae43489": {
+    "source": "ha jogador dentro da selecao; todos devem sair antes do deep clean continuar",
+    "location": "BuilderSession.java:1859"
+  },
+  "message_e5467bf8f91d": {
+    "source": "o operador que iniciou o deep clean precisa permanecer online",
+    "location": "BuilderSession.java:1861"
+  },
+  "message_89e27785c6bd": {
+    "source": "terreno protegido (claim/spawn/historico) ou historico indisponivel",
+    "location": "BuilderSession.java:1867"
+  },
+  "message_0e12b3b437d5": {
+    "source": "ha jogador ou criatura nao ignorada no preenchimento; afaste-se e tente novamente",
+    "location": "BuilderSession.java:1874"
+  },
+  "message_03f4eb0479e3": {
+    "source": "bloco artificial ou liquido nao pode ser alterado",
+    "location": "BuilderSession.java:1877"
+  },
+  "message_43efbdfe75bf": {
+    "source": "material de deep clean invalido",
+    "location": "BuilderSession.java:1896"
+  },
+  "message_cfd1b55a60b9": {
+    "source": "lendo selecao",
+    "location": "BuilderSession.java:1913"
+  },
+  "message_2ff966d903bf": {
+    "source": "gerando plano",
+    "location": "BuilderSession.java:1914"
+  },
+  "message_6e823221e238": {
+    "source": "checando protecoes",
+    "location": "BuilderSession.java:1915"
+  },
+  "message_68075255c576": {
+    "source": "conferindo terreno",
+    "location": "BuilderSession.java:1917"
+  },
+  "message_cfbc1121d7bc": {
+    "source": "alterando terreno",
+    "location": "BuilderSession.java:1918"
+  },
+  "message_32d63d917e19": {
+    "source": "preparacao {0}; {1} alteracoes ja feitas permanecem no mundo.",
+    "location": "BuilderSession.java:1927"
+  },
+  "message_a66412ae3c35": {
+    "source": "interrompida por desconexao/permissao",
+    "location": "BuilderSession.java:1934"
+  },
+  "message_bf43fe72da66": {
+    "source": "interrompida: mundo indisponivel",
+    "location": "BuilderSession.java:1936"
+  },
+  "message_859f37847a95": {
+    "source": "deep clean nivelar",
+    "location": "BuilderSession.java:1943"
+  },
+  "message_f6a76850e4b8": {
+    "source": "deep clean limpar",
+    "location": "BuilderSession.java:1943"
+  },
+  "message_e63a79269f90": {
+    "source": " DEEP: remove qualquer tipo de bloco, incluindo construcoes, liquidos e inventarios, sem devolver itens. Conteudo observado: {0}. Protecoes de outros plugins podem preservar blocos; todos os jogadores devem sair da selecao. Animais e monstros sao ignorados.",
+    "location": "BuilderSession.java:1946"
+  },
+  "message_79efb7a3a2a4": {
+    "source": "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos. Piso alvo y={10} (base marcada; sem piso natural utilizavel).{11} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos.",
+    "location": "BuilderSession.java:1947"
+  },
+  "message_351a4a871096": {
+    "source": "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos. Piso alvo y={10} ({11}/{12} colunas na altura escolhida).{13} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos.",
+    "location": "BuilderSession.java:1947"
+  },
+  "message_c912fd84613b": {
+    "source": "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos.{10} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos.",
+    "location": "BuilderSession.java:1947"
+  },
+  "message_574665a10f38": {
+    "source": " Piso alvo y={0} (base marcada; sem piso natural utilizavel).",
+    "location": "BuilderSession.java:1948"
+  },
+  "message_9e5a0c47f0d2": {
+    "source": " Piso alvo y={0} ({1}/{2} colunas na altura escolhida).",
+    "location": "BuilderSession.java:1948"
+  },
+  "message_88ac0173721a": {
+    "source": " ({0}/{1} colunas na altura escolhida).",
+    "location": "BuilderSession.java:1948"
+  },
+  "message_5a0dbffbd136": {
+    "source": "{0} • Preparar terreno",
+    "location": "BuilderSession.java:1953"
+  },
+  "message_f3b5d933bccf": {
+    "source": "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {9}; piso alvo Y={10}. Preparo administrativo, sem itens.{11}",
+    "location": "BuilderSession.java:1953"
+  },
+  "message_6563321e318f": {
+    "source": "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {9}. Preparo administrativo, sem itens.{10}",
+    "location": "BuilderSession.java:1953"
+  },
+  "message_17559f20c9dd": {
+    "source": "; piso alvo Y={0}",
+    "location": "BuilderSession.java:1956"
+  },
+  "message_0b68e1d425d7": {
+    "source": "Sim, preparar",
+    "location": "BuilderSession.java:1957"
+  },
+  "message_c9bb4a7a538b": {
+    "source": "Confirmar: {0} | Cancelar: {1}",
+    "location": "BuilderSession.java:1959"
+  },
+  "message_93ca1a008672": {
+    "source": "{0} • Terreno: {1}",
+    "location": "BuilderSession.java:1962"
+  },
+  "message_7157ba07da27": {
+    "source": "terreno preparado: {0} alteracoes.; {1} nao aplicadas (eventos de protecao cancelados: {2}; blocos alterados por listeners: {3}; outras recusas: {4}).",
+    "location": "BuilderSession.java:1966"
+  },
+  "message_46f1e8b12fd3": {
+    "source": "terreno preparado: {0} alteracoes.",
+    "location": "BuilderSession.java:1966"
+  },
+  "message_90a11e0b1b66": {
+    "source": "; {0} nao aplicadas (eventos de protecao cancelados: {1}; blocos alterados por listeners: {2}; outras recusas: {3}).",
+    "location": "BuilderSession.java:1967"
+  },
+  "message_62565011d1eb": {
+    "source": "nao consegui salvar a zona; marque novamente antes de continuar",
+    "location": "BuilderSession.java:1978"
+  },
+  "message_1b45669578b2": {
+    "source": "zona para construir: {0}",
+    "location": "BuilderSession.java:1981"
+  },
+  "message_8ba34b7f65af": {
+    "source": "preparo concluido; selecione uma zona menor para construir: {0}",
+    "location": "BuilderSession.java:1982"
+  },
+  "message_0e2097600621": {
+    "source": "{0} concluido: {1} alteracoes; {2} preservadas por protecao",
+    "location": "BuilderSession.java:1983"
+  },
+  "message_301981281612": {
+    "source": "[{0}] preparacao interrompida: {1}. {2} alteracoes ja feitas permanecem; refaca a previa para continuar.",
+    "location": "BuilderSession.java:1984"
+  },
+  "message_25454685059f": {
+    "source": "Ferramenta de {0}",
+    "location": "BuilderSession.java:1999"
+  },
+  "message_bb0c53e56fdb": {
+    "source": "Botao esquerdo: canto 1 da zona",
+    "location": "BuilderSession.java:2000"
+  },
+  "message_841a69ddc1d7": {
+    "source": "Botao direito: canto 2 da zona",
+    "location": "BuilderSession.java:2000"
+  },
+  "message_c4942d3a544b": {
+    "source": "voce recebeu a Ferramenta do Construtor (pa de diamante). Botao esquerdo = canto 1 da zona, botao direito = canto 2.",
+    "location": "BuilderSession.java:2017"
+  },
+  "message_642484479532": {
+    "source": "so o criador pode usar esta ferramenta.",
+    "location": "BuilderSession.java:2026"
+  },
+  "message_ce78735c8d99": {
+    "source": "ha preparacao de terreno; use terreno cancelar antes de remarcar.",
+    "location": "BuilderSession.java:2031"
+  },
+  "message_32d4f446c436": {
+    "source": "canto 1 da limpeza marcado em {0}. Agora o botao direito no canto 2.",
+    "location": "BuilderSession.java:2036"
+  },
+  "message_5cb2f0b97f14": {
+    "source": "primeiro o botao esquerdo no canto 1.",
+    "location": "BuilderSession.java:2038"
+  },
+  "message_c2b8fdbad205": {
+    "source": "selecao invalida: {0}",
+    "location": "BuilderSession.java:2047"
+  },
+  "message_47e7f283384f": {
+    "source": "canto 1 da zona marcado em {0}. Agora clique com o botao direito no canto 2.",
+    "location": "BuilderSession.java:2054"
+  },
+  "message_ef7eb8cdfa61": {
+    "source": "primeiro clique com o botao esquerdo no canto 1.",
+    "location": "BuilderSession.java:2057"
+  },
+  "message_87ed852760a1": {
+    "source": "area grande demais ou acima da altura do mundo. Escolha uma area menor.",
+    "location": "BuilderSession.java:2077"
+  },
+  "message_08236a8937fc": {
+    "source": "nao consegui salvar a zona. Tente o segundo canto novamente; seu pedido continua guardado.",
+    "location": "BuilderSession.java:2088"
+  },
+  "message_2f192455c212": {
+    "source": "zona salva: {0}",
+    "location": "BuilderSession.java:2089"
+  },
+  "message_191b0818abfb": {
+    "source": "registro nao foi salvo",
+    "location": "BuilderSession.java:2108"
+  },
+  "message_ae41eeddd855": {
+    "source": "nao consegui salvar {0}: {1}",
+    "location": "BuilderSession.java:2273"
+  },
+  "message_7b84f3690508": {
+    "source": "nao consegui apagar registro de {0}: {1}",
+    "location": "BuilderSession.java:2280"
+  },
+  "message_5a221d8b27d4": {
+    "source": "{0}: mundo indisponivel; registro preservado.",
+    "location": "BuilderSession.java:2297"
+  },
+  "message_83d7ffa8919c": {
+    "source": "{0} restaurado (NPC existente).",
+    "location": "BuilderSession.java:2310"
+  },
+  "message_fd47997de7e1": {
+    "source": "{0} restaurado (NPC recriado).",
+    "location": "BuilderSession.java:2310"
+  },
+  "message_5e8b64155018": {
+    "source": "nao consegui restaurar {0}: {1}",
+    "location": "BuilderSession.java:2311"
+  },
+  "message_647376a8cacd": {
+    "source": "Skin configurada invalida; usando a skin padrao de construtor.",
+    "location": "BuilderSession.java:2318"
+  },
+  "message_ec1e5a0599f1": {
+    "source": "skin configurada invalida; apliquei o construtor padrao.",
+    "location": "BuilderSession.java:2320"
+  },
+  "message_97c06b53f710": {
+    "source": "nao consegui salvar o modo; estado anterior preservado.",
+    "location": "BuilderSession.java:2331"
+  },
+  "message_bcd7da39fac0": {
+    "source": "Follow: vou seguir voce a pe quando estiver livre.",
+    "location": "BuilderSession.java:2336"
+  },
+  "message_b4f5983345bf": {
+    "source": "Stay: nao vou seguir voce. A obra confirmada continua.",
+    "location": "BuilderSession.java:2337"
+  },
+  "message_732af37b7522": {
+    "source": "distancia maxima: {0} blocos. Use distancia <4..64>.",
+    "location": "BuilderSession.java:2343"
+  },
+  "message_3369745b3b93": {
+    "source": "use distancia com um numero inteiro de 4 a 64 blocos.",
+    "location": "BuilderSession.java:2351"
+  },
+  "message_f3808456f45b": {
+    "source": "nao consegui salvar a distancia; valor anterior preservado.",
+    "location": "BuilderSession.java:2357"
+  },
+  "message_946cf906898a": {
+    "source": "distancia maxima do dono: {0} blocos. Fora dela, aguardo voce ou chamar.",
+    "location": "BuilderSession.java:2360"
+  },
+  "message_b29236594648": {
+    "source": "so o criador ou um operador pode chamar este construtor.",
+    "location": "BuilderSession.java:2366"
+  },
+  "message_b4ec75397579": {
+    "source": "a chamada deve ser feita pelo dono do construtor.",
+    "location": "BuilderSession.java:2370"
+  },
+  "message_9edaa40352a8": {
+    "source": "NPC indisponivel. Carregue a regiao onde ele ficou para poder chama-lo.",
+    "location": "BuilderSession.java:2373"
+  },
+  "message_81f00f97d100": {
+    "source": "nao encontrei chao seguro e permitido perto de voce. Va para um local aberto e tente novamente.",
+    "location": "BuilderSession.java:2383"
+  },
+  "message_b4de09ba649d": {
+    "source": "teletransporte recusado; tente outro local.",
+    "location": "BuilderSession.java:2390"
+  },
+  "message_8d2996c7c149": {
+    "source": "chamado para perto; pausado ate Follow ou Build > Continuar",
+    "location": "BuilderSession.java:2397"
+  },
+  "message_93dcafb93abc": {
+    "source": "estou perto de voce. Combate, movimento e trabalho pausados; fila e obra preservadas. Use {0} follow ou Build > Continuar para retomar.",
+    "location": "BuilderSession.java:2399"
+  },
+  "message_f0e2954340ce": {
+    "source": "estou perto de voce. Combate, movimento e trabalho pausados; fila e obra preservadas. Use {0} follow ou Build > Continuar para retomar. Nao consegui salvar a nova posicao; confira o disco.",
+    "location": "BuilderSession.java:2399"
+  },
+  "message_fb802873e1c4": {
+    "source": "pausado pela chamada; use Follow ou Build > Continuar",
+    "location": "BuilderSession.java:2541"
+  },
+  "message_c8733b56b76c": {
+    "source": "limite de distancia; aproxime-se ou use chamar",
+    "location": "BuilderSession.java:2541"
+  },
+  "message_f9c4e2793b5a": {
+    "source": "limite de distancia",
+    "location": "BuilderSession.java:2544"
+  },
+  "message_e8b6b79f8d98": {
+    "source": "voce esta em outro mundo; estou aguardando aqui",
+    "location": "BuilderSession.java:2559"
+  },
+  "message_9ce075200d10": {
+    "source": "voce esta longe; aproxime-se para eu continuar a pe",
+    "location": "BuilderSession.java:2563"
+  },
+  "message_aa218ad42c81": {
+    "source": "sem caminho seguro; aguardando",
+    "location": "BuilderSession.java:2568"
+  },
+  "message_f1709ec9a1de": {
+    "source": "oi, {0}! Estou aqui. Quer construir alguma coisa?",
+    "location": "BuilderSession.java:2583"
+  },
+  "message_1df17b10ef8d": {
+    "source": "estou descansando agora (horario permitido: {0}h as {1}h).",
+    "location": "BuilderSession.java:2627"
+  },
+  "message_f4447b8bf807": {
+    "source": "voce ja usou os {0} pedidos de hoje. Amanha tem mais!",
+    "location": "BuilderSession.java:2634"
+  },
+  "message_338c817305d6": {
+    "source": "AI requests are temporarily unavailable: daily usage could not be saved.",
+    "location": "BuilderSession.java:2637"
+  },
+  "message_49860541acdb": {
+    "source": "Somente operadores (pais) podem usar isso.",
+    "location": "BuilderSession.java:2643"
+  },
+  "message_971a601c60cd": {
+    "source": "uso: /construtor pais limite <n> (0 = sem limite)",
+    "location": "BuilderSession.java:2647"
+  },
+  "message_45486274241f": {
+    "source": "limite diario por jogador: sem limite",
+    "location": "BuilderSession.java:2652"
+  },
+  "message_7f8c4e9462e5": {
+    "source": "limite diario por jogador: {0} pedidos",
+    "location": "BuilderSession.java:2652"
+  },
+  "message_6a6a4d895496": {
+    "source": "o limite precisa ser um numero.",
+    "location": "BuilderSession.java:2654"
+  },
+  "message_f52564f4a011": {
+    "source": "uso: /construtor pais horario <inicio> <fim> (ex.: 8 21)",
+    "location": "BuilderSession.java:2658"
+  },
+  "message_51253b5982ac": {
+    "source": "horario permitido: das {0}h as {1}h",
+    "location": "BuilderSession.java:2664"
+  },
+  "message_e7b314b3fd6a": {
+    "source": "horas invalidas (use inteiros entre 0 e 24).",
+    "location": "BuilderSession.java:2666"
+  },
+  "message_d0e392c462e5": {
+    "source": "ultimas {0} entradas do log:",
+    "location": "BuilderSession.java:2672"
+  },
+  "message_0f13cef8d81d": {
+    "source": "pais: horario {0} | limite diario {1} | comandos: limite <n>, horario <ini> <fim>, historico [n]",
+    "location": "BuilderSession.java:2675"
+  },
+  "message_5c128229c126": {
+    "source": "(sem registros ainda)",
+    "location": "BuilderSession.java:2684"
+  },
+  "message_1cc187fbced3": {
+    "source": "erro ao ler o log: {0}",
+    "location": "BuilderSession.java:2691"
+  },
+  "message_61a4e22b138e": {
+    "source": "nao ha missoes configuradas.",
+    "location": "BuilderSession.java:2703"
+  },
+  "message_4c05b70a3fe2": {
+    "source": "todas as missoes foram concluidas. Parabens!",
+    "location": "BuilderSession.java:2704"
+  },
+  "message_86b304ee7f18": {
+    "source": "missao {0}: {1} ({2}/{3} blocos)",
+    "location": "BuilderSession.java:2706"
+  },
+  "message_8f5c167cbeb1": {
+    "source": "missao concluida: {0}!",
+    "location": "BuilderSession.java:2724"
+  },
+  "message_cd759af5db36": {
+    "source": "recompensa: {0}x {1}",
+    "location": "BuilderSession.java:2728"
+  },
+  "message_09509bfbcdc4": {
+    "source": "concluida {0} | recompensa {1} x{2}",
+    "location": "BuilderSession.java:2732"
+  },
+  "message_9ed1758e8ab1": {
+    "source": "progress.json invalido, comecando do zero: {0}",
+    "location": "BuilderSession.java:2746"
+  },
+  "message_4e4e03dc0e02": {
+    "source": "nao consegui salvar o progresso: {0}",
+    "location": "BuilderSession.java:2758"
+  },
+  "message_427548c8b158": {
+    "source": "so o criador autorizado pode pedir ao construtor.",
+    "location": "BuilderSession.java:2766"
+  },
+  "message_dc0ea5e6a81d": {
+    "source": "nao estou no mundo agora.",
+    "location": "BuilderSession.java:2769"
+  },
+  "message_70b66dfcd4e4": {
+    "source": "a obra {0} ainda tem blocos faltando. Use /construtor obra continuar antes de pedir incrementos.",
+    "location": "BuilderSession.java:2781"
+  },
+  "message_ab3dc3554d17": {
+    "source": "vou usar a area selecionada: {0}",
+    "location": "BuilderSession.java:2787"
+  },
+  "message_b0e9e3e7aeeb": {
+    "source": "o construtor precisa estar no mundo da area",
+    "location": "BuilderSession.java:2792"
+  },
+  "message_6919a667c743": {
+    "source": "AI is not connected yet because no API key is set. Built-in models work without AI. Ask a server operator to add a private key in config.yml, then run /builder reload.",
+    "location": "BuilderSession.java:2806"
+  },
+  "message_a7767a325db3": {
+    "source": "A IA ainda não está conectada porque nenhuma chave de API foi configurada. Os modelos prontos funcionam sem IA. Peça a um operador para adicionar a chave privada em config.yml e executar /builder reload.",
+    "location": "BuilderSession.java:2807"
+  },
+  "message_892210dbf237": {
+    "source": "{0} • Preparando sua explicacao...",
+    "location": "BuilderSession.java:2817"
+  },
+  "message_fec57a9c069a": {
+    "source": "{0} • Planejando o incremento...",
+    "location": "BuilderSession.java:2817"
+  },
+  "message_9129c7c047e9": {
+    "source": "{0} • Planejando sua construcao...",
+    "location": "BuilderSession.java:2817"
+  },
+  "message_d548ecad3c8b": {
+    "source": "{0} • Lendo terreno da area",
+    "location": "BuilderSession.java:2891"
+  },
+  "message_630914fbf584": {
+    "source": "nao consegui ler a area: {0}",
+    "location": "BuilderSession.java:2893"
+  },
+  "message_d12a43545ec7": {
+    "source": "Nao consegui pensar agora (erro da IA). Tente de novo.",
+    "location": "BuilderSession.java:3029"
+  },
+  "message_1ccdbec8b0e8": {
+    "source": "resposta sem choices",
+    "location": "BuilderSession.java:3034"
+  },
+  "message_a19da4ebec3f": {
+    "source": "A IA esta sobrecarregada. Tente de novo.",
+    "location": "BuilderSession.java:3035"
+  },
+  "message_53221af63549": {
+    "source": "JSON da IA invalido",
+    "location": "BuilderSession.java:3042"
+  },
+  "message_7f89926983e5": {
+    "source": "Nao entendi o plano. Tente reformular.",
+    "location": "BuilderSession.java:3043"
+  },
+  "message_5488ed3ae8dc": {
+    "source": "plano invalido. Tente um pedido mais simples.",
+    "location": "BuilderSession.java:3051"
+  },
+  "message_7367c1990648": {
+    "source": "plano invalido: {0}",
+    "location": "BuilderSession.java:3051"
+  },
+  "message_d89440606d71": {
+    "source": "Erro ao falar com a IA.",
+    "location": "BuilderSession.java:3055"
+  },
+  "message_4f12d308aa63": {
+    "source": "nao consegui explicar isso agora.",
+    "location": "BuilderSession.java:3068"
+  },
+  "message_1d3fecb4d0a1": {
+    "source": "(explicacao) {0}",
+    "location": "BuilderSession.java:3070"
+  },
+  "message_35dda9c7a336": {
+    "source": "para incrementos, a IA deve responder com acoes (place/replace), nao com planta. Tente de novo.",
+    "location": "BuilderSession.java:3076"
+  },
+  "message_57cfb61e4df7": {
+    "source": "(planta recusada em incremento)",
+    "location": "BuilderSession.java:3077"
+  },
+  "message_45fad3f802bb": {
+    "source": "(planta proposta, aguardando confirmacao)",
+    "location": "BuilderSession.java:3082"
+  },
+  "message_5ca17d3bc7a4": {
+    "source": "plano de acoes invalido ou acima do limite. Peca uma planta menor.",
+    "location": "BuilderSession.java:3090"
+  },
+  "message_4144a195466c": {
+    "source": "este plano precisa de limpeza ou nivelamento do terreno. Para eu nao remover blocos sem uma previa dedicada, use {0} terreno nivelar (ou {1} terreno limpar), confira e confirme a previa; depois envie o pedido de construcao novamente.",
+    "location": "BuilderSession.java:3101"
+  },
+  "message_910a5fa2d24b": {
+    "source": "plano encaminhado para previa de terreno",
+    "location": "BuilderSession.java:3103"
+  },
+  "message_554041edf6c4": {
+    "source": "(preparo de terreno solicitado) {0}",
+    "location": "BuilderSession.java:3104"
+  },
+  "message_e6c56f1f751c": {
+    "source": "nao tenho nada a fazer com isso.",
+    "location": "BuilderSession.java:3111"
+  },
+  "message_ce064074da29": {
+    "source": "(resposta sem acoes) {0}",
+    "location": "BuilderSession.java:3114"
+  },
+  "message_886b0f7b122c": {
+    "source": "o plano so tem movimentos; nada seria construido. Peca de novo descrevendo o que construir.",
+    "location": "BuilderSession.java:3122"
+  },
+  "message_55f94183bb4d": {
+    "source": "plano so de movimento",
+    "location": "BuilderSession.java:3122"
+  },
+  "message_07d23b7c5f78": {
+    "source": "plano sobre blocos existentes: {0}",
+    "location": "BuilderSession.java:3127"
+  },
+  "message_9c121f442e74": {
+    "source": "(replace recusado)",
+    "location": "BuilderSession.java:3137"
+  },
+  "message_33b2d1c67f22": {
+    "source": "plano recusado: em obra aberta a IA so pode usar place, replace ou move.",
+    "location": "BuilderSession.java:3141"
+  },
+  "message_1702acec4e5c": {
+    "source": "(acao recusada em incremento)",
+    "location": "BuilderSession.java:3142"
+  },
+  "message_d114c1e23969": {
+    "source": "incremento na obra {0}: ",
+    "location": "BuilderSession.java:3155"
+  },
+  "message_dd8e021e961f": {
+    "source": "(plano proposto, aguardando confirmacao) {0}",
+    "location": "BuilderSession.java:3160"
+  },
+  "message_0894f114d7ea": {
+    "source": "{0} | pedido de {1}",
+    "location": "BuilderSession.java:3161"
+  },
+  "message_f83461971ef6": {
+    "source": "plano recusado: {0} bloco(s) cairiam em blocos ja existentes (ex.: {1}). Provavelmente e o chao: use /construtor terreno nivelar (ou limpar) na area, ou marque a area mais acima e peca de novo.",
+    "location": "BuilderSession.java:3187"
+  },
+  "message_76fbc3c42ace": {
+    "source": "materiais livres; montagem criativa dentro da selecao confirmada",
+    "location": "BuilderSession.java:3194"
+  },
+  "message_4621173061b6": {
+    "source": "materiais: nenhum (so movimentos ou quebras)",
+    "location": "BuilderSession.java:3203"
+  },
+  "message_24f62c8a27fe": {
+    "source": "materiais: ilimitados (modo criativo do construtor)",
+    "location": "BuilderSession.java:3204"
+  },
+  "message_41f60fee0ec2": {
+    "source": "materiais necessarios: ",
+    "location": "presentation"
+  },
+  "message_33628ebdbe07": {
+    "source": " (retorna BUCKET vazio)",
+    "location": "BuilderSession.java:3212"
+  },
+  "message_162ebd9e489f": {
+    "source": " (ok)",
+    "location": "BuilderSession.java:3216"
+  },
+  "message_ca69cc95b8d6": {
+    "source": " (voce tem {0})",
+    "location": "BuilderSession.java:3216"
+  },
+  "message_9c2cdcae7302": {
+    "source": " e mais ",
+    "location": "presentation"
+  },
+  "message_c3cdf43f19e2": {
+    "source": " (criador offline: nao consigo conferir)",
+    "location": "BuilderSession.java:3221"
+  },
+  "message_1b46f0e682b5": {
+    "source": "{0} acoes ({1} colocar, {2} quebrar, {3} mover)",
+    "location": "BuilderSession.java:3241"
+  },
+  "message_c5bea4b13692": {
+    "source": "o pedido aguardando area expirou. Envie novamente quando estiver pronto.",
+    "location": "BuilderSession.java:3287"
+  },
+  "message_52097e16d694": {
+    "source": "o plano expirou. Peca novamente quando estiver pronto.",
+    "location": "BuilderSession.java:3291"
+  },
+  "message_a9c718111bf1": {
+    "source": "terminei. {0} acoes feitas, {1} recusadas por seguranca.",
+    "location": "BuilderSession.java:3301"
+  },
+  "message_0879699b53e4": {
+    "source": "recusas: {0}",
+    "location": "BuilderSession.java:3302"
+  },
+  "message_5b61ca6d8057": {
+    "source": "aguardando: volte ao mundo da obra para continuar",
+    "location": "BuilderSession.java:3312"
+  },
+  "message_a436daf7989e": {
+    "source": "erro: {0}",
+    "location": "BuilderSession.java:3326"
+  },
+  "message_8bde467e10c9": {
+    "source": "aguardando: faltam materiais",
+    "location": "BuilderSession.java:3328"
+  },
+  "message_d8f3787eb949": {
+    "source": "aguardando:",
+    "location": "BuilderSession.java:3329"
+  },
+  "message_3dc0b9549b65": {
+    "source": "{0}. Vou continuar automaticamente; /construtor stop para pausar.",
+    "location": "BuilderSession.java:3330"
+  },
+  "message_8bc3bf63c510": {
+    "source": "{0} • Construindo",
+    "location": "BuilderSession.java:3337"
+  },
+  "message_e8e91dc6b587": {
+    "source": "ok: ja construido",
+    "location": "BuilderSession.java:3342"
+  },
+  "message_a652be0e5b5f": {
+    "source": "desfazendo a obra... {0} blocos removidos.",
+    "location": "BuilderSession.java:3349"
+  },
+  "message_b7473289eb53": {
+    "source": "alguns blocos foram preservados: {0}.",
+    "location": "BuilderSession.java:3350"
+  },
+  "message_1e7b6a592529": {
+    "source": "construindo... {0} blocos ate agora.",
+    "location": "BuilderSession.java:3352"
+  },
+  "message_4603ab13bef4": {
+    "source": "alguns blocos foram recusados: {0}. Vou resumir ao terminar.",
+    "location": "BuilderSession.java:3353"
+  },
+  "message_3e2e4ee09742": {
+    "source": " (nao: {0})",
+    "location": "BuilderSession.java:3355"
+  },
+  "message_db4f977d1f4a": {
+    "source": "andando ate {0}",
+    "location": "BuilderSession.java:3364"
+  },
+  "message_4aecc0cb3c7a": {
+    "source": "quebrando terreno em {0}",
+    "location": "BuilderSession.java:3366"
+  },
+  "message_fd3342263488": {
+    "source": "desfazendo obra em {0}",
+    "location": "BuilderSession.java:3367"
+  },
+  "message_9159dd3c89fd": {
+    "source": "rejeitado: coordenadas invalidas",
+    "location": "BuilderSession.java:3377"
+  },
+  "message_019b8854177f": {
+    "source": "rejeitado: longe demais",
+    "location": "BuilderSession.java:3378"
+  },
+  "message_3ef56d4e1345": {
+    "source": "rejeitado: fora da zona permitida",
+    "location": "BuilderSession.java:3379"
+  },
+  "message_4e9501e34899": {
+    "source": "rejeitado: fora da borda do mundo",
+    "location": "BuilderSession.java:3380"
+  },
+  "message_8ca33d2d9b07": {
+    "source": "rejeitado: zona do spawn",
+    "location": "BuilderSession.java:3381"
+  },
+  "message_bf667b7b5814": {
+    "source": "rejeitado: area protegida (claim)",
+    "location": "BuilderSession.java:3382"
+  },
+  "message_eae848de03b1": {
+    "source": "rejeitado: destino ocupado",
+    "location": "BuilderSession.java:3384"
+  },
+  "message_e92b6fc3ffbf": {
+    "source": "ok: movido",
+    "location": "BuilderSession.java:3387"
+  },
+  "message_c4b132c8e758": {
+    "source": "rejeitado: sem caminho seguro",
+    "location": "BuilderSession.java:3391"
+  },
+  "message_e11566c0e085": {
+    "source": "aguardando: caminhando ate o destino",
+    "location": "BuilderSession.java:3392"
+  },
+  "message_407346a63e5d": {
+    "source": "rejeitado: jardim exige catalogo confirmado",
+    "location": "BuilderSession.java:3402"
+  },
+  "message_cc174adefbf8": {
+    "source": "rejeitado: bloco ocupado ou orientacao alterada; confira manualmente",
+    "location": "BuilderSession.java:3407"
+  },
+  "message_e7a517a0e474": {
+    "source": "rejeitado: material nao permitido",
+    "location": "BuilderSession.java:3411"
+  },
+  "message_af7317d52d18": {
+    "source": "rejeitado: orientacao invalida",
+    "location": "BuilderSession.java:3413"
+  },
+  "message_96fa4c1f0e70": {
+    "source": "aguardando: limite de velocidade",
+    "location": "BuilderSession.java:3414"
+  },
+  "message_2d5a55cc5fd6": {
+    "source": "aguardando: saindo do caminho da obra",
+    "location": "BuilderSession.java:3416"
+  },
+  "message_fb7d082df85c": {
+    "source": "rejeitado: sem espaco livre fora da obra para o construtor",
+    "location": "BuilderSession.java:3416"
+  },
+  "message_76dd36bcda03": {
+    "source": "rejeitado: sem caminho seguro ate o bloco",
+    "location": "BuilderSession.java:3421"
+  },
+  "message_46cf07fc9608": {
+    "source": "aguardando: caminhando ate a obra",
+    "location": "BuilderSession.java:3422"
+  },
+  "message_77a7921cb018": {
+    "source": "aguardando: faltam materiais ({0})",
+    "location": "BuilderSession.java:3427"
+  },
+  "message_142226f06376": {
+    "source": "ok: colocado {0}",
+    "location": "BuilderSession.java:3434"
+  },
+  "message_36d090b49780": {
+    "source": "rejeitado: so substitui blocos da propria obra",
+    "location": "BuilderSession.java:3443"
+  },
+  "message_7f4911317d4d": {
+    "source": "rejeitado: bloco da obra alterado; confira manualmente",
+    "location": "BuilderSession.java:3445"
+  },
+  "message_fee9731725a5": {
+    "source": "rejeitado: bloco com dados ou inventario",
+    "location": "BuilderSession.java:3446"
+  },
+  "message_a12804d85636": {
+    "source": "ok: substituido por {0}",
+    "location": "BuilderSession.java:3471"
+  },
+  "message_2c0fd467d67d": {
+    "source": "rejeitado: so terra, grama ou pedra natural",
+    "location": "BuilderSession.java:3480"
+  },
+  "message_c7ee9520a8fe": {
+    "source": "rejeitado: bloco de construcao de jogador (CoreProtect)",
+    "location": "BuilderSession.java:3483"
+  },
+  "message_ea7debd20c69": {
+    "source": "rejeitado: nao consegui alcancar o bloco com seguranca. Se o plano exige limpar ou nivelar, use {0} terreno nivelar ou terreno limpar, confirme a previa e envie o pedido novamente",
+    "location": "BuilderSession.java:3485"
+  },
+  "message_a08627d66e40": {
+    "source": "aguardando: aproximando-se do terreno a remover",
+    "location": "BuilderSession.java:3486"
+  },
+  "message_639edbb8d5c2": {
+    "source": "ok: quebrado",
+    "location": "BuilderSession.java:3494"
+  },
+  "message_cb0a7d402c9b": {
+    "source": "rejeitado: area protegida (claim/spawn)",
+    "location": "BuilderSession.java:3499"
+  },
+  "message_1f938c3a2cf9": {
+    "source": "rejeitado: bloco alterado depois da construcao",
+    "location": "BuilderSession.java:3502"
+  },
+  "message_26d90ce32019": {
+    "source": "rejeitado: jogador que iniciou o desfazer saiu",
+    "location": "BuilderSession.java:3503"
+  },
+  "message_474d195d8139": {
+    "source": "rejeitado: protegido por outro plugin",
+    "location": "BuilderSession.java:3509"
+  },
+  "message_7fde0a440715": {
+    "source": "rejeitado: bloco alterado por protecao durante o desfazer",
+    "location": "BuilderSession.java:3511"
+  },
+  "message_fa0d002cd2a3": {
+    "source": "ok: removido",
+    "location": "BuilderSession.java:3517"
+  },
+  "message_92d5401bb423": {
+    "source": "rejeitado: acao desconhecida '{0}'",
+    "location": "BuilderSession.java:3520"
+  },
+  "message_6b0ff960216a": {
+    "source": "rejeitado: blocos com agua nao permitidos",
+    "location": "BuilderSession.java:3691"
+  },
+  "message_f731dafcaffb": {
+    "source": "rejeitado: flor sem apoio ou condicoes de sobrevivencia",
+    "location": "BuilderSession.java:3693"
+  },
+  "message_6bbaa9501a92": {
+    "source": "rejeitado: bloco sem apoio ou condicoes de colocacao",
+    "location": "BuilderSession.java:3695"
+  },
+  "message_fb78b86f6fcb": {
+    "source": "rejeitado: bloco com gravidade sem apoio",
+    "location": "BuilderSession.java:3697"
+  },
+  "message_b009f8938d54": {
+    "source": "aguardando: afaste jogadores e criaturas do bloco",
+    "location": "BuilderSession.java:3702"
+  },
+  "message_6dace7cb6c3a": {
+    "source": "rejeitado: jardim em outro mundo",
+    "location": "BuilderSession.java:3754"
+  },
+  "message_630a4394c7cc": {
+    "source": "rejeitado: bacia sem preflight completo",
+    "location": "BuilderSession.java:3761"
+  },
+  "message_b892683ff44c": {
+    "source": "rejeitado: bacia planejada insegura",
+    "location": "BuilderSession.java:3763"
+  },
+  "message_84fc3a2a3696": {
+    "source": "rejeitado: jardim sem apoio planejado",
+    "location": "BuilderSession.java:3768"
+  },
+  "message_04ecf4399d7a": {
+    "source": "aguardando: bacia em chunk descarregado",
+    "location": "BuilderSession.java:3770"
+  },
+  "message_1b2735e13c0f": {
+    "source": "rejeitado: apoio do jardim fora da area ou protegido",
+    "location": "BuilderSession.java:3773"
+  },
+  "message_3640f6b507da": {
+    "source": "rejeitado: bacia ou solo ainda incompleto ou alterado",
+    "location": "BuilderSession.java:3776"
+  },
+  "message_428c5811567d": {
+    "source": "rejeitado: apoio do jardim alterado",
+    "location": "BuilderSession.java:3778"
+  },
+  "message_d1937c0f0171": {
+    "source": "material desconhecido: {0}",
+    "location": "BuilderSession.java:3793"
+  },
+  "message_2c27a5e34c25": {
+    "source": "material nao permitido: {0} (use um bloco disponivel no servidor Paper 26.3+ e respeite os materiais protegidos)",
+    "location": "BuilderSession.java:3794"
+  },
+  "message_c49105844d23": {
+    "source": "BlockData nao corresponde ao material: {0}",
+    "location": "BuilderSession.java:3797"
+  },
+  "message_acf725426e83": {
+    "source": "BlockData invalido: {0}",
+    "location": "BuilderSession.java:3798"
+  },
+  "message_23e98da8a695": {
+    "source": "[AIBuilder] nao consegui gravar a previa dos pre-moldados: {0}",
+    "location": "BuilderSession.java:3826"
+  },
+  "message_88ec346c8782": {
+    "source": "CoreProtect lookup falhou: {0}",
+    "location": "BuilderSession.java:3948"
+  },
+  "message_2c40fca7554c": {
+    "source": "nao consegui ler a pasta {0}: {1}",
+    "location": "UserPrebuilts.java:62"
+  },
+  "message_6a9c3dae743b": {
+    "source": "limite de {0} pre-moldados do usuario atingido; arquivos excedentes foram ignorados",
+    "location": "UserPrebuilts.java:67"
+  },
+  "message_c8db50873629": {
+    "source": "arquivo maior que construction.max-file-bytes",
+    "location": "UserPrebuilts.java:72"
+  },
+  "message_e743f2175dec": {
+    "source": "JSON invalido ({0})",
+    "location": "UserPrebuilts.java:96"
+  },
+  "message_fae0e66f191d": {
+    "source": "a raiz precisa ser um objeto JSON",
+    "location": "UserPrebuilts.java:97"
+  },
+  "message_3f0a1f3a36e3": {
+    "source": "campo '{0}' nao e aceito: a posicao no mundo e escolhida pelo jogador com a area marcada",
+    "location": "UserPrebuilts.java:101"
+  },
+  "message_8c7167f52a65": {
+    "source": "campo desconhecido '{0}'",
+    "location": "UserPrebuilts.java:102"
+  },
+  "message_26049300bd9c": {
+    "source": "id '{0}' invalido: use 3 a 40 letras minusculas, numeros ou _ (comecando por letra)",
+    "location": "UserPrebuilts.java:105"
+  },
+  "message_83e29ff6679c": {
+    "source": "id '{0}' ja existe (builtin ou outro arquivo)",
+    "location": "UserPrebuilts.java:106"
+  },
+  "message_097cccbfb856": {
+    "source": "category '{0}' invalida: use letras minusculas e _",
+    "location": "UserPrebuilts.java:111"
+  },
+  "message_598ff29cc6e6": {
+    "source": "'parts' precisa ser uma lista de partes",
+    "location": "UserPrebuilts.java:112"
+  },
+  "message_ab45143aa289": {
+    "source": "entrance precisa ser north, south, east ou west",
+    "location": "UserPrebuilts.java:118"
+  },
+  "message_779d3bc5a1c8": {
+    "source": "footprint maior que {0} x {1}",
+    "location": "UserPrebuilts.java:133"
+  },
+  "message_7c1d32ce3b2a": {
+    "source": "altura maior que {0} blocos",
+    "location": "UserPrebuilts.java:134"
+  },
+  "message_90f0acc7fb97": {
+    "source": "volume maior que construction.max-volume",
+    "location": "UserPrebuilts.java:135"
+  },
+  "message_2dec4934a162": {
+    "source": "a parte mais baixa pode ir ate 1 bloco abaixo do chao (beirais); nada mais baixo",
+    "location": "UserPrebuilts.java:136"
+  },
+  "message_fc333ab16c6a": {
+    "source": "campo obrigatorio '{0}' ausente",
+    "location": "UserPrebuilts.java:153"
+  },
+  "message_db549fd94df3": {
+    "source": "'{0}' precisa ser texto",
+    "location": "UserPrebuilts.java:157"
+  },
+  "message_95afd853cbfe": {
+    "source": "'{0}' precisa ter de 1 a {1} caracteres",
+    "location": "UserPrebuilts.java:159"
+  },
+  "message_05c36ea5dee0": {
+    "source": "orientacao cardinal invalida",
+    "location": "BlueprintOrientation.java:26"
+  },
+  "message_0959744d0467": {
+    "source": "entrada original invalida",
+    "location": "BlueprintOrientation.java:34"
+  },
+  "message_d4807037ead4": {
+    "source": "rotacao deve ser 0..3",
+    "location": "BlueprintOrientation.java:64"
+  },
+  "message_adb8b860e8f0": {
+    "source": "{0} - Plan ready",
+    "location": "BuilderUi.java:29"
+  },
+  "message_bdd254b65baa": {
+    "source": "Build",
+    "location": "BuilderUi.java:31"
+  },
+  "message_e7aeb07c638e": {
+    "source": "Confirm this plan",
+    "location": "BuilderUi.java:37"
+  },
+  "message_19766ed6ccb2": {
+    "source": "Cancel",
+    "location": "BuilderUi.java:39"
+  },
+  "message_84d925b6d967": {
+    "source": "Discard the plan",
+    "location": "BuilderUi.java:41"
+  },
+  "message_725ff5c9d888": {
+    "source": "Review the area before you confirm. This plan expires in 2 minutes.",
+    "location": "BuilderUi.java:43"
+  },
+  "message_5b2931ba00a4": {
+    "source": "Review the area. Expires in 2 minutes. Press Esc to close; chat buttons stay available.",
+    "location": "BuilderUi.java:52"
+  },
+  "message_85a39ab345d6": {
+    "source": "Yes",
+    "location": "BuilderUi.java:66"
+  },
+  "message_251efea6eba0": {
+    "source": "Confirm this terrain preparation",
+    "location": "BuilderUi.java:68"
+  },
+  "message_1ea442a134b2": {
+    "source": "No",
+    "location": "BuilderUi.java:70"
+  },
+  "message_bee795c59127": {
+    "source": "Cancel without changing the terrain",
+    "location": "BuilderUi.java:72"
+  },
+  "message_53a31de04850": {
+    "source": "[Sim]",
+    "location": "BuilderUi.java:77"
+  },
+  "message_6163bae69811": {
+    "source": "[Não]",
+    "location": "BuilderUi.java:79"
+  },
+  "message_3ba917fcfbf8": {
+    "source": "Movement: ",
+    "location": "BuilderUi.java:83"
+  },
+  "message_742f9c092511": {
+    "source": "[Stay]",
+    "location": "BuilderUi.java:84"
+  },
+  "message_c072909b1243": {
+    "source": "Stop following; keep building the confirmed plan",
+    "location": "BuilderUi.java:86"
+  },
+  "message_c3334737ee9e": {
+    "source": "[Follow]",
+    "location": "BuilderUi.java:88"
+  },
+  "message_314f98e36dff": {
+    "source": "Walk after the owner when free",
+    "location": "BuilderUi.java:90"
+  },
+  "message_2d722a47b7e0": {
+    "source": "nao consegui preparar a pasta de pre-moldados: {0}",
+    "location": "AIBuilderPlugin.java:73"
+  },
+  "message_1e983de9c6ae": {
+    "source": "Pre-moldados atualizados: {0} validos de {1} arquivo(s).",
+    "location": "AIBuilderPlugin.java:101"
+  },
+  "message_7deb53e9e45d": {
+    "source": "pre-moldado ignorado: {0}",
+    "location": "AIBuilderPlugin.java:102"
+  },
+  "message_a9a0a83ac910": {
+    "source": "Pre-moldados do usuario: {0} de {1} arquivo(s).",
+    "location": "AIBuilderPlugin.java:119"
+  },
+  "message_5cd726c85515": {
+    "source": "AIBuilder ativo: {0} construtores registrados; limite {1}.",
+    "location": "AIBuilderPlugin.java:128"
+  },
+  "message_af035b7be792": {
+    "source": "Configuracao atualizada com opcoes ausentes; valores existentes foram preservados.",
+    "location": "AIBuilderPlugin.java:167"
+  },
+  "message_4a0a2e57e67a": {
+    "source": "Nao consegui mesclar os padroes ausentes de config.yml: {0}",
+    "location": "AIBuilderPlugin.java:170"
+  },
+  "message_95e0c773fd22": {
+    "source": "Registro incompleto: confira os erros no console antes de criar NPCs.",
+    "location": "AIBuilderPlugin.java:208"
+  },
+  "message_0f3126a43744": {
+    "source": "Limite do servidor: {0} construtores. Use /construtor listar.",
+    "location": "AIBuilderPlugin.java:209"
+  },
+  "message_97c8464da806": {
+    "source": "Limite absoluto de 5 construtores atingido.",
+    "location": "AIBuilderPlugin.java:211"
+  },
+  "message_c4e4e035ffd2": {
+    "source": "{0} criado e selecionado. Converse com @{1}.",
+    "location": "AIBuilderPlugin.java:218"
+  },
+  "message_e0b6c53f4555": {
+    "source": "Nao foi possivel criar {0}. Confira o console.",
+    "location": "AIBuilderPlugin.java:223"
+  },
+  "message_5f08d7556e6d": {
+    "source": "Falha no spawn: {0}",
+    "location": "AIBuilderPlugin.java:224"
+  },
+  "message_727242359ed6": {
+    "source": "Construtores no servidor: {0}/{1}",
+    "location": "AIBuilderPlugin.java:229"
+  },
+  "message_b422560d73bd": {
+    "source": "{0} — {1} /construtor {2} status",
+    "location": "AIBuilderPlugin.java:231"
+  },
+  "message_f6a69cf1f672": {
+    "source": "Somente operadores podem recarregar os pre-moldados.",
+    "location": "AIBuilderPlugin.java:235"
+  },
+  "message_0d4af59cbc0b": {
+    "source": "Pre-moldados do usuario: {0}/{1} carregados de {2} arquivo(s).",
+    "location": "AIBuilderPlugin.java:237"
+  },
+  "message_2a48766876b8": {
+    "source": "Somente operadores.",
+    "location": "AIBuilderPlugin.java:243"
+  },
+  "message_6c2d5d6287b2": {
+    "source": "Configuracao recarregada. Limite: {0}; NPCs existentes preservados.",
+    "location": "AIBuilderPlugin.java:257"
+  },
+  "message_662efa954da1": {
+    "source": "Example: /builder alfred zone set1; /builder bruce stop; chat @alfred <request>.",
+    "location": "AIBuilderPlugin.java:267"
+  },
+  "message_7bdbbb370711": {
+    "source": "Voce ainda nao tem construtores.",
+    "location": "AIBuilderPlugin.java:274"
+  },
+  "message_b673fcf9caec": {
+    "source": "Escolha um construtor autorizado em /construtor listar.",
+    "location": "AIBuilderPlugin.java:281"
+  },
+  "message_46994a2b1221": {
+    "source": "{0} selecionado. A pa vinculada continua marcando seu construtor original.",
+    "location": "AIBuilderPlugin.java:283"
+  },
+  "message_65277fb3b137": {
+    "source": "Comando ou nome desconhecido. Use /builder list ou help.",
+    "location": "AIBuilderPlugin.java:291"
+  },
+  "message_ab8363ca14fd": {
+    "source": "Nenhum construtor selecionado. Use /builder spawn or select <name>.",
+    "location": "AIBuilderPlugin.java:295"
+  },
+  "message_d6b7b5056cdf": {
+    "source": "So o criador ou um operador pode controlar {0}.",
+    "location": "AIBuilderPlugin.java:296"
+  },
+  "message_80418c12d897": {
+    "source": "{0} esta ocupado ({1}). Espere terminar ou use /builder {2} stop antes de apagar.",
+    "location": "AIBuilderPlugin.java:300"
+  },
+  "message_68d4a030744c": {
+    "source": "Falha ao apagar registro; NPC preservado.",
+    "location": "AIBuilderPlugin.java:304"
+  },
+  "message_140662b65ccb": {
+    "source": "{0} removido; {1} ferramenta(s) apagada(s). Os demais construtores continuam trabalhando.",
+    "location": "AIBuilderPlugin.java:309"
+  },
+  "message_abe6f800858f": {
+    "source": "Edit plugins/AIBuilder/config.yml, then run /builder reload.",
+    "location": "AIBuilderPlugin.java:340"
+  },
+  "message_bdb74b3ae30e": {
+    "source": "language: EN or PT  |  model: OpenRouter model ID  |  api-key: private key",
+    "location": "AIBuilderPlugin.java:341"
+  },
+  "message_71487135c2fb": {
+    "source": "movement, construction, terrain, planning, ai, combat, parental and ui options are documented in config.yml.",
+    "location": "AIBuilderPlugin.java:343"
+  },
+  "message_17de2dec352e": {
+    "source": "Tip: start with language and model. Keep limits low on a busy server; increase one value at a time.",
+    "location": "AIBuilderPlugin.java:344"
+  },
+  "message_17d03d6cff0a": {
+    "source": "Use /builder menu for clickable settings, or /builder settings language EN|PT.",
+    "location": "AIBuilderPlugin.java:345"
+  },
+  "message_0add5700ff33": {
+    "source": "Only server operators can change settings.",
+    "location": "AIBuilderPlugin.java:348"
+  },
+  "message_97ecf79588e3": {
+    "source": "Choose EN or PT.",
+    "location": "AIBuilderPlugin.java:351"
+  },
+  "message_5a5586aa9af4": {
+    "source": "Language saved: {0}.",
+    "location": "AIBuilderPlugin.java:353"
+  },
+  "message_125621989c4b": {
+    "source": "Usage: /builder settings [show] or /builder settings language EN|PT",
+    "location": "AIBuilderPlugin.java:356"
+  },
+  "message_f9ae150442a8": {
+    "source": "Construtor indisponivel. Use /builder list.",
+    "location": "AIBuilderPlugin.java:399"
+  },
+  "message_e7a96efd8aba": {
+    "source": "registro de {0} nao foi apagado; construtor mantido.",
+    "location": "AIBuilderPlugin.java:428"
+  },
+  "message_3dfc79f40dd4": {
+    "source": "{0} apagado: o dono saiu e nao havia trabalho pendente.",
+    "location": "AIBuilderPlugin.java:433"
+  },
+  "message_d0e00aa6a376": {
+    "source": "identidade inconsistente: {0}",
+    "location": "AIBuilderPlugin.java:446"
+  },
+  "message_951dc10df018": {
+    "source": "Registro de construtores incompleto; spawn bloqueado para preservar dados: {0}",
+    "location": "AIBuilderPlugin.java:454"
+  },
+  "message_966b9262fbae": {
+    "source": "nome/identidade duplicado ou limite absoluto excedido",
+    "location": "AIBuilderPlugin.java:462"
+  },
+  "message_9aa06f054e2a": {
+    "source": "entidade registrada para mais de um construtor",
+    "location": "AIBuilderPlugin.java:465"
+  },
+  "message_000ea5c89b43": {
+    "source": "posicao invalida",
+    "location": "AIBuilderPlugin.java:467"
+  },
+  "message_e920d6ac7bef": {
+    "source": "zona invalida",
+    "location": "AIBuilderPlugin.java:476"
+  },
+  "message_02f689372856": {
+    "source": "falha ao salvar migracao",
+    "location": "AIBuilderPlugin.java:513"
+  },
+  "message_31cf0ce10720": {
+    "source": "planta invalida: limite de blocos invalido",
+    "location": "BlueprintCompiler.java:49"
+  },
+  "message_77dd5ce9f3ee": {
+    "source": "limite de blocos invalido",
+    "location": "BlueprintCompiler.java:65"
+  },
+  "message_267b29833afc": {
+    "source": "parts precisa ser uma lista",
+    "location": "BlueprintCompiler.java:66"
+  },
+  "message_5b981c1dd612": {
+    "source": "parts deve conter entre 1 e {0} partes",
+    "location": "BlueprintCompiler.java:68"
+  },
+  "message_c02c67e505c5": {
+    "source": "parte precisa ser objeto",
+    "location": "BlueprintCompiler.java:73"
+  },
+  "message_ab633f70ab09": {
+    "source": "orcamento de processamento excedido",
+    "location": "BlueprintCompiler.java:75"
+  },
+  "message_a09658736d94": {
+    "source": "tipo desconhecido",
+    "location": "BlueprintCompiler.java:85"
+  },
+  "message_d81eea988264": {
+    "source": "a planta nao gerou nenhum bloco",
+    "location": "BlueprintCompiler.java:103"
+  },
+  "message_28540779fb6c": {
+    "source": "planta invalida: {0}",
+    "location": "BlueprintCompiler.java:106"
+  },
+  "message_20503f8a3f36": {
+    "source": "from deve ser menor ou igual a to",
+    "location": "BlueprintCompiler.java:141"
+  },
+  "message_dce2f469c090": {
+    "source": "material invalido",
+    "location": "BlueprintCompiler.java:144"
+  },
+  "message_ed202637808e": {
+    "source": "BlockData invalido",
+    "location": "BlueprintCompiler.java:147"
+  },
+  "message_ddda3586a523": {
+    "source": "BlockData nao corresponde ao material",
+    "location": "BlueprintCompiler.java:149"
+  },
+  "message_42e92834baf5": {
+    "source": "height fora do limite",
+    "location": "BlueprintCompiler.java:159"
+  },
+  "message_0d19f50a65d5": {
+    "source": "paredes precisam de from/to na mesma altura",
+    "location": "BlueprintCompiler.java:160"
+  },
+  "message_07613531b53a": {
+    "source": "parede nao e reta",
+    "location": "BlueprintCompiler.java:161"
+  },
+  "message_4730ae4c92f9": {
+    "source": "layers fora do limite",
+    "location": "BlueprintCompiler.java:166"
+  },
+  "message_fad14e50c139": {
+    "source": "telhado precisa de from/to na mesma altura",
+    "location": "BlueprintCompiler.java:167"
+  },
+  "message_2e0d81afd063": {
+    "source": "tipo desconhecido: {0}",
+    "location": "BlueprintCompiler.java:170"
+  },
+  "message_a2a4df8b90a8": {
+    "source": "origem causa overflow",
+    "location": "BlueprintCompiler.java:175"
+  },
+  "message_09d6f67d36c5": {
+    "source": "openings precisa ser lista",
+    "location": "BlueprintCompiler.java:179"
+  },
+  "message_707400733131": {
+    "source": "muitas aberturas",
+    "location": "BlueprintCompiler.java:181"
+  },
+  "message_890f2333a8a8": {
+    "source": "abertura precisa ser objeto",
+    "location": "BlueprintCompiler.java:183"
+  },
+  "message_09c94e4960ba": {
+    "source": "dimensoes da abertura invalidas",
+    "location": "BlueprintCompiler.java:187"
+  },
+  "message_e86ae787a1b9": {
+    "source": "lado da abertura invalido",
+    "location": "BlueprintCompiler.java:191"
+  },
+  "message_be575f026250": {
+    "source": "abertura fora da parede",
+    "location": "BlueprintCompiler.java:194"
+  },
+  "message_1398028bd272": {
+    "source": "aberturas somente em paredes",
+    "location": "BlueprintCompiler.java:195"
+  },
+  "message_cca5850597ac": {
+    "source": "numero inteiro esperado",
+    "location": "BlueprintCompiler.java:203"
+  },
+  "message_0cdd9e2c03ff": {
+    "source": "numero inteiro fora do limite",
+    "location": "BlueprintCompiler.java:207"
+  },
+  "message_a53f39d0fb79": {
+    "source": "'{0}' precisa de 3 numeros",
+    "location": "BlueprintCompiler.java:311"
+  },
+  "message_83eb20fa3f7f": {
+    "source": "volume pesquisado excede o limite tecnico",
+    "location": "TerrainGrid.java:21"
+  },
+  "message_38d9e321d79a": {
+    "source": "regiao invalida ou acima do limite tecnico de {0} posicoes",
+    "location": "TerrainGrid.java:23"
+  },
+  "message_d046cc770da0": {
+    "source": "terrain planning cancelled",
+    "location": "TerrainGrid.java:57"
+  },
+  "message_8283def188e0": {
+    "source": "levantamento incompleto",
+    "location": "TerrainGrid.java:62"
+  },
+  "message_884471a1b796": {
+    "source": "base selecionada fora do levantamento",
+    "location": "TerrainGrid.java:76"
+  },
+  "message_7146069ab44c": {
+    "source": "coluna sem chao na selecao; inclua o terreno na selecao antes de nivelar",
+    "location": "TerrainGrid.java:99"
+  },
+  "message_9e680644d23b": {
+    "source": "chao atinge o limite superior observado; marque uma regiao mais alta",
+    "location": "TerrainGrid.java:101"
+  },
+  "message_6c0c2f8a4a84": {
+    "source": "obstaculo acima do chao; remova-o antes de nivelar",
+    "location": "TerrainGrid.java:103"
+  },
+  "message_b24a3ee8628c": {
+    "source": "nivelamento normal recusado: liquido ou construcao na superficie; use Deep (OP) para remover construcoes",
+    "location": "TerrainGrid.java:105"
+  },
+  "message_9a48c12576d8": {
+    "source": "empate entre alturas; selecione uma area com altura predominante",
+    "location": "TerrainGrid.java:109"
+  },
+  "message_46b171151f12": {
+    "source": "nivelamento recusado: bloco artificial ou liquido na escavacao",
+    "location": "TerrainGrid.java:149"
+  },
+  "message_b2fed875372d": {
+    "source": "preenchimento ocupado",
+    "location": "TerrainGrid.java:154"
+  },
+  "message_ba58d65aa606": {
+    "source": "preparacao excede o limite de {0} alteracoes",
+    "location": "TerrainGrid.java:160"
+  },
+  "message_62f907e7ba2c": {
+    "source": " colunas; intervalo observado y=",
+    "location": "TerrainGrid.java:191"
+  },
+  "message_e44dcb1c6734": {
+    "source": "Colunas sem superficie observada: ",
+    "location": "TerrainGrid.java:193"
+  },
+  "message_125ee1ac353e": {
+    "source": "Superficies entre y=",
+    "location": "TerrainGrid.java:194"
+  },
+  "message_806078f5b4c5": {
+    "source": " e y=",
+    "location": "TerrainGrid.java:194"
+  },
+  "message_4d689559248c": {
+    "source": "Alturas observadas (y:colunas): ",
+    "location": "TerrainGrid.java:195"
+  },
+  "message_1c724d6fc1be": {
+    "source": "Terreno abaixo/acima desse intervalo nao foi inspecionado. A area permitida continua sendo a AREA DE CONSTRUCAO.\n",
+    "location": "TerrainGrid.java:198"
+  },
+  "message_e8c8a3588eb7": {
+    "source": "Materiais observados (contagem de blocos): ",
+    "location": "TerrainGrid.java:199"
+  },
+  "message_001c1f6b5f3a": {
+    "source": "\nGrade resumida de superficies (amostras distribuidas por toda a area, incluindo bordas; nao representa cada bloco). X:",
+    "location": "TerrainGrid.java:202"
+  },
+  "message_a0939dab832d": {
+    "source": "limites de construcao precisam ser positivos",
+    "location": "ConstructionLimits.java:8"
+  },
+  "message_44250b4e0abd": {
+    "source": "rejeitado: alteracao removeria vedacao da bacia",
+    "location": "CatalogGardenPolicy.java:52"
+  },
+  "message_1527b62e6298": {
+    "source": "rejeitado: alteracao removeria solo da flor",
+    "location": "CatalogGardenPolicy.java:57"
+  },
+  "message_c5c29e1f129b": {
+    "source": "jardim: waterlogged nao permitido",
+    "location": "CatalogGardenPolicy.java:64"
+  },
+  "message_3b93823b2999": {
+    "source": "jardim: LIGHT exige level=15,waterlogged=false",
+    "location": "CatalogGardenPolicy.java:65"
+  },
+  "message_7c997d49e9ce": {
+    "source": "jardim: apenas WATER[level=0]",
+    "location": "CatalogGardenPolicy.java:67"
+  },
+  "message_1434b10a4560": {
+    "source": "jardim: agua sem fundo inteiro vedado em {0}",
+    "location": "CatalogGardenPolicy.java:68"
+  },
+  "message_96ade0ffed0e": {
+    "source": "jardim: agua sem parede inteira vedada em {0}",
+    "location": "CatalogGardenPolicy.java:71"
+  },
+  "message_abfc4405839c": {
+    "source": "jardim: flor sem solo em {0}",
+    "location": "CatalogGardenPolicy.java:75"
+  },
+  "message_5f9005d70e07": {
+    "source": "jardim: estado de flor nao permitido",
+    "location": "CatalogGardenPolicy.java:77"
+  },
+  "message_650a94142f1f": {
+    "source": "jardim: bacia excede {0} apoios; subdivida fisicamente",
+    "location": "CatalogGardenPolicy.java:83"
+  },
+  "message_9397e56c5740": {
+    "source": "agua fora do plano",
+    "location": "CatalogGardenPolicy.java:95"
+  },
+  "message_9f01ae81a400": {
+    "source": "fundo inseguro",
+    "location": "CatalogGardenPolicy.java:96"
+  },
+  "message_ddb7876a8d2a": {
+    "source": "parede insegura",
+    "location": "CatalogGardenPolicy.java:102"
+  },
+  "message_989fa9cec6d3": {
+    "source": "bacia grande demais",
+    "location": "CatalogGardenPolicy.java:111"
+  },
+  "message_7f9cfc205368": {
+    "source": "ja existe um pedido em andamento",
+    "location": "RequestGuard.java:10"
+  },
+  "message_090940e73258": {
+    "source": "Builder",
+    "location": "BuilderMenu.java:54"
+  },
+  "message_99af6606ff9d": {
+    "source": "Menu",
+    "location": "BuilderMenu.java:67"
+  },
+  "message_01323a8de0f3": {
+    "source": "Meus construtores",
+    "location": "BuilderMenu.java:68"
+  },
+  "message_1e72120bb0e5": {
+    "source": "Apagar {0}?",
+    "location": "BuilderMenu.java:70"
+  },
+  "message_29ffffbf168e": {
+    "source": "Pre-moldados · {0}",
+    "location": "BuilderMenu.java:71"
+  },
+  "message_80b71d419da7": {
+    "source": "Configuracoes",
+    "location": "BuilderMenu.java:72"
+  },
+  "message_041c147b4415": {
+    "source": "Obras inacabadas",
+    "location": "BuilderMenu.java:73"
+  },
+  "message_1b9d1141d5f3": {
+    "source": "Apagar obras inacabadas?",
+    "location": "BuilderMenu.java:74"
+  },
+  "message_10fa61830d9b": {
+    "source": "Preparar terreno",
+    "location": "BuilderMenu.java:75"
+  },
+  "message_e89ad063cffd": {
+    "source": "Deep clean",
+    "location": "presentation"
+  },
+  "message_1d9a862b2666": {
+    "source": "Construtores: {0}/{1}",
+    "location": "BuilderMenu.java:103"
+  },
+  "message_51d4ae646089": {
+    "source": "Clique nos botoes; as respostas aparecem no chat.",
+    "location": "BuilderMenu.java:104"
+  },
+  "message_e8e2b5db3034": {
+    "source": "Criar construtor",
+    "location": "BuilderMenu.java:105"
+  },
+  "message_501ba7027540": {
+    "source": "Cria um construtor no seu local",
+    "location": "BuilderMenu.java:106"
+  },
+  "message_2f040aacc21e": {
+    "source": "e entrega a Ferramenta (pa de diamante).",
+    "location": "BuilderMenu.java:106"
+  },
+  "message_dcd7e75bcf64": {
+    "source": "Lista seus construtores e o status de cada um.",
+    "location": "BuilderMenu.java:109"
+  },
+  "message_e12adfde0d2d": {
+    "source": "Pre-moldados",
+    "location": "BuilderMenu.java:111"
+  },
+  "message_2de06f249866": {
+    "source": "Casas, arvores e predios, sem IA.",
+    "location": "BuilderMenu.java:112"
+  },
+  "message_a82ebb2f4199": {
+    "source": "Crie ou selecione um construtor primeiro.",
+    "location": "BuilderMenu.java:112"
+  },
+  "message_208f75e79a8e": {
+    "source": "Construtor: {0}",
+    "location": "BuilderMenu.java:113"
+  },
+  "message_8fd2a39f0d80": {
+    "source": "Opcoes globais do plugin.",
+    "location": "BuilderMenu.java:115"
+  },
+  "message_c188272ba40c": {
+    "source": "Ferramenta",
+    "location": "BuilderMenu.java:116"
+  },
+  "message_df075f62f3e8": {
+    "source": "Recebe a pa do construtor selecionado.",
+    "location": "BuilderMenu.java:117"
+  },
+  "message_fe0addd70781": {
+    "source": "Ajuda",
+    "location": "BuilderMenu.java:118"
+  },
+  "message_4e196fa0a578": {
+    "source": "Lista todos os comandos no chat.",
+    "location": "BuilderMenu.java:118"
+  },
+  "message_b59935538173": {
+    "source": "Listar no chat",
+    "location": "BuilderMenu.java:119"
+  },
+  "message_aee7de92e96b": {
+    "source": "Mostra os construtores no chat.",
+    "location": "BuilderMenu.java:119"
+  },
+  "message_10207c6ffd7f": {
+    "source": "Chamar todos para perto",
+    "location": "BuilderMenu.java:120"
+  },
+  "message_ac33033b5e92": {
+    "source": "Teletransporta seus construtores para chao seguro.",
+    "location": "BuilderMenu.java:121"
+  },
+  "message_03a72cb854a5": {
+    "source": "Ficam em pausa ate voce usar Seguir-me.",
+    "location": "BuilderMenu.java:121"
+  },
+  "message_1f3fd4dc381d": {
+    "source": "chamar todos",
+    "location": "BuilderMenu.java:121"
+  },
+  "message_4d80b4cb2708": {
+    "source": "Retome ou apague obras pausadas.",
+    "location": "BuilderMenu.java:123"
+  },
+  "message_0f2bd88ef0ac": {
+    "source": "Fechar",
+    "location": "BuilderMenu.java:124"
+  },
+  "message_d8234e0b1889": {
+    "source": "Nao consegui ler as obras",
+    "location": "BuilderMenu.java:133"
+  },
+  "message_e6404974d0c8": {
+    "source": "Confira o console.",
+    "location": "BuilderMenu.java:133"
+  },
+  "message_59dc926760d0": {
+    "source": "Voltar",
+    "location": "BuilderMenu.java:134"
+  },
+  "message_fcc959e504cb": {
+    "source": "Nenhuma obra inacabada",
+    "location": "BuilderMenu.java:137"
+  },
+  "message_7a9771653094": {
+    "source": "Clique para continuar com o construtor selecionado.",
+    "location": "BuilderMenu.java:145"
+  },
+  "message_215298812b99": {
+    "source": "obra continuar {0}",
+    "location": "BuilderMenu.java:146"
+  },
+  "message_bd18cdfadf11": {
+    "source": "Apagar obras inacabadas",
+    "location": "BuilderMenu.java:148"
+  },
+  "message_70c0fd02bab8": {
+    "source": "Remove apenas registros salvos deste jogador.",
+    "location": "BuilderMenu.java:149"
+  },
+  "message_dfa1e13b6635": {
+    "source": "Nao altera uma obra que ainda esta aberta.",
+    "location": "BuilderMenu.java:149"
+  },
+  "message_029a9cc80ded": {
+    "source": "Apagar todas as obras salvas",
+    "location": "BuilderMenu.java:154"
+  },
+  "message_4d282f6c385c": {
+    "source": "Remove os registros incompletos do seu jogador.",
+    "location": "BuilderMenu.java:155"
+  },
+  "message_850acd591f64": {
+    "source": "Obras concluidas e de outros jogadores ficam intactas.",
+    "location": "BuilderMenu.java:155"
+  },
+  "message_c704be6af1c7": {
+    "source": "[AIBuilder] Foram apagados {0} registro(s) de obras inacabadas.",
+    "location": "BuilderMenu.java:158"
+  },
+  "message_6a0b0f6099a3": {
+    "source": "[AIBuilder] Nao consegui apagar as obras: {0}",
+    "location": "BuilderMenu.java:160"
+  },
+  "message_bb9dbb406dcb": {
+    "source": "Cancelar",
+    "location": "BuilderMenu.java:164"
+  },
+  "message_f542ab53856f": {
+    "source": "Clique para controlar.",
+    "location": "BuilderMenu.java:174"
+  },
+  "message_0746c55c734f": {
+    "source": "Nenhum construtor seu",
+    "location": "BuilderMenu.java:178"
+  },
+  "message_868e589ab4f1": {
+    "source": "Use Criar construtor no menu principal.",
+    "location": "BuilderMenu.java:179"
+  },
+  "message_95abd629b531": {
+    "source": "Construtor indisponivel",
+    "location": "BuilderMenu.java:186"
+  },
+  "message_aad3f626dcd7": {
+    "source": "Ele pode ter sido apagado.",
+    "location": "BuilderMenu.java:186"
+  },
+  "message_a287257d42a9": {
+    "source": "Status detalhado",
+    "location": "BuilderMenu.java:192"
+  },
+  "message_52bdef9b8053": {
+    "source": "Mostra fila, plano e obra no chat.",
+    "location": "BuilderMenu.java:192"
+  },
+  "message_2f97da2ed540": {
+    "source": "Seguir-me",
+    "location": "BuilderMenu.java:193"
+  },
+  "message_f4dbc2134aaa": {
+    "source": "Atual: seguindo",
+    "location": "BuilderMenu.java:194"
+  },
+  "message_e7c51791f8c1": {
+    "source": "Clique para voltar a seguir.",
+    "location": "BuilderMenu.java:194"
+  },
+  "message_0abdc157492a": {
+    "source": "Ficar aqui",
+    "location": "BuilderMenu.java:195"
+  },
+  "message_cb176d726a73": {
+    "source": "Clique para ficar parado.",
+    "location": "BuilderMenu.java:196"
+  },
+  "message_48cef1ee8785": {
+    "source": "Atual: parado",
+    "location": "BuilderMenu.java:196"
+  },
+  "message_7b048ede6e65": {
+    "source": "Parar tudo",
+    "location": "BuilderMenu.java:197"
+  },
+  "message_9e78bce72a42": {
+    "source": "Cancela fila, plano e obra; ele volta para voce.",
+    "location": "BuilderMenu.java:197"
+  },
+  "message_bea688a1e75d": {
+    "source": "Confirmar plano",
+    "location": "BuilderMenu.java:199"
+  },
+  "message_47ddc1d59cad": {
+    "source": "Executa o plano que esta aguardando.",
+    "location": "BuilderMenu.java:199"
+  },
+  "message_65f4c93832f7": {
+    "source": "Cancelar plano",
+    "location": "BuilderMenu.java:200"
+  },
+  "message_2c333e5fa7b3": {
+    "source": "Descarta o plano pendente.",
+    "location": "BuilderMenu.java:200"
+  },
+  "message_0a58ffc0483e": {
+    "source": "Sem plano pendente",
+    "location": "BuilderMenu.java:202"
+  },
+  "message_e82b7855c1fb": {
+    "source": "Peca algo ao construtor no chat.",
+    "location": "BuilderMenu.java:202"
+  },
+  "message_8e199c286616": {
+    "source": "Pa para marcar a area de construcao.",
+    "location": "BuilderMenu.java:204"
+  },
+  "message_84e7ea6e8658": {
+    "source": "Mostrar zona",
+    "location": "BuilderMenu.java:205"
+  },
+  "message_4d2c99500c41": {
+    "source": "Destaca a area marcada.",
+    "location": "BuilderMenu.java:205"
+  },
+  "message_c7e57d52bc3a": {
+    "source": "{0} zona mostrar",
+    "location": "BuilderMenu.java:205"
+  },
+  "message_afdd2d100f61": {
+    "source": "Limpar zona",
+    "location": "BuilderMenu.java:206"
+  },
+  "message_b9d1a33b81e6": {
+    "source": "Remove a area marcada.",
+    "location": "BuilderMenu.java:206"
+  },
+  "message_52ec2e810507": {
+    "source": "{0} zona limpar",
+    "location": "BuilderMenu.java:206"
+  },
+  "message_ac5e84e2ce40": {
+    "source": "Limpar ou nivelar com previa e confirmacao.",
+    "location": "BuilderMenu.java:207"
+  },
+  "message_a8e0e72e3a60": {
+    "source": "Desfazer obra",
+    "location": "BuilderMenu.java:208"
+  },
+  "message_43c02d6b9218": {
+    "source": "Apaga os blocos registrados nesta obra.",
+    "location": "BuilderMenu.java:208"
+  },
+  "message_ce92181948df": {
+    "source": "Continua sujeito as protecoes e ao limite de construcao.",
+    "location": "BuilderMenu.java:208"
+  },
+  "message_1fc34e6c898f": {
+    "source": "{0} obra desfazer",
+    "location": "BuilderMenu.java:208"
+  },
+  "message_e3a7704a3a0e": {
+    "source": "Ver obra",
+    "location": "BuilderMenu.java:209"
+  },
+  "message_47258786cd05": {
+    "source": "Conta blocos conferidos e faltantes.",
+    "location": "BuilderMenu.java:209"
+  },
+  "message_a2f488b50681": {
+    "source": "Continuar obra",
+    "location": "BuilderMenu.java:210"
+  },
+  "message_5bd6d4929f9e": {
+    "source": "Refaz o que falta da obra.",
+    "location": "BuilderMenu.java:210"
+  },
+  "message_44077ccd13ce": {
+    "source": "{0} obra continuar",
+    "location": "BuilderMenu.java:210"
+  },
+  "message_bff80357081f": {
+    "source": "Encerrar obra",
+    "location": "BuilderMenu.java:211"
+  },
+  "message_de71c45d7b75": {
+    "source": "Fecha a obra aberta.",
+    "location": "BuilderMenu.java:211"
+  },
+  "message_2ebcd7982e4b": {
+    "source": "{0} obra end",
+    "location": "BuilderMenu.java:211"
+  },
+  "message_4b5681881417": {
+    "source": "Missao",
+    "location": "BuilderMenu.java:213"
+  },
+  "message_05acf178a930": {
+    "source": "Progresso da missao.",
+    "location": "BuilderMenu.java:213"
+  },
+  "message_05009c102f26": {
+    "source": "Projetos",
+    "location": "BuilderMenu.java:214"
+  },
+  "message_b28a9f98563d": {
+    "source": "Lista os projetos salvos.",
+    "location": "BuilderMenu.java:214"
+  },
+  "message_49ae10e33f53": {
+    "source": "{0} projeto listar",
+    "location": "BuilderMenu.java:214"
+  },
+  "message_218795fdb594": {
+    "source": "Chamar para perto",
+    "location": "BuilderMenu.java:215"
+  },
+  "message_d34115be81cc": {
+    "source": "Resgata de locais presos ou de perseguicoes.",
+    "location": "BuilderMenu.java:215"
+  },
+  "message_49ba7baea85b": {
+    "source": "Pausa sem apagar a obra; Seguir-me libera.",
+    "location": "BuilderMenu.java:216"
+  },
+  "message_423ddacaa7a1": {
+    "source": "{0} chamar",
+    "location": "BuilderMenu.java:216"
+  },
+  "message_c436700df693": {
+    "source": "Distancia maxima: {0} blocos",
+    "location": "BuilderMenu.java:217"
+  },
+  "message_674f8c14eaa1": {
+    "source": "Clique para alternar: 4, 8, 16, 32, 64.",
+    "location": "BuilderMenu.java:218"
+  },
+  "message_1d141f1faf14": {
+    "source": "Limite em relacao ao dono, inclusive em combate.",
+    "location": "BuilderMenu.java:218"
+  },
+  "message_7abd7d6be328": {
+    "source": "Personalizar: /construtor {0} distancia <blocos>",
+    "location": "BuilderMenu.java:219"
+  },
+  "message_98e6e4961015": {
+    "source": "construtor {0} distancia {1}",
+    "location": "BuilderMenu.java:221"
+  },
+  "message_c0904c2003ab": {
+    "source": "Apagar construtor",
+    "location": "BuilderMenu.java:224"
+  },
+  "message_48726a9850f9": {
+    "source": "Pede confirmacao. Bloqueado se estiver ocupado.",
+    "location": "BuilderMenu.java:224"
+  },
+  "message_4ce3eefc1a70": {
+    "source": "Apagar {0}",
+    "location": "BuilderMenu.java:231"
+  },
+  "message_1ed3e458e8c1": {
+    "source": "Remove o construtor e a pa dele dos inventarios.",
+    "location": "BuilderMenu.java:232"
+  },
+  "message_62e6a4de4df7": {
+    "source": "Obras salvas em disco nao sao apagadas.",
+    "location": "BuilderMenu.java:232"
+  },
+  "message_31d138e771e2": {
+    "source": "Categoria: {0} · {1} blocos",
+    "location": "BuilderMenu.java:255"
+  },
+  "message_c3a954b306c0": {
+    "source": "Materiais: {0} e mais",
+    "location": "BuilderMenu.java:257"
+  },
+  "message_617cc3b7c2b4": {
+    "source": "Materiais: {0}",
+    "location": "BuilderMenu.java:257"
+  },
+  "message_4cb31f37ab54": {
+    "source": "Entrada escolhida: {0}",
+    "location": "BuilderMenu.java:259"
+  },
+  "message_4baa636f4581": {
+    "source": "Sem consumo de materiais (modo criativo).",
+    "location": "BuilderMenu.java:260"
+  },
+  "message_f35ebb08baae": {
+    "source": "Montagem na selecao, inclusive em altura.",
+    "location": "BuilderMenu.java:261"
+  },
+  "message_eb9ca31161ec": {
+    "source": "Clique para planejar; depois confirme com /sim.",
+    "location": "BuilderMenu.java:262"
+  },
+  "message_bf2efad5aeee": {
+    "source": "Entrada: {0}",
+    "location": "BuilderMenu.java:269"
+  },
+  "message_7e69a772d01b": {
+    "source": "Escolhe a entrada das proximas plantas.",
+    "location": "BuilderMenu.java:270"
+  },
+  "message_35b5321deeda": {
+    "source": "Sol: nasce a leste, poe-se a oeste.",
+    "location": "BuilderMenu.java:270"
+  },
+  "message_5a01aa8157cb": {
+    "source": "Depois clique no modelo desejado.",
+    "location": "BuilderMenu.java:270"
+  },
+  "message_39142354d8fb": {
+    "source": "construtor {0} orientacao {1}",
+    "location": "BuilderMenu.java:271"
+  },
+  "message_f85a0e335366": {
+    "source": "Entrada original do modelo",
+    "location": "BuilderMenu.java:275"
+  },
+  "message_035a8897c081": {
+    "source": "Desativa a preferencia cardinal.",
+    "location": "BuilderMenu.java:275"
+  },
+  "message_c097619480bf": {
+    "source": "construtor {0} orientacao original",
+    "location": "BuilderMenu.java:276"
+  },
+  "message_6829eba10490": {
+    "source": "Pagina anterior",
+    "location": "BuilderMenu.java:279"
+  },
+  "message_e6e6311ccd09": {
+    "source": "Pagina {0}/{1}",
+    "location": "BuilderMenu.java:281"
+  },
+  "message_e4b0ee64ea33": {
+    "source": "{0} pre-moldado(s) disponiveis.",
+    "location": "BuilderMenu.java:282"
+  },
+  "message_c4cb60637026": {
+    "source": "Mostrando ate {0} por pagina.",
+    "location": "BuilderMenu.java:283"
+  },
+  "message_84c6e3cecde4": {
+    "source": "Proxima pagina",
+    "location": "BuilderMenu.java:284"
+  },
+  "message_f4761de29343": {
+    "source": "Clique para alternar.",
+    "location": "BuilderMenu.java:292"
+  },
+  "message_c23b52f07e06": {
+    "source": "Somente operadores podem alterar.",
+    "location": "BuilderMenu.java:292"
+  },
+  "message_056e573751cd": {
+    "source": "Configuracoes (1/5)",
+    "location": "BuilderMenu.java:293"
+  },
+  "message_9bd6caded26e": {
+    "source": "Funcoes e preferencias globais.",
+    "location": "BuilderMenu.java:293"
+  },
+  "message_3a3dd3105ee8": {
+    "source": "Modo criativo (materiais livres)",
+    "location": "BuilderMenu.java:294"
+  },
+  "message_1c133ec09234": {
+    "source": "Atual: {0}",
+    "location": "BuilderMenu.java:294"
+  },
+  "message_4fa486485055": {
+    "source": "Usar inventario do criador",
+    "location": "BuilderMenu.java:295"
+  },
+  "message_69c5e3f1c552": {
+    "source": "Anunciar acoes",
+    "location": "BuilderMenu.java:296"
+  },
+  "message_35a5e15d1459": {
+    "source": "Seguir o criador por padrao",
+    "location": "BuilderMenu.java:297"
+  },
+  "message_9156bec09a3c": {
+    "source": "Permite /obra desfazer antes de encerrar.",
+    "location": "BuilderMenu.java:298"
+  },
+  "message_021395e5da4b": {
+    "source": "So OP; blocos protegidos sao preservados.",
+    "location": "BuilderMenu.java:299"
+  },
+  "message_e7ed2d0a3143": {
+    "source": "Protecao de acoes",
+    "location": "BuilderMenu.java:300"
+  },
+  "message_2376a1e33306": {
+    "source": "CoreProtect sem historico: {0}",
+    "location": "BuilderMenu.java:300"
+  },
+  "message_a076cf8b30d5": {
+    "source": "Combate",
+    "location": "BuilderMenu.java:301"
+  },
+  "message_f47099f29801": {
+    "source": "Dialogos nativos",
+    "location": "BuilderMenu.java:302"
+  },
+  "message_4b579d520cd9": {
+    "source": "Materiais livres nos pre-moldados",
+    "location": "BuilderMenu.java:303"
+  },
+  "message_233e47b754df": {
+    "source": "Desligado: usa a politica normal de inventario.",
+    "location": "BuilderMenu.java:303"
+  },
+  "message_6474b987f8a8": {
+    "source": "Modo criativo continua com materiais livres.",
+    "location": "BuilderMenu.java:303"
+  },
+  "message_6aa5b2e149f7": {
+    "source": "Limites de construcao",
+    "location": "BuilderMenu.java:304"
+  },
+  "message_2bf78ef2e7cb": {
+    "source": "Dimensoes, volume, acoes e pre-moldados.",
+    "location": "BuilderMenu.java:304"
+  },
+  "message_9612aadc89cf": {
+    "source": "Movimento e terreno",
+    "location": "BuilderMenu.java:305"
+  },
+  "message_ed1a4f6cad09": {
+    "source": "Alcances, velocidade e preparacao.",
+    "location": "BuilderMenu.java:305"
+  },
+  "message_098ebebc5cad": {
+    "source": "IA e tempos",
+    "location": "BuilderMenu.java:306"
+  },
+  "message_902613c964d3": {
+    "source": "Timeouts, historico e controles.",
+    "location": "BuilderMenu.java:306"
+  },
+  "message_6eced9a3f3d9": {
+    "source": "Construtores",
+    "location": "BuilderMenu.java:313"
+  },
+  "message_3b46a5f51330": {
+    "source": "Blocos por planta",
+    "location": "BuilderMenu.java:313"
+  },
+  "message_ab463adcdef1": {
+    "source": "Largura maxima",
+    "location": "BuilderMenu.java:314"
+  },
+  "message_5dcb8c3f7173": {
+    "source": "Profundidade maxima",
+    "location": "BuilderMenu.java:314"
+  },
+  "message_d36a6b56940e": {
+    "source": "Altura maxima",
+    "location": "BuilderMenu.java:315"
+  },
+  "message_178aee913012": {
+    "source": "Volume maximo",
+    "location": "BuilderMenu.java:315"
+  },
+  "message_ea9a31f42ef7": {
+    "source": "Partes por planta",
+    "location": "BuilderMenu.java:316"
+  },
+  "message_59f5911bc7f8": {
+    "source": "Acoes de IA",
+    "location": "BuilderMenu.java:316"
+  },
+  "message_36f8a65cd927": {
+    "source": "Aberturas por planta",
+    "location": "BuilderMenu.java:317"
+  },
+  "message_c363e9f264e1": {
+    "source": "Visitas do compilador",
+    "location": "BuilderMenu.java:317"
+  },
+  "message_c0294ef5e7f1": {
+    "source": "Tamanho maximo do plano",
+    "location": "BuilderMenu.java:318"
+  },
+  "message_29122c92fb00": {
+    "source": "Blocos da previa",
+    "location": "BuilderMenu.java:318"
+  },
+  "message_a259f87a5b95": {
+    "source": "Blocos por minuto",
+    "location": "BuilderMenu.java:320"
+  },
+  "message_797f16b61f45": {
+    "source": "Altura da zona",
+    "location": "BuilderMenu.java:320"
+  },
+  "message_486aba0bf6bf": {
+    "source": "Alcance de acao",
+    "location": "BuilderMenu.java:321"
+  },
+  "message_6f229f768344": {
+    "source": "Distancia maxima do alvo",
+    "location": "BuilderMenu.java:321"
+  },
+  "message_90c00955009d": {
+    "source": "Velocidade a pe",
+    "location": "BuilderMenu.java:322"
+  },
+  "message_d7ca5fc04ffe": {
+    "source": "Distancia ao seguir",
+    "location": "BuilderMenu.java:322"
+  },
+  "message_1ebb133e1527": {
+    "source": "Raio de viagem",
+    "location": "BuilderMenu.java:323"
+  },
+  "message_ef8abc4d8ac8": {
+    "source": "Profundidade deep-level",
+    "location": "BuilderMenu.java:323"
+  },
+  "message_0bedb1a0d566": {
+    "source": "Volume maximo terreno",
+    "location": "BuilderMenu.java:324"
+  },
+  "message_52b4da0d6d30": {
+    "source": "Leitura por tick",
+    "location": "BuilderMenu.java:324"
+  },
+  "message_61ba6bed3374": {
+    "source": "Alteracoes por lote",
+    "location": "BuilderMenu.java:325"
+  },
+  "message_ef639902a9f4": {
+    "source": "Alteracoes maximas",
+    "location": "BuilderMenu.java:325"
+  },
+  "message_02fedb04813c": {
+    "source": "Timeout conexao IA",
+    "location": "BuilderMenu.java:326"
+  },
+  "message_8a62f6f81694": {
+    "source": "Timeout pedido IA",
+    "location": "BuilderMenu.java:326"
+  },
+  "message_5e35367e8d8a": {
+    "source": "Tokens de resposta",
+    "location": "BuilderMenu.java:327"
+  },
+  "message_d8b947d2eb78": {
+    "source": "Expiracao de confirmacao",
+    "location": "BuilderMenu.java:327"
+  },
+  "message_c414cfc1d2cb": {
+    "source": "Expiracao de selecao",
+    "location": "BuilderMenu.java:328"
+  },
+  "message_e2ba98056977": {
+    "source": "Mensagens de historico",
+    "location": "BuilderMenu.java:328"
+  },
+  "message_c5fb9e90ca63": {
+    "source": "Raio protegido do spawn",
+    "location": "BuilderMenu.java:329"
+  },
+  "message_1dd4e96de47a": {
+    "source": "Limite diario parental",
+    "location": "BuilderMenu.java:329"
+  },
+  "message_44be57d3ffee": {
+    "source": "Alcance de combate",
+    "location": "BuilderMenu.java:330"
+  },
+  "message_d7c0e5ebf1a2": {
+    "source": "Alcance do golpe",
+    "location": "BuilderMenu.java:330"
+  },
+  "message_9eb980cd9715": {
+    "source": "Intervalo de ataque",
+    "location": "BuilderMenu.java:331"
+  },
+  "message_d9c8dc52f52e": {
+    "source": "Dano de combate",
+    "location": "BuilderMenu.java:331"
+  },
+  "message_e9e25acc38c0": {
+    "source": "Configuracoes ({0}/5)",
+    "location": "BuilderMenu.java:333"
+  },
+  "message_ec2c87c0d7e7": {
+    "source": "Ajuste com vermelho (−) e verde (+). Somente OP.",
+    "location": "BuilderMenu.java:333"
+  },
+  "message_bbc73bccc83c": {
+    "source": "Valores sao limitados a faixa segura do plugin.",
+    "location": "BuilderMenu.java:333"
+  },
+  "message_c4e82339e7e9": {
+    "source": "Clique para diminuir em {0}.",
+    "location": "BuilderMenu.java:338"
+  },
+  "message_fc459b0bea6d": {
+    "source": "Valor: {0}",
+    "location": "BuilderMenu.java:339"
+  },
+  "message_43e7149c18ed": {
+    "source": "Faixa: {0} a {1}",
+    "location": "BuilderMenu.java:339"
+  },
+  "message_3bcd14f01389": {
+    "source": "Clique para aumentar em {0}.",
+    "location": "BuilderMenu.java:340"
+  },
+  "message_5b6d26e30a1b": {
+    "source": "Analisar terreno",
+    "location": "BuilderMenu.java:361"
+  },
+  "message_c79caa39c6eb": {
+    "source": "Le o relevo sem alterar blocos.",
+    "location": "BuilderMenu.java:361"
+  },
+  "message_d9f3cef4efb4": {
+    "source": "{0} terreno analisar",
+    "location": "BuilderMenu.java:361"
+  },
+  "message_33a44693872b": {
+    "source": "Normal: limpar terreno",
+    "location": "BuilderMenu.java:362"
+  },
+  "message_e291534e50bc": {
+    "source": "Remove vegetacao; respeita protecoes e construcoes.",
+    "location": "BuilderMenu.java:362"
+  },
+  "message_fc561eaef584": {
+    "source": "Normal: nivelar terreno",
+    "location": "BuilderMenu.java:363"
+  },
+  "message_e21b724e0cbf": {
+    "source": "Nivelamento seguro com previa e confirmacao.",
+    "location": "BuilderMenu.java:363"
+  },
+  "message_483f96fb6854": {
+    "source": "Limpa ou nivela sem restricao de material.",
+    "location": "BuilderMenu.java:364"
+  },
+  "message_3417608e1dd3": {
+    "source": "Requer funcao ativa e operador.",
+    "location": "BuilderMenu.java:364"
+  },
+  "message_95c4fa7a593b": {
+    "source": "Configuracao: ativa",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_6629873450ab": {
+    "source": "Configuracao: desligada",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_9ce029fe0232": {
+    "source": "Somente OP. Nao consome/devolve itens.",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_1603bd807658": {
+    "source": "Remove construcoes, liquidos e inventarios.",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_ef1e307a9b07": {
+    "source": "Exibe materiais antes; protecoes externas podem barrar blocos.",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_80ea20ec584b": {
+    "source": "Todos os jogadores devem sair da selecao.",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_2b5bf646d393": {
+    "source": "Animais e monstros sao ignorados.",
+    "location": "BuilderMenu.java:371"
+  },
+  "message_1fd85953ee5b": {
+    "source": "Deep clean: limpar",
+    "location": "BuilderMenu.java:372"
+  },
+  "message_a9fe23bb6522": {
+    "source": "{0} terreno deep limpar",
+    "location": "BuilderMenu.java:372"
+  },
+  "message_0494b72a25ed": {
+    "source": "Deep clean: nivelar",
+    "location": "BuilderMenu.java:373"
+  },
+  "message_31cd920815d1": {
+    "source": "{0} terreno deep nivelar",
+    "location": "BuilderMenu.java:373"
+  },
+  "message_20747ecc4869": {
+    "source": "Apenas operadores",
+    "location": "BuilderMenu.java:374"
+  },
+  "message_7298408761cd": {
+    "source": "Deep clean requer OP.",
+    "location": "BuilderMenu.java:374"
+  },
+  "message_647565e4dde4": {
+    "source": "Ative nas Configuracoes",
+    "location": "BuilderMenu.java:375"
+  },
+  "message_254b2d4c49de": {
+    "source": "Configuracoes > Deep clean.",
+    "location": "BuilderMenu.java:375"
+  },
+  "message_7a3e2d927c61": {
+    "source": "ligado",
+    "location": "BuilderMenu.java:380"
+  },
+  "message_05a9873f6104": {
+    "source": "desligado",
+    "location": "BuilderMenu.java:380"
+  },
+  "message_6e055a2238c0": {
+    "source": "a previa expirou; prepare o terreno novamente",
+    "location": "TerrainWork.java:44"
+  },
+  "message_53ebb5b9e80f": {
+    "source": "falha ao gerar plano do terreno",
+    "location": "TerrainWork.java:60"
+  },
+  "message_66e66f70a337": {
+    "source": "bloco que seria alterado mudou depois da previa; prepare novamente",
+    "location": "TerrainWork.java:81"
+  },
+  "message_c4992f7a7d8c": {
+    "source": "bloco mudou durante a preparacao",
+    "location": "TerrainWork.java:88"
+  },
+  "message_5fa1696dd171": {
+    "source": "falha ao preparar terreno",
+    "location": "TerrainWork.java:97"
+  },
+  "message_55c5d250314d": {
+    "source": "skin.texture precisa de um hash Mojang de 64 caracteres",
+    "location": "BuilderAppearance.java:15"
+  },
+  "message_c1175e3fe120": {
+    "source": "Country Cottage",
+    "location": "PrebuiltCatalog.java:113"
+  },
+  "message_57a6cbc02b46": {
+    "source": "13 x 13 x 12. Spruce door, glass windows, gabled roof, chimney, and walkable interior.",
+    "location": "PrebuiltCatalog.java:113"
+  },
+  "message_f827a3ee109a": {
+    "source": "Modern House",
+    "location": "PrebuiltCatalog.java:131"
+  },
+  "message_082ad392c5ed": {
+    "source": "12 x 11 x 13. Two floors joined by a two-wide quartz staircase, with rails and large windows.",
+    "location": "PrebuiltCatalog.java:131"
+  },
+  "message_b3c5f9b0b0f3": {
+    "source": "Modern Cube Home",
+    "location": "PrebuiltCatalog.java:145"
+  },
+  "message_33af6f5f81e0": {
+    "source": "10 x 11 x 6. A 6 x 6 interior, three-block headroom, double door, functional bed, crafting table, and lit living area.",
+    "location": "PrebuiltCatalog.java:145"
+  },
+  "message_65e202f4cbae": {
+    "source": "Ranch House",
+    "location": "PrebuiltCatalog.java:153"
+  },
+  "message_4d33901e4a1b": {
+    "source": "11 x 9 x 6. Single-storey spruce home with a deck, usable door, and framed windows.",
+    "location": "PrebuiltCatalog.java:153"
+  },
+  "message_65f02025eac1": {
+    "source": "Giant Oak Tree",
+    "location": "PrebuiltCatalog.java:166"
+  },
+  "message_6a34a0935331": {
+    "source": "15 x 19 x 15 reserved. Thick trunk, roots, branches, and a rounded canopy of persistent leaves.",
+    "location": "PrebuiltCatalog.java:166"
+  },
+  "message_69fbbf8610d3": {
+    "source": "Modern 3-Story Building",
+    "location": "PrebuiltCatalog.java:170"
+  },
+  "message_3d093cf06632": {
+    "source": "13 x 12 x 16. Concrete, quartz, and glass; ground floor plus two upper floors, wide stairs, landings, rails, and lighting.",
+    "location": "PrebuiltCatalog.java:170"
+  },
+  "message_301b7dd8ba80": {
+    "source": "Treehouse",
+    "location": "PrebuiltCatalog.java:180"
+  },
+  "message_2619e3862160": {
+    "source": "17 x 19 x 17 reserved. Includes the tree, raised cabin, railed balcony, and a two-flight staircase from the ground.",
+    "location": "PrebuiltCatalog.java:180"
+  },
+  "message_4025eb7e4ff6": {
+    "source": "houses",
+    "location": "presentation"
+  },
+  "message_29d807300a96": {
+    "source": "trees",
+    "location": "presentation"
+  },
+  "message_a861d05f9897": {
+    "source": "buildings",
+    "location": "presentation"
+  },
+  "message_0614799fa780": {
+    "source": "treehouses",
+    "location": "presentation"
+  },
+  "message_0a5a9bb73d93": {
+    "source": "furniture",
+    "location": "presentation"
+  },
+  "message_65454b910c93": {
+    "source": "gardens",
+    "location": "presentation"
+  },
+  "message_d4257bb175e7": {
+    "source": "bridges",
+    "location": "presentation"
+  },
+  "message_183e1b1c9f91": {
+    "source": "towers",
+    "location": "presentation"
+  },
+  "message_dc365e79d41c": {
+    "source": "north",
+    "location": "presentation"
+  },
+  "message_2daa8d4a05df": {
+    "source": "south",
+    "location": "presentation"
+  },
+  "message_6bdb262b0201": {
+    "source": "east",
+    "location": "presentation"
+  },
+  "message_76a796208b71": {
+    "source": "west",
+    "location": "presentation"
+  },
+  "message_641d1ef657bd": {
+    "source": "Follow",
+    "location": "presentation"
+  },
+  "message_08fd1de4b04d": {
+    "source": "Stay",
+    "location": "presentation"
+  },
+  "message_fd59aecf8f54": {
+    "source": "Build 20 blocks with your builder",
+    "location": "presentation"
+  },
+  "message_5e182584b806": {
+    "source": "Build 50 blocks with your builder",
+    "location": "presentation"
+  },
+  "message_fb2f965d7d94": {
+    "source": "Build 100 blocks with your builder",
+    "location": "presentation"
+  },
+  "message_d9b58a898135": {
+    "source": "LEVANTAMENTO DA AREA INTEIRA: ",
+    "location": "presentation"
+  },
+  "message_2f3b7e929c5d": {
+    "source": " tipos",
+    "location": "presentation"
+  },
+  "message_4df301a02f24": {
+    "source": "AIBuilder settings  |  language: {0}",
+    "location": "presentation"
+  },
+  "message_c0927ca51c4b": {
+    "source": "Unknown command. Use /builder help.",
+    "location": "BuilderCommands"
+  },
+  "message_92d01ecc4c67": {
+    "source": "entrada: {0}. Use orientacao norte|sul|leste|oeste|original. O sol nasce a leste e se poe a oeste.",
+    "location": "complete presentation template"
+  },
+  "message_fea13205221f": {
+    "source": "Posicao: {0} ({1})",
+    "location": "complete presentation template"
+  },
+  "message_dcd1aaec01e1": {
+    "source": "projeto '{0}' salvo com {1} blocos.",
+    "location": "complete presentation template"
+  },
+  "message_568ec96cc167": {
+    "source": "salvo {0} ({1} blocos) por {2}",
+    "location": "complete presentation template"
+  },
+  "message_d349b7363578": {
+    "source": "entrada: {0}. {1}",
+    "location": "complete presentation template"
+  },
+  "message_87091d3c9f9b": {
+    "source": "a planta nao cabe na area. Planta: x {0}..{1}, y {2}..{3}, z {4}..{5}; area marcada: x {6}..{7}, y {8}..{9}, z {10}..{11}. Marque uma area maior ou peca uma construcao menor.",
+    "location": "complete presentation template"
+  },
+  "message_f107ad6d7068": {
+    "source": "; entrada {0}",
+    "location": "complete presentation template"
+  },
+  "message_a933d03251b0": {
+    "source": "{0} ({1}, {2} blocos) - {3} obra continuar {4}",
+    "location": "complete presentation template"
+  },
+  "message_4750c5289ef9": {
+    "source": "plano recusado: replace so vale para blocos da propria obra ({0}).",
+    "location": "complete presentation template"
+  },
+  "message_9a66d49b1afe": {
+    "source": "plano pronto: {0}\n{1}\nDigite /construtor sim para executar ou /construtor nao para cancelar (expira em {2} s).",
+    "location": "complete presentation template"
+  },
+  "message_21d6e17738e4": {
+    "source": "{0} (feito)",
+    "location": "complete presentation template"
+  },
+  "message_1b797620dc22": {
+    "source": "colocando {0} em {1}",
+    "location": "complete presentation template"
+  },
+  "message_d85a331519bf": {
+    "source": "colocando bloco em {0}",
+    "location": "complete presentation template"
+  },
+  "message_d501fcc130e7": {
+    "source": "Blocos no plano: {0}",
+    "location": "complete presentation template"
+  },
+  "message_1b1382060c41": {
+    "source": "Preparando terreno: {0}; {1}.",
+    "location": "complete presentation template"
+  },
+  "message_834bbe9f7d79": {
+    "source": "total ainda nao conhecido",
+    "location": "complete presentation template"
+  },
+  "message_153e17ea67fb": {
+    "source": " (total ainda nao conhecido)",
+    "location": "complete presentation template"
+  },
+  "message_643960262002": {
+    "source": "{0}; pausado pela chamada, use seguir para liberar",
+    "location": "complete presentation template"
+  },
+  "message_26a6c2b1af59": {
+    "source": "; pausado pela chamada, use seguir para liberar",
+    "location": "complete presentation template"
+  },
+  "message_1157b1cde2e1": {
+    "source": "{0} (pre-moldado)",
+    "location": "complete presentation template"
+  },
+  "message_a2ffa7cc345d": {
+    "source": "obra {0} encerrada: {1} blocos{2}. Para uma nova construcao, envie outro pedido; vou usar a area selecionada. Remarque com a pa para mudar de local.",
+    "location": "complete presentation template"
+  },
+  "message_dbcb6d41e076": {
+    "source": "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {10}. Preparo administrativo, sem itens.{11}",
+    "location": "complete presentation template"
+  },
+  "message_c08d8d07b263": {
+    "source": "{0} Nao consegui salvar a nova posicao; confira o disco.",
+    "location": "complete presentation template"
+  },
+  "message_2522ae66e2a9": {
+    "source": "{0} e mais",
+    "location": "complete presentation template"
+  },
+  "message_94b3aa3f5dc3": {
+    "source": "concluido",
+    "location": "complete presentation template"
+  },
+  "message_86ecef2cfcb1": {
+    "source": "interrompido",
+    "location": "complete presentation template"
+  },
+  "message_987c63f6d5d9": {
+    "source": "analisando",
+    "location": "complete presentation template"
+  },
+  "message_42a5560004fb": {
+    "source": "limpar",
+    "location": "complete presentation template"
+  },
+  "message_b5f39a0ac261": {
+    "source": "nivelar",
+    "location": "complete presentation template"
+  },
+  "message_b6a0005c7e90": {
+    "source": "nao",
+    "location": "complete presentation template"
+  },
+  "message_507a9a8be3d1": {
+    "source": "sim",
+    "location": "complete presentation template"
+  },
+  "message_6d77be334fa0": {
+    "source": "entrada: {0}",
+    "location": "complete presentation template"
+  },
+  "message_98ffafefbeea": {
+    "source": "preparando",
+    "location": "complete presentation template"
+  },
+  "message_068fbcc9e661": {
+    "source": "executando {0}",
+    "location": "complete presentation template"
+  },
+  "message_c893be7ad088": {
+    "source": "acao {0}",
+    "location": "complete presentation template"
+  },
+  "message_03d6fd241e0b": {
+    "source": "modo: {0}",
+    "location": "complete presentation template"
+  },
+  "message_e14a7a580100": {
+    "source": "modo: {0} | {1}",
+    "location": "complete presentation template"
+  },
+  "message_c0e976ba517d": {
+    "source": "nenhuma",
+    "location": "complete presentation template"
+  },
+  "message_c8f071fcb45f": {
+    "source": "livre",
+    "location": "complete presentation template"
+  },
+  "builder.busy": {
+    "source": "Ocupado: {0}{1}; {2} acoes restantes{3}{4}",
+    "location": "explicit presentation key"
+  },
+  "builder.position": {
+    "source": "{0} em {1} {2} {3} {4} | fila: {5} | plano pendente: {6} | zona: {7}",
+    "location": "explicit presentation key"
+  },
+  "building.summary": {
+    "source": "obra {0} ({1} blocos)",
+    "location": "explicit presentation key"
+  },
+  "prebuilt.summary": {
+    "source": "pre-moldado {0} ({1} blocos)",
+    "location": "explicit presentation key"
+  },
+  "presentation.done": {
+    "source": " (feito)",
+    "location": "explicit presentation key"
+  },
+  "terrain.target.selected": {
+    "source": " Piso alvo y={0} (base marcada; sem piso natural utilizavel).",
+    "location": "explicit presentation key"
+  },
+  "terrain.target.natural": {
+    "source": " Piso alvo y={0} ({1}/{2} colunas na altura escolhida).",
+    "location": "explicit presentation key"
+  },
+  "terrain.preview": {
+    "source": "PREVIA: {0} em {1} x={2}..{3}, z={4}..{5}, y={6}..{7}; remover {8}, preencher {9} blocos.{10}{11} Preparo administrativo, sem consumir/devolver itens. Escolha Sim ou Nao abaixo em ate 2 minutos.",
+    "location": "explicit presentation key"
+  },
+  "terrain.dialog.body": {
+    "source": "{0} em {1} | X {2}..{3} | Z {4}..{5} | Y {6}..{7}\nRemover: {8}; preencher: {9}.{10}\nPreparo administrativo, sem itens.{11}",
+    "location": "explicit presentation key"
+  },
+  "terrain.advice.ground": {
+    "source": "No ground was found inside the selected height range. Include lower terrain and retry normal leveling. For destructive leveling with a floor based on the selected base, use {0} terrain deep level.",
+    "location": "terrain advice/result"
+  },
+  "terrain.advice.level": {
+    "source": "Normal leveling preserves structures and liquids. To remove them and level this area, use {0} terrain deep level.",
+    "location": "terrain advice/result"
+  },
+  "terrain.advice.clean": {
+    "source": "Normal cleaning removes vegetation and preserves structures and liquids. To remove every block in the selected area, use {0} terrain deep clean.",
+    "location": "terrain advice/result"
+  },
+  "terrain.advice.warning": {
+    "source": "Deep requires OP and a new preview and confirmation. It can destroy structures, liquids and container contents; external protections still apply. No mode was changed automatically.",
+    "location": "terrain advice/result"
+  },
+  "terrain.advice.disabled": {
+    "source": "Deep is disabled. An operator must enable terrain.deep-clean.enabled in the settings first.",
+    "location": "terrain advice/result"
+  },
+  "terrain.result.blocked": {
+    "source": "Terrain operation blocked: 0 changes; {0} changes were not applied. The build area was preserved.",
+    "location": "terrain advice/result"
+  },
+  "terrain.result.partial": {
+    "source": "Terrain operation partially applied: {0} changes; {1} changes were not applied. Review the area and prepare a new preview.",
+    "location": "terrain advice/result"
+  },
+  "terrain.easy.step-out": {
+    "source": "Step outside the selected area. I will continue automatically.",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.level-label": {
+    "source": "Level {0} × {1} area",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.clear": {
+    "source": "Clear {0} × {1} area",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.summary": {
+    "source": "{0}: remove {1} blocks, fill {2}.",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.clean-first": {
+    "source": "Vegetation is cleared before the leveling changes are applied.",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.floor": {
+    "source": " Ground height: Y={0}.",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.destructive": {
+    "source": "OP: removes structures, liquids and chest contents. Protected blocks stay.",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.safe": {
+    "source": "Safe mode: preserves structures.",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.prepare": {
+    "source": "Prepare area",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.cancel": {
+    "source": "Cancel",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.level-op": {
+    "source": "Level selected area (OP)",
+    "location": "simple terrain workflow"
+  },
+  "terrain.easy.clear-op": {
+    "source": "Clear selected area (OP)",
+    "location": "simple terrain workflow"
+  },
+  "construction.waiting-route": {
+    "source": "aguardando: sem rota segura para o bloco. A obra foi preservada; vou tentar novamente. Libere o caminho ou use {0} cancel.",
+    "location": "BuilderSession.java:processQueue"
+  },
+  "construction.progress": {
+    "source": "Colocados: {0} • já existentes: {1} • removidos: {2} • recusados: {3}",
+    "location": "BuilderSession.java:constructionProgress"
+  },
+  "construction.existing": {
+    "source": "Conferindo blocos existentes: {0} já correspondem. Nenhum material usado nessas posições.",
+    "location": "BuilderSession.java:constructionProgress"
+  },
+  "message_29723fd8804d": {
+    "source": "Build {0} saved and paused with {1} of {2} blocks placed. Use build continue {0} to resume.",
+    "location": "BuilderSession.java:1310"
+  },
+  "message_325ce485011d": {
+    "source": "There is no open build to save.",
+    "location": "BuilderSession.java:1310"
+  },
+  "message_e7e5b5e664f1": {
+    "source": "Could not save build {0}; it remains active. Check server storage and try again.",
+    "location": "BuilderSession.java:1312"
+  },
+  "message_eb0bb6dc7d73": {
+    "source": "Build speed is available to server operators only.",
+    "location": "BuilderSession.java:1320"
+  },
+  "message_278388572bab": {
+    "source": "Use build speed [on|off].",
+    "location": "BuilderSession.java:1321"
+  },
+  "message_daa4ac6bbf88": {
+    "source": "Build speed: {0}.",
+    "location": "BuilderSession.java:1325"
+  },
+  "message_fb9cf75606b4": {
+    "source": "enabled",
+    "location": "BuilderSession.java:1325"
+  },
+  "message_17eb3c0168d0": {
+    "source": "disabled",
+    "location": "BuilderSession.java:1325"
+  },
+  "message_1509f561f241": {
+    "source": "Save",
+    "location": "BuilderMenu.java:216"
+  },
+  "message_dc9e0088d799": {
+    "source": "Save and pause this build. Select Continue to resume it.",
+    "location": "BuilderMenu.java:217"
+  },
+  "message_e45b8d1a844f": {
+    "source": "Build speed (OP only): {0}",
+    "location": "BuilderMenu.java:224"
+  },
+  "message_5b9c3d85239e": {
+    "source": "ON: same work rate as Deep Level; up to {0} block actions per tick under a shared 6 ms budget.",
+    "location": "BuilderMenu.java:225"
+  },
+  "message_de33fb6ca4f1": {
+    "source": "Automatic checkpoint saved after {0} placed blocks; construction continues.",
+    "location": "BuilderSession.java:1366"
+  },
+  "message_4a4e4e923bf4": {
+    "source": "Automatic checkpoint failed after {0} placed blocks; construction continues. Check server storage.",
+    "location": "BuilderSession.java:1372"
+  },
+  "message_258efbc8a3a4": {
+    "source": "Build speed now {0}.",
+    "location": "BuilderSession.java:1355"
+  },
+  "builder.continue-after-call": {
+    "source": "Pausa da chamada liberada; a obra confirmada vai continuar.",
+    "location": "BuilderSession.java:1320"
+  },
+  "builder.self-clear": {
+    "source": "aguardando: o próprio construtor ocupa o alvo; movendo-se pelo menos 10 blocos em direção aleatória antes de tentar novamente.",
+    "location": "BuilderSession.java:self-clear"
+  }
+}

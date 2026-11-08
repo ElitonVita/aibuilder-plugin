@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "blocks": 49335,
+  "placed": 39200,
+  "existingAtStart": 10135,
+  "removed": 66,
+  "durationMs": 66250,
+  "failures": [],
+  "groundAutoSidestep": true,
+  "airAutoSidestep": true,
+  "constructionTeleports": 0,
+  "scope": "Continuous automatic 8-block construction from obstructing ground/air positions, plus real Paper block-state/support checks for complete model with controlled NPC placement positions, batched existing verification, plus separate physical 95-block walking and 96-block flight. Not a player-server acceptance test.",
+  "pluginVersion": "0.1.0.48",
+  "pluginSha256": "1168d6740bb8e5c449a112c0582837016bd8018ae33a03fa9ece3963ca9b3707",
+  "paperVersion": "26.3-207-bc68acd",
+  "javaVersion": "25",
+  "missingBlocks": 0,
+  "unitRegressionChecks": 120,
+  "negativeControl": "Removing arrival clearance from a temporary copy makes BuilderStepAsideTest fail: escape stopped inside arrival tolerance while still obstructing the edit.",
+  "checks": [
+    "[16:03:56] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO START blocks=49335 preparation=66",
+    "[16:04:15] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO PLACEMENT PASS blocks=49335 placed=39200 existing=10135 removed=66 missing=0",
+    "[16:04:21] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO EXISTING PASS 49335 existing, 0 placed, passes=116",
+    "[16:04:38] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO WALK PASS distance=94.3600000000003 ticks=338",
+    "[16:04:55] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO FLIGHT PASS ascent=95.47612695724123 ticks=344",
+    "[16:04:58] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO SIDESTEP AIR PASS targets=8 ticks=64 teleports=0",
+    "[16:05:01] [Server thread/INFO]: [AIBuilderRuntimeCheck] CORCO SIDESTEP GROUND PASS targets=8 ticks=64 teleports=0"
+  ]
+}
