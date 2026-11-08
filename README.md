@@ -14,6 +14,26 @@ AIBuilder is a Paper plugin that lets players guide named builder NPCs. Builders
 
 Menus, help, and chat support English (`EN`, default) and Portuguese (`PT`). Command words always use English (`/builder`).
 
+### Gallery
+
+Screenshots from a live Paper server (see `examples/` for the full set):
+
+![AIBuilder builder NPC](examples/2026-11-08_21.07.30.jpg)
+![Selection and build preview](examples/2026-11-08_21.08.21.jpg)
+![Construction in progress](examples/2026-11-08_21.08.48.jpg)
+![AIBuilder NPC at work](examples/2026-11-08_21.09.19.jpg)
+![Build confirmation](examples/2026-11-08_21.09.28.jpg)
+![In-game menu](examples/2026-11-08_21.10.51.jpg)
+![Terrain preparation](examples/2026-11-08_21.11.06.jpg)
+![Builder walking to site](examples/2026-11-08_21.12.15.jpg)
+![Large structure](examples/2026-11-08_21.14.45.jpg)
+![Finished build](examples/2026-11-08_21.15.20.jpg)
+![Builder NPC crew](examples/2026-11-08_21.16.08.jpg)
+![More constructions](examples/2026-11-08_21.18.34.jpg)
+![World overview](examples/2026-11-08_21.18.53.jpg)
+![Village build](examples/2026-11-08_21.19.06.jpg)
+![Corcovado project](examples/2026-11-08_22.10.12.jpg)
+
 ### Requirements
 
 - **Paper** server (developed and tested on Paper 26.3; `api-version: '1.21'`)
